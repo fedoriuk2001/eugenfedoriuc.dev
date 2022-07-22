@@ -5,50 +5,108 @@
 
 /* ! ===============   Main Styles(Base)   =============== */
 @layer base {
-    body {
-      @apply 
-      bg-gray-50 
+  :root {
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+  }
+
+  body {
+    @apply bg-gray-50 
       text-gray-900 
       dark:bg-black 
       dark:text-gray-100;
-      @apply min-h-screen;
-    }
+    @apply min-h-screen;
+  }
+
+  ::selection {
+    @apply text-white bg-indigo-500;
+  }
+
+  blockquote,
+  dd,
+  dl,
+  figure,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  hr,
+  p,
+  pre {
+    margin: 0;
+  }
   
-    ::selection {
-      @apply text-white bg-indigo-500;
-    }
+  .show {
+    background: red;
+  color: white;
+  }
 
+  ol,
+  p,
+  ul {
+    margin-bottom: 1rem;
+  }
 
+  .container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
 
-    /* .btn {
-      @apply inline-block px-5 py-3 rounded-lg hover:bg-indigo-600 transition duration-300 shadow-lg bg-indigo-500 text-white capitalize tracking-wider font-semibold text-sm sm:text-xl focus:outline-none focus:ring-4 focus:ring-indigo-500 focus:ring-opacity-50 whitespace-nowrap
-    } */
+  .max-height-none {
+    max-height: none;
+  }
+
+  a {
+    position: relative;
+    color: var(--color-accent);
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 0.15s;
+    transition-duration: 0.2s;
+  }
+
+  img,
+  video {
+    max-width: 100%;
+    height: auto;
+  }
 }
 
-/* ! ===============   Just Styles   =============== */
+
+/* ! ===============   Main Styles   =============== */
 * {
-    --tw-shadow: 0 0 transparent;
+  --tw-shadow: 0 0 transparent;
 }
 
-*, :after, :before {
-    box-sizing: border-box;
-    border: 0 solid #e5e7eb;
+*,
+:after,
+:before {
+  box-sizing: border-box;
+  border: 0 solid #e5e7eb;
 }
 
 body {
-    color: red
-    /* #333333 */
-    ;
-    margin: 0;  
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
-button, select {
-    text-transform: none;
+button,
+select {
+  text-transform: none;
 }
 
-button, input, optgroup, select, textarea {
-    padding: 0;
-    line-height: inherit;
-    color: inherit;
+button,
+input,
+optgroup,
+select,
+textarea {
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
 }

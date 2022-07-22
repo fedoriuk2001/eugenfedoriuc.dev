@@ -3,10 +3,10 @@
 import Head from 'next/head'
 
 // ===============   Components   ===============
-import Header from '../Header/Header'
-import Footer from '../Footer/Footer'
-import Navbar from '../Navbar/Navbar'
-import Background from '../Background/Background'
+import Header from './Header'
+import Footer from './Footer'
+import Navbar from './Navbar'
+import Background from './Background'
 
 
 // ! ###############   Code   ###############
@@ -19,25 +19,22 @@ export default function Layout({ children, title="default title", description="d
         <title>{title}</title>
       </Head>
 
+      <Navbar />
 
+      <Background />
 
-      {/* <Navbar /> */}
-
-      {/* <Background /> */}
-
-
-      <div className="relative w-full overflow-hidden">
+      <div className="relative w-full overflow-hidden bg-[#ffffff] dark:bg-[#000000] z-100">
         <div className="relative max-height-none xl:static shadow-2xl overflow-hidden transform transition-all duration-500">
           <div className='relative bg-neutral w-full min-w-screen pb-20 xl:pb-0 xl:overflow-auto transition-background duration-300 overflow-auto'>
-        
+            
             <Header/>
           
             <main className="flex-grow container mx-auto px-4 sm:px-6">
               {children}
             </main>
         
-            {/* <Footer/> */}
-        
+            <Footer/>
+
           </div>
         </div>
       </div>

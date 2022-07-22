@@ -5,7 +5,7 @@ export default function LightIcon() {
       focusable="false"
       data-prefix="fal"
       data-icon="lightbulb"
-      className="svg-inline--fa fa-lightbulb fa-w-11 block text-xl w-6 h-6 m-auto"
+      className="svg-inline--fa fa-lightbulb fa-w-11 block text-xl w-6 h-6 m-auto ="
       role="img"
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 352 512"

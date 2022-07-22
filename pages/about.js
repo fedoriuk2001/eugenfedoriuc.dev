@@ -1,18 +1,12 @@
 // ! ###############   Importing   ###############
-// ===============   Next JS   ===============
-// ? import Image from 'next/image'
-
-// ===============   Styles   ===============
-// ? import styles from '../styles/Home.module.css'
-
+// ===============   Components   ===============
+import Layout from "./sections/Layout";
 
 // ! ###############   Code   ###############
 export default function about() {
   return (
-    <div>
-      <h1 className="text-3xl font-bold underline">
-        Hello world About!
-      </h1>
-    </div>
+    <Layout title="Eugen Fedoriuc - About" description="We have a description">
+      
+    </Layout>
   )
 }
