@@ -1,21 +1,25 @@
 // ! ###############   Importing   ###############
 // ===============   Next JS   ===============
-import Head from 'next/head'
+import Head from "next/head";
 
 // ===============   Components   ===============
-import Header from './Header'
-import Footer from './Footer'
-import Navbar from './Navbar'
-import Background from './Background'
-
+import Header from "./Header";
+import Footer from "./Footer";
+import Navbar from "./Navbar";
+import Background from "./Background";
+import MainSection from "./MainSection";
 
 // ! ###############   Code   ###############
-export default function Layout({ children, title="default title", description="default-description" }) {
+export default function Layout({
+  children,
+  title = "default title",
+  description = "default-description",
+}) {
   return (
     <>
       <Head>
         <meta name="description" content={description} />
-        <link rel="icon" href="/favicon.ico" /> 
+        <link rel="icon" href="/favicon.ico" />
         <title>{title}</title>
       </Head>
 
@@ -23,21 +27,13 @@ export default function Layout({ children, title="default title", description="d
 
       <Background />
 
-      <div className="relative w-full overflow-hidden bg-[#ffffff] dark:bg-[#000000] z-100">
-        <div className="relative max-height-none xl:static shadow-2xl overflow-hidden transform transition-all duration-500">
-          <div className='relative bg-neutral w-full min-w-screen pb-20 xl:pb-0 xl:overflow-auto transition-background duration-300 overflow-auto'>
-            
-            <Header/>
-          
-            <main className="flex-grow container mx-auto px-4 sm:px-6">
-              {children}
-            </main>
-        
-            <Footer/>
+      <MainSection>
+        <Header />
 
-          </div>
-        </div>
-      </div>
+        <main>{children}</main>
+
+        <Footer />
+      </MainSection>
     </>
-  )
+  );
 }

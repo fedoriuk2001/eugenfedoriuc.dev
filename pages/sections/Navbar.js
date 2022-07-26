@@ -3,7 +3,7 @@
 import Link from "next/link";
 
 // ===============   React   ===============
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 // ===============   Icons   ===============
 import AstronautIcon from "../images/AstronautIcon";
@@ -11,27 +11,8 @@ import BurgerLinesIcon from "../images/BurgerLinesIcon";
 import HomeIcon from "../images/HomeIcon";
 import LightIcon from "../images/LightIcon";
 
-
 // ! ###############   Code   ###############
 export default function Navbar() {
-  // const classes = ["first","second","third"];
-  // const navRef = React.useRef(null);
-  // const bodyRef = React.useRef(null);
-
-  // classes.forEach(c => {
-  //   if (elem.classList.contains(c)) {
-  //      element.classList.remove(c);
-  //   }
-  // })
-  // const list = ['first', 'second', 'third']
-
-  // const onAddClick = (e) => {
-  //   navRef.current.classList.add(...list);
-  //   if (navRef.contains(list)) {
-  //     navRef.classList.remove(c);
-  //   }
-  // };
-
   const [isActive, setActive] = useState(false);
 
   const toggleClass = () => {
@@ -109,11 +90,10 @@ export default function Navbar() {
             text-inverted 
             text-center"
           id="navbar-button-menu"
-          onClick={toggleClass}
+          onClick={() => toggleClass()}
         >
           <BurgerLinesIcon />
-          <span className="text-xs">Menu</span>
-          {/* {isActive ? "your-class" : "text-sm"} */}
+          <span className={isActive ? "your-class" : "text-sm"}>Menu</span>
         </button>
       </nav>
     </div>
