@@ -4,7 +4,7 @@ import Layout from "./sections/Layout";
 
 // ? ===============   About   ===============
 import FirstProjectsSection from "./sections/projects/FirstProjectsSection";
-import ItemProject from "./sections/projects/ItemProject";
+import ProjectItem from "./sections/projects/ProjectItem";
 
 
 // ? ===============   Home   ===============
@@ -18,7 +18,7 @@ export default function projects() {
     <Layout title="Eugen Fedoriuc - About" description="We have a description">
       <FirstProjectsSection title="Projects" />
       <div className="container">
-        <ItemProject />
+        <ProjectItem />
         <SeventhHomeSection />
         <SixthHomeSection />
         <FifthHomeSection />

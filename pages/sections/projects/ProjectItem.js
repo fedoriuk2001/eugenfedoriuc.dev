@@ -4,14 +4,14 @@ import Link from "next/link";
 import { projectsData } from "../../data/projects/projects";
 
 // ! ###############   Code   ###############
-export default function ItemProject() {
+export default function ProjectItem() {
   return (
     <div className="mb-24">
       {projectsData.map((data, key) => {
         return (
           <Link href="/projects/project" key={key}>
             <a className="group hover:no-underline focus:no-underline">
-              <div className="gap-12 items-center max-w-lg lg:grid lg:grid-cols-12 lg:max-w-none mx-auto">
+              <div className="gap-12 items-center mx-auto max-w-lg lg:grid lg:grid-cols-12 lg:max-w-none ">
                 <div className="lg:col-span-7">
                   <div className="rounded-lg block overflow-hidden relative shadow-xl border-neutral-muted object-cover w-full transform duration-200 group-hover:shadow-lg group-focus:shadow-lg group-hover:-translate-y-1 group-focus:-translate-y-1">
                     Hello

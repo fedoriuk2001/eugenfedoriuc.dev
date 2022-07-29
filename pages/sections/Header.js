@@ -102,12 +102,14 @@ export default function Header() {
               </li>
               </Link>
             </ul>
+            <Link href="/contact">
             <a
               href="#"
               className="font-bold text-md px-4 rounded-lg text-center bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 xs:text-sm lg:text-lg lg:px-5 py-2 lg:py-2.5 mr-2 dark:bg-primary-600 dark:hover:bg-primary-700 focus:outline-none dark:focus:ring-primary-800"
             >
               Hire Me
             </a>
+            </Link>
             <div className="px-1 xs:hidden"></div>
             <div className="w-[40px] xs:w-[30px]">{renderThemeChanger()}</div>
           </div>
