@@ -79,10 +79,6 @@
     position: relative;
     color: red;
     cursor: pointer;
-    transition-property: all;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-duration: 0.15s;
-    transition-duration: 0.2s;
   }
 
   a {
@@ -171,10 +167,6 @@ h3 {
   transform: translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y))
     rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
     scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-  transition-property: all;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 0.15s;
-  transition-duration: 0.2s;
 }
 
 .btn-primary {
@@ -193,10 +185,6 @@ h3 {
   display: inline;
   margin-left: 0.5rem;
   vertical-align: middle;
-  transition-property: all;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 0.15s;
-  transition-duration: 0.2s;
 }
 
 /* ? ===============   Grid   =============== */

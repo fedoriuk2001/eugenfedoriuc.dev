@@ -26,9 +26,7 @@ export default function Footer() {
               <p className="text-2xl font-semibold">Eugen Fedoriuc</p>
               <div>
                 <p>
-                  I create beautiful websites your users will love. I work with
-                  you from start to finish to make sure your goals are reached
-                  and your users are happy.
+                  One of the easiest way to make a modern website is to let me make it.
                 </p>
                 <br />
                 <p className="font-semibold">Social Media</p>
@@ -42,10 +40,10 @@ export default function Footer() {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <BsInstagram color="red" size="25px" />
+                      <BsInstagram size="25px" />
                     </a>
                   </Link>
-                  <Link href="#">
+                  <Link href="https://at.linkedin.com/in/eugen-fedoriuc-745804227">
                     <a
                       className="p-1 pl-2 pt-0"
                       title="LinkedIn"
