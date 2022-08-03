@@ -32,7 +32,6 @@
       text-gray-900 
       dark:bg-black 
       dark:text-gray-100;
-    @apply min-h-screen;
   }
 
   ::selection {
@@ -72,9 +71,14 @@
     max-height: none;
   }
 
+  p {
+    cursor: default;
+  }
+
   a {
     position: relative;
-    color: green;
+    color: red;
+    cursor: pointer;
     transition-property: all;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 0.15s;
@@ -104,6 +108,7 @@
     line-height: 1.25;
     margin-bottom: 1rem;
     letter-spacing: -0.025em;
+    cursor: default;
   }
 
   article ul {
@@ -118,7 +123,7 @@
     line-height: 1.75rem;
     line-height: 1.25;
     margin: 2rem;
-}
+  }
 
   .show {
     background: red;
