@@ -10,11 +10,14 @@
   },
   "dependencies": {
     "@heroicons/react": "^1.0.6",
+    "framer-motion": "^6.5.1",
     "next": "12.2.2",
     "next-themes": "^0.2.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-icons": "^4.4.0"
+    "react-icons": "^4.4.0",
+    "react-moving-text": "0.0.7",
+    "react-text-transition": "^3.0.2"
   },
   "devDependencies": {
     "@svgr/webpack": "^6.2.1",

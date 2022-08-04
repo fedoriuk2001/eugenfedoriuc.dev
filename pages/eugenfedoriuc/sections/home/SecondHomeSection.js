@@ -1,4 +1,6 @@
 // ! ###############   Importing   ###############
+// ===============   Animation   ===============
+import { motion } from "framer-motion";
 
 // ! ###############   Code   ###############
 export default function SecondHomeSection() {

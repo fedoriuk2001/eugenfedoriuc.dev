@@ -2,9 +2,6 @@
 // ===============   Components   ===============
 import Layout from "../sections/Layout";
 
-// ? ===============   Home   ===============
-import SeventhHomeSection from "../sections/home/SeventhHomeSection";
-
 // ? ===============   Project   ===============
 import FirstProjectSection from "../sections/project/FirstProjectSection";
 import SecondProjectSection from "../sections/project/SecondProjectSection";
@@ -17,7 +14,6 @@ export default function project() {
       <FirstProjectSection />
       <SecondProjectSection />
       <ThirdProjectSection />
-      <SeventhHomeSection />
     </Layout>
   );
 }

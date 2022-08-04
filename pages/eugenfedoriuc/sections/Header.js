@@ -10,6 +10,9 @@ import { useState, useEffect } from "react";
 // ===============   Icons   ===============
 import { SunIcon, MoonIcon } from "@heroicons/react/solid";
 
+// ===============   Animation   ===============
+import { motion } from "framer-motion";
+
 // ! ###############   Code   ###############
 export default function Header() {
   const { systemTheme, theme, setTheme } = useTheme();
@@ -48,7 +51,14 @@ export default function Header() {
       <nav className="container border-gray-200 px-4 py-[15px] sm:py-[30px] lg:px-6">
         <div className="flex flex-wrap justify-between items-center mx-auto">
           <Link href="/eugenfedoriuc/home">
-            <a className="flex items-center">
+            <motion.a
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              viewport={{ once: true }}
+              className="flex items-center"
+            >
               <img
                 src="https://flowbite.com/docs/images/logo.svg"
                 className="mr-3 h-6 sm:h-9"
@@ -57,54 +67,90 @@ export default function Header() {
               <span className="self-center font-semibold whitespace-nowrap text-lg sm:text-xl dark:text-white">
                 Eugen Fedoriuc
               </span>
-            </a>
+            </motion.a>
           </Link>
           <div className="flex items-center lg:order-2">
             <ul className="flex flex-row font-medium mt-4 mr-[25px] hidden xl:flex xl:w-auto xl:flex-row xl:space-x-8">
               <Link href="/eugenfedoriuc/about">
                 <li>
-                  <a
+                  <motion.a
+                    whileHover={{ scale: 1.1 }}
+                    whileTap={{ scale: 0.9 }}
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }}
+                    viewport={{ once: true }}
                     className="block text-lg py-2 pr-4 pl-3 border-b border-gray-100 rounded-lg hover:bg-black lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
                   >
                     About
-                  </a>
+                  </motion.a>
                 </li>
               </Link>
               <Link href="/eugenfedoriuc/projects">
                 <li>
-                  <a
+                  <motion.a
+                    whileHover={{ scale: 1.1 }}
+                    whileTap={{ scale: 0.9 }}
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }}
+                    viewport={{ once: true }}
                     className="block text-lg py-2 pr-4 pl-3 border-b border-gray-100 rounded-lg hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
                   >
                     Projects
-                  </a>
+                  </motion.a>
                 </li>
               </Link>
               <Link href="/eugenfedoriuc/services">
                 <li>
-                  <a
+                  <motion.a
+                    whileHover={{ scale: 1.1 }}
+                    whileTap={{ scale: 0.9 }}
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }}
+                    viewport={{ once: true }}
                     className="block text-lg py-2 pr-4 pl-3 border-b border-gray-100 rounded-lg hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
                   >
                     Services
-                  </a>
+                  </motion.a>
                 </li>
               </Link>
               <Link href="/eugenfedoriuc/blog">
                 <li>
-                  <a
+                  <motion.a
+                    whileHover={{ scale: 1.1 }}
+                    whileTap={{ scale: 0.9 }}
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }}
+                    viewport={{ once: true }}
                     className="block text-lg py-2 pr-4 pl-3 border-b border-gray-100 rounded-lg hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
                   >
                     Blog
-                  </a>
+                  </motion.a>
                 </li>
               </Link>
             </ul>
             <Link href="/eugenfedoriuc/contact">
-              <a className="font-bold text-md px-4 rounded-lg text-center bg-eugen-secondary py-2 mr-2 xs:text-sm lg:text-lg lg:px-5 lg:py-2.5 hover:bg-eugen-secondary-hover focus:ring-4 focus:ring-eugen-secondary-focus dark:bg-eugen-secondary-dark dark:hover:bg-eugen-secondary-hover-dark dark:focus:ring-eugen-secondary-focus-dark">
+              <motion.a
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.9 }}
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                viewport={{ once: true }}
+                className="font-bold text-md px-4 rounded-lg text-center bg-eugen-secondary py-2 mr-2 xs:text-sm lg:text-lg lg:px-5 lg:py-2.5 hover:bg-eugen-secondary-hover dark:bg-eugen-secondary-dark dark:hover:bg-eugen-secondary-hover-dark"
+              >
                 Hire Me
-              </a>
+              </motion.a>
             </Link>
             <div className="px-1 xs:hidden"></div>
-            <div className="w-[40px] xs:w-[30px] text-gray-900 dark:text-yellow-500">{renderThemeChanger()}</div>
+            <motion.div
+              className="w-[40px] xs:w-[30px] text-gray-900 dark:text-yellow-500"
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              viewport={{ once: true }}
+            >
+              {renderThemeChanger()}
+            </motion.div>
           </div>
         </div>
       </nav>

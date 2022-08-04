@@ -4,8 +4,6 @@ import Layout from "./sections/Layout";
 
 // ? ===============   Home   ===============
 import FifthHomeSection from "./sections/home/FifthHomeSection";
-import SixthHomeSection from "./sections/home/SixthHomeSection";
-import SeventhHomeSection from "./sections/home/SeventhHomeSection";
 
 // ? ===============   About   ===============
 import FirstAboutSection from "./sections/about/FirstAboutSection";
@@ -26,8 +24,6 @@ export default function about() {
         <FourthAboutSection />
         <FifthAboutSection />
         <SixthAboutSection />
-        <SeventhHomeSection />
-        <SixthHomeSection />
         <FifthHomeSection />
       </div>
     </Layout>

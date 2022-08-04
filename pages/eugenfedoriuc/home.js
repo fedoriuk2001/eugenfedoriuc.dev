@@ -8,8 +8,6 @@ import SecondHomeSection from "./sections/home/SecondHomeSection";
 import ThirdHomeSection from "./sections/home/ThirdHomeSection";
 import FourthHomeSection from "./sections/home/FourthHomeSection";
 import FifthHomeSection from "./sections/home/FifthHomeSection";
-import SixthHomeSection from "./sections/home/SixthHomeSection";
-import SeventhHomeSection from "./sections/home/SeventhHomeSection";
 
 // ! ###############   Code   ###############
 export default function home() {
@@ -21,8 +19,6 @@ export default function home() {
         <ThirdHomeSection />
         <FourthHomeSection />
         <FifthHomeSection />
-        <SixthHomeSection />
-        <SeventhHomeSection />
       </div>
     </Layout>
   );

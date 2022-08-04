@@ -35,7 +35,8 @@
   }
 
   ::selection {
-    @apply text-white bg-indigo-500;
+    @apply text-white bg-[#ffdd4a];
+    dark:bg-[#eca400];
   }
 
   button,
@@ -129,6 +130,28 @@
   .filter-drop-shadow {
     filter: drop-shadow(-4px 12px 24px rgba(0, 0, 0, 0.2));
   }
+
+  .progress-bar-eugen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 10px;
+    background: #ffdd4a;
+    transform-origin: 0%;
+    z-index: 9999;
+  }
+
+  .progress-bar-eugen-dark {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 10px;
+    background: #eca400;
+    transform-origin: 0%;
+    z-index: 9999;
+  }
 }
 
 /* ! ===============   Main Styles   =============== */
@@ -170,7 +193,6 @@ h3 {
 }
 
 .btn-primary {
-  background-color: red;
   color: var(--color-inverted);
 }
 
