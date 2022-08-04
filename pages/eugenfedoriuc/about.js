@@ -3,7 +3,7 @@
 import Layout from "./sections/Layout";
 
 // ? ===============   Home   ===============
-import FifthHomeSection from "./sections/home/FifthHomeSection";
+import FourthHomeSection from "./sections/home/FourthHomeSection";
 
 // ? ===============   About   ===============
 import FirstAboutSection from "./sections/about/FirstAboutSection";
@@ -24,7 +24,7 @@ export default function about() {
         <FourthAboutSection />
         <FifthAboutSection />
         <SixthAboutSection />
-        <FifthHomeSection />
+        <FourthHomeSection />
       </div>
     </Layout>
   );

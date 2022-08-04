@@ -3,38 +3,36 @@
 import { motion } from "framer-motion";
 
 // ! ###############   Code   ###############
-export default function FirstHomeSection() {
+export default function FourthHomeSection() {
   return (
     <section className="container px-0 lg:px-4">
-      <div className="max-w-5xl mx-auto my-8">
-        <div className="bg-[#333333] rounded-lg w-full flex flex-1 flex-wrap md:flex-nowrap items-center overflow-hidden">
-          <div className="relative h-full w-full text-secondary overflow-hidden max-w-[22rem]">
-            <div className="w-full h-auto block overflow-hidden relative">
-              {/* <img
-                className="block w-100"
-                src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTAiIGhlaWdodD0iNTEwIj48L3N2Zz4="
-                role="presentation"
-              /> */}
-              <div className="bg-cover opacity-1 transition absolute inset-0"></div>
-            </div>
+      <motion.div
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        viewport={{ once: true }}
+        transition={{ duration: 1 }}
+        className="max-w-5xl my-16 mx-auto lg:my-32"
+      >
+        <div className="bg-[#444444] rounded-lg w-full flex flex-1 flex-wrap items-center overflow-hidden md:flex-nowrap">
+          <div className="w-full md:w-1/3 md:order-last">
+            <div className="transform scale-125 -mx-12 -mt-12 -mb-12 block overflow-hidden relative md:ml-0 md:-mr-24"></div>
           </div>
-          <div className="px-4 py-6 md:px-6 md:py-4">
-            <div className="relative bg-[#666666] rounded-lg text-center px-6 py-6 -mt-20 z-10 md:text-left md:px-12 md:py-10  md:mt-0 md:-ml-12">
-              <h2 className="mb-4 lg:mb-6">I&#x27;m Eugen Fedoriuc</h2>
-              <div className="mb-4 lg:mb-6">
-                <p>
-                  I help growing companies like yours convert more customers and
-                  make more sales by combining your goals with your user’s
-                  needs.
-                </p>
-              </div>
-              <a className="btn btn-inverted bg-[#555555]" href="#">
-                Let&#x27;s book a call
-              </a>
+          <div className="px-4 pt-24 pb-8 md:p-12 w-full md:w-2/3">
+            <h2 className="mb-4 lg:mb-4">Where do we start?</h2>
+            <div className="mb-4 lg:mb-4">
+              <p>
+                Schedule a call so I can learn about your product and we can
+                discuss the best way to help you meet your goals. I only work
+                with two people each month so book a call now to avoid missing
+                out.
+              </p>
             </div>
+            <a className="btn btn-inverted bg-[#777777]" href="#">
+              Level up your business
+            </a>
           </div>
         </div>
-      </div>
+      </motion.div>
     </section>
   );
 }

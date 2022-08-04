@@ -6,6 +6,9 @@ import Image from "next/image";
 // ===============   Icons   ===============
 import { BsInstagram, BsLinkedin, BsGithub } from "react-icons/bs";
 
+// ===============   Animation   ===============
+import { motion } from "framer-motion";
+
 // ! ###############   Code   ###############
 export default function Footer() {
   // const [childname, changeChildName] = useState("I am a child");
@@ -23,94 +26,175 @@ export default function Footer() {
           </div>
           <div className="grid gap-4 md:grid-cols-12">
             <div className="grid gap-4 mb-auto md:col-span-5">
-              <p className="text-2xl font-semibold">Eugen Fedoriuc</p>
+              <motion.p
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                viewport={{ once: true }}
+                whileHover={{ scale: 1.01 }}
+                className="text-2xl font-semibold"
+              >
+                Eugen Fedoriuc
+              </motion.p>
               <div>
-                <p>
-                  One of the easiest way to make a modern website is to let me make it.
-                </p>
+                <motion.p
+                  initial={{ opacity: 0 }}
+                  whileInView={{ opacity: 1 }}
+                  viewport={{ once: true }}
+                  whileHover={{ scale: 1.01 }}
+                >
+                  One of the easiest way to make a modern website is to let me
+                  make it.
+                </motion.p>
                 <br />
-                <p className="font-semibold">Social Media</p>
+                <motion.p
+                  initial={{ opacity: 0 }}
+                  whileInView={{ opacity: 1 }}
+                  viewport={{ once: true }}
+                  whileHover={{ scale: 1.01 }}
+                  className="font-semibold"
+                >
+                  Social Media
+                </motion.p>
               </div>
               <div className="-mx-4">
                 <div className="flex mx-4">
                   <Link href="#">
-                    <a
+                    <motion.a
+                      whileHover={{ scale: 1.1 }}
+                      whileTap={{ scale: 0.9 }}
+                      initial={{ opacity: 0 }}
+                      whileInView={{ opacity: 1 }}
+                      viewport={{ once: true }}
                       className="p-1 pl-0 pt-0"
                       title="Instagram"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
                       <BsInstagram size="25px" />
-                    </a>
+                    </motion.a>
                   </Link>
                   <Link href="https://at.linkedin.com/in/eugen-fedoriuc-745804227">
-                    <a
+                    <motion.a
+                      whileHover={{ scale: 1.1 }}
+                      whileTap={{ scale: 0.9 }}
+                      initial={{ opacity: 0 }}
+                      whileInView={{ opacity: 1 }}
+                      viewport={{ once: true }}
                       className="p-1 pl-2 pt-0"
                       title="LinkedIn"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
                       <BsLinkedin size="25px" />
-                    </a>
+                    </motion.a>
                   </Link>
                   <Link href="https://github.com/fedoriuk2001">
-                    <a
+                    <motion.a
+                      whileHover={{ scale: 1.1 }}
+                      whileTap={{ scale: 0.9 }}
+                      initial={{ opacity: 0 }}
+                      whileInView={{ opacity: 1 }}
+                      viewport={{ once: true }}
                       className="p-1 pl-2 pt-0"
                       title="GitHub"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
                       <BsGithub size="25px" />
-                    </a>
+                    </motion.a>
                   </Link>
                 </div>
               </div>
             </div>
             <div className="grid gap-4 md:col-span-7 md:grid-cols-2">
               <div className="my-4 md:mx-auto">
-                <p className="mb-6 font-semibold">Quick Links</p>
+                <motion.p
+                  initial={{ opacity: 0 }}
+                  whileInView={{ opacity: 1 }}
+                  viewport={{ once: true }}
+                  whileHover={{ scale: 1.01 }}
+                  className="mb-6 font-semibold"
+                >
+                  Quick Links
+                </motion.p>
                 <div className="grid gap-2">
                   <Link href="/eugenfedoriuc/home">
-                    <p>
+                    <motion.p
+                      whileHover={{ scale: 1.1 }}
+                      whileTap={{ scale: 0.9 }}
+                      initial={{ opacity: 0 }}
+                      whileInView={{ opacity: 1 }}
+                      viewport={{ once: true }}
+                    >
                       <a className="text-inverted hover:text-highlight focus:text-highlight">
                         Home
                       </a>
-                    </p>
+                    </motion.p>
                   </Link>
                   <Link href="/eugenfedoriuc/about">
-                    <p>
+                    <motion.p
+                      whileHover={{ scale: 1.1 }}
+                      whileTap={{ scale: 0.9 }}
+                      initial={{ opacity: 0 }}
+                      whileInView={{ opacity: 1 }}
+                      viewport={{ once: true }}
+                    >
                       <a className="text-inverted hover:text-highlight focus:text-highlight">
                         About
                       </a>
-                    </p>
+                    </motion.p>
                   </Link>
                   <Link href="/eugenfedoriuc/projects">
-                    <p>
+                    <motion.p
+                      whileHover={{ scale: 1.1 }}
+                      whileTap={{ scale: 0.9 }}
+                      initial={{ opacity: 0 }}
+                      whileInView={{ opacity: 1 }}
+                      viewport={{ once: true }}
+                    >
                       <a className="text-inverted hover:text-highlight focus:text-highlight">
                         Projects
                       </a>
-                    </p>
+                    </motion.p>
                   </Link>
                   <Link href="/eugenfedoriuc/services">
-                    <p>
+                    <motion.p
+                      whileHover={{ scale: 1.1 }}
+                      whileTap={{ scale: 0.9 }}
+                      initial={{ opacity: 0 }}
+                      whileInView={{ opacity: 1 }}
+                      viewport={{ once: true }}
+                    >
                       <a className="text-inverted hover:text-highlight focus:text-highlight">
                         Services
                       </a>
-                    </p>
+                    </motion.p>
                   </Link>
                   <Link href="/eugenfedoriuc/blog">
-                    <p>
+                    <motion.p
+                      whileHover={{ scale: 1.1 }}
+                      whileTap={{ scale: 0.9 }}
+                      initial={{ opacity: 0 }}
+                      whileInView={{ opacity: 1 }}
+                      viewport={{ once: true }}
+                    >
                       <a className="text-inverted hover:text-highlight focus:text-highlight">
                         Blog
                       </a>
-                    </p>
+                    </motion.p>
                   </Link>
                   <Link href="/eugenfedoriuc/contact">
-                    <p>
+                    <motion.p
+                      whileHover={{ scale: 1.1 }}
+                      whileTap={{ scale: 0.9 }}
+                      initial={{ opacity: 0 }}
+                      whileInView={{ opacity: 1 }}
+                      viewport={{ once: true }}
+                    >
                       <a className="text-inverted hover:text-highlight focus:text-highlight">
                         Contact
                       </a>
-                    </p>
+                    </motion.p>
                   </Link>
                 </div>
               </div>
@@ -119,23 +203,42 @@ export default function Footer() {
           <div className="grid my-6 md:grid-cols-12">
             <div className="md:col-span-5">
               <div>
-                <p className="font-semibold">
+                <motion.p
+                  initial={{ opacity: 0 }}
+                  whileInView={{ opacity: 1 }}
+                  viewport={{ once: true }}
+                  whileHover={{ scale: 1.01 }}
+                  className="font-semibold"
+                >
                   Do you need a beautiful design of photos, websites, web apps,
-                  3D models, mock ups and more a lot of stuff?
-                </p>
+                  3D models, mock ups and more other stuff?
+                </motion.p>
                 <Link href="/khrystynanehrych/home">
-                  <p className="transition-all cursor-pointer hover:text-primary dark:hover:text-yellow-300">
+                  <motion.p
+                    whileHover={{ scale: 1.02 }}
+                    whileTap={{ scale: 0.98 }}
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }}
+                    viewport={{ once: true }}
+                    className="transition-all cursor-pointer hover:text-primary dark:hover:text-yellow-300"
+                  >
                     <strong>Click here to check Khrystyna&#39;s Profile</strong>
-                  </p>
+                  </motion.p>
                 </Link>
               </div>
               <div></div>
             </div>
           </div>
         </div>
-        <div className="py-8 mt-16 border-t-[1px] border-gray-900">
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ once: true }}
+          whileHover={{ scale: 1.01 }}
+          className="py-8 mt-16 border-t-[1px] border-gray-900 dark:border-gray-300"
+        >
           <p className="text-sm">© 2022 Eugen Fedoriuc</p>
-        </div>
+        </motion.div>
       </div>
     </footer>
   );

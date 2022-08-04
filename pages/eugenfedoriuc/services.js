@@ -4,7 +4,7 @@ import Layout from "./sections/Layout";
 
 // ? ===============   Home   ===============
 import ThirdHomeSection from "./sections/home/ThirdHomeSection";
-import FifthHomeSection from "./sections/home/FifthHomeSection";
+import FourthHomeSection from "./sections/home/FourthHomeSection";
 
 // ? ===============   Projects   ===============
 import FirstProjectsSection from "./sections/projects/FirstProjectsSection";
@@ -16,7 +16,7 @@ export default function services() {
       <FirstProjectsSection title="I provide everything you need for your perfect website" />
       <div>
         <ThirdHomeSection />
-        <FifthHomeSection />
+        <FourthHomeSection />
       </div>
     </Layout>
   );
