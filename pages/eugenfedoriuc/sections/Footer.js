@@ -170,19 +170,6 @@ export default function Footer() {
                       </a>
                     </motion.p>
                   </Link>
-                  <Link href="/eugenfedoriuc/blog">
-                    <motion.p
-                      whileHover={{ scale: 1.1 }}
-                      whileTap={{ scale: 0.9 }}
-                      initial={{ opacity: 0 }}
-                      whileInView={{ opacity: 1 }}
-                      viewport={{ once: true }}
-                    >
-                      <a className="text-inverted hover:text-highlight focus:text-highlight">
-                        Blog
-                      </a>
-                    </motion.p>
-                  </Link>
                   <Link href="/eugenfedoriuc/contact">
                     <motion.p
                       whileHover={{ scale: 1.1 }}
@@ -234,10 +221,11 @@ export default function Footer() {
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
-          whileHover={{ scale: 1.01 }}
           className="py-8 mt-16 border-t-[1px] border-gray-900 dark:border-gray-300"
         >
-          <p className="text-sm">© 2022 Eugen Fedoriuc</p>
+          <motion.p whileHover={{ scale: 1.01 }} className="text-sm">
+            © 2022 Eugen Fedoriuc
+          </motion.p>
         </motion.div>
       </div>
     </footer>

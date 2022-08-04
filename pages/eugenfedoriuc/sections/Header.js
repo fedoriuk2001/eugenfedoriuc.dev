@@ -113,20 +113,6 @@ export default function Header() {
                   </motion.a>
                 </li>
               </Link>
-              <Link href="/eugenfedoriuc/blog">
-                <li>
-                  <motion.a
-                    whileHover={{ scale: 1.1 }}
-                    whileTap={{ scale: 0.9 }}
-                    initial={{ opacity: 0 }}
-                    whileInView={{ opacity: 1 }}
-                    viewport={{ once: true }}
-                    className="block text-lg py-2 pr-4 pl-3 border-b border-gray-100 rounded-lg hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
-                  >
-                    Blog
-                  </motion.a>
-                </li>
-              </Link>
             </ul>
             <Link href="/eugenfedoriuc/contact">
               <motion.a

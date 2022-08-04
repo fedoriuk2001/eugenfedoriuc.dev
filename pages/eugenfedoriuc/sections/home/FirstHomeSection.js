@@ -1,9 +1,6 @@
 // ! ###############   Importing   ###############
 import Link from "next/link";
 
-// ===============   React   ===============
-import { useEffect, useState } from "react";
-
 // ===============   Animation   ===============
 import { motion } from "framer-motion";
 import TextTransition, { presets } from "react-text-transition";

@@ -4,7 +4,7 @@
 export default function SixthAboutSection() {
   return (
     <section className="container">
-      <div className="py-8 items-center md:flex md:-mx-8  md:flex-row-normal">
+      <div className="py-8 items-center md:flex md:-mx-8  md:flex-row-reverse">
         <div className="w-full md:w-5/12 md:mx-8 mb-6">
           <div className="rounded-lg block relative overflow-hidden">6</div>
         </div>

@@ -4,12 +4,11 @@
 export default function FirstAboutSection() {
   return (
     <section className="container">
-      <div className="md:flex md:-mx-8 py-8 items-center md:flex-row-reverse">
+      <div className="md:flex md:-mx-8 py-8 items-center md:flex-row-normal">
         <div className="w-full md:w-5/12 md:mx-8 mb-6">
           <div className="rounded-lg block overflow-hidden relative">3</div>
         </div>
         <div className="w-full md:w-7/12 md:mx-8">
-          <h2>My Story</h2>
           <div>
             <p>
               I&#39;ve always loved technology. From a young age, technology has

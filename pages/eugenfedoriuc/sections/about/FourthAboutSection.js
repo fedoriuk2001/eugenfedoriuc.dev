@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function FourthAboutSection() {
   return (
     <section className="container">
-      <div className="py-8 items-center md:flex md:-mx-8  md:flex-row-normal">
+      <div className="py-8 items-center md:flex md:-mx-8  md:flex-row-reverse">
         <div className="w-full md:w-5/12 md:mx-8 mb-6">
           <div className="rounded-lg block overflow-hidden relative">4</div>
         </div>

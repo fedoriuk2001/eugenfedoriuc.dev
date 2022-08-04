@@ -1,7 +1,7 @@
 // ! ###############   Importing   ###############
 
 // ! ###############   Code   ###############
-export default function FourthBlogSection() {
+export default function FourthProjectSection() {
   return (
     <div className="relative max-w-3xl mx-auto">
       <p>

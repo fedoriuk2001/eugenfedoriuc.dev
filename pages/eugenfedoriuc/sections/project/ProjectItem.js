@@ -1,13 +1,13 @@
 // ! ###############   Importing   ###############
 
 import Link from "next/link";
-import { blogItemData } from "../../data/blogItem/blogItem";
+import { projectItemData } from "../../data/projectItem/projectItem";
 
 // ! ###############   Code   ###############
-export default function BlogItem() {
+export default function ProjectItem() {
   return (
     <div className="gap-12 md:grid md:grid-cols-2 lg:grid-cols-3">
-      {blogItemData.map((data, key) => {
+      {projectItemData.map((data, key) => {
         return (
           <div className="mb-12" key={key}>
             <Link href="blog/blog">

@@ -1,4 +1,4 @@
-export const blogItemData = [
+export const projectItemData = [
   {
     ticker: "Hello",
     stockPrice: "How are u?",

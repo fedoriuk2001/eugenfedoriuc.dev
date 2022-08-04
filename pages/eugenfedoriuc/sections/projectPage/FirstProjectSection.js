@@ -1,7 +1,7 @@
 // ! ###############   Importing   ###############
 
 // ! ###############   Code   ###############
-export default function FirstBlogSection() {
+export default function FirstProjectSection() {
   return (
     <section className="container">
       <div className="text-center lg:w-3/4 xl:w-2/3 mx-auto my-20 xl:my-40">

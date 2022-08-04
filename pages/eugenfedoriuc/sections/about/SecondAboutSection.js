@@ -4,12 +4,12 @@
 export default function SecondAboutSection() {
   return (
     <section className="container">
-      <div className="md:flex md:-mx-8 py-8 items-center md:flex-row-normal">
+      <div className="md:flex md:-mx-8 py-8 items-center md:flex-row-reverse">
         <div className="w-full md:w-5/12 md:mx-8 mb-6">
           <div className="rounded-lg block overflow-hidden relative">2</div>
         </div>
         <div className="w-full md:w-7/12 md:mx-8">
-          <h2></h2>
+          <h2 className="mb-10">My Story</h2>
           <div>
             <p>
               I’m a user experience consultant working with teams around the

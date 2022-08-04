@@ -1,13 +1,21 @@
 // ! ###############   Importing   ###############
+// ===============   Animation   ===============
+import { motion } from "framer-motion";
 
 // ! ###############   Code   ###############
 export default function FirstContactSection() {
   return (
     <section className="container">
       <div className="text-center lg:w-3/4 xl:w-2/3 mx-auto my-20 xl:my-40">
-        <h1 className="mb-10">
+        <motion.h1
+          className="mb-10"
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ once: true }}
+          whileHover={{ scale: 1.01 }}
+        >
           Get a fast websites designed to grow with your business
-        </h1>
+        </motion.h1>
         <p className="max-w-prose mx-auto">
           I&#x27;ve created Skyward, a new agency to help you create your
           perfect website. Stop fighting unwieldy content editors that

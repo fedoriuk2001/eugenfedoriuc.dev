@@ -1,7 +1,7 @@
 // ! ###############   Importing   ###############
 
 // ! ###############   Code   ###############
-export default function ThirdBlogSection() {
+export default function ThirdProjectSection() {
   return (
     <div className="max-w-4xl mx-auto">
       <div className="grid md:grid-cols-3 my-8">
