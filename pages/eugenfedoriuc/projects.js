@@ -2,18 +2,18 @@
 // ===============   Components   ===============
 import Layout from "./sections/Layout";
 
-
 // ? ===============   Home   ===============
 import FourthHomeSection from "./sections/home/FourthHomeSection";
 
-// ? ===============  Project  ===============
-import ProjectItem from "./sections/project/ProjectItem";
+// ? ===============  Projects  ===============
+import FirstProjectsSection from "./sections/projects/FirstProjectsSection";
+import ProjectItem from "./sections/projects/ProjectItem";
 
 // ! ###############   Code   ###############
 export default function projects() {
   return (
     <Layout title="Eugen Fedoriuc - About" description="We have a description">
-      {/* <FirstProjectsSection title="Project" /> */}
+      <FirstProjectsSection title="Projects" />
       <div className="container">
         <ProjectItem />
         <FourthHomeSection />

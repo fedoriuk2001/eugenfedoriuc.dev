@@ -15,7 +15,9 @@ export default function FourthHomeSection() {
       >
         <div className="rounded-lg w-full flex flex-1 flex-wrap items-center overflow-hidden bg-eugen-accent dark:bg-eugen-accent-dark md:flex-nowrap">
           <div className="w-full md:w-1/3 md:order-last">
-            <div className="transform scale-125 -mx-12 -mt-12 -mb-12 block overflow-hidden relative md:ml-0 md:-mr-24">Hello</div>
+            <div className="transform scale-125 -mx-12 -mt-12 -mb-12 block overflow-hidden relative md:ml-0 md:-mr-24">
+              Hello
+            </div>
           </div>
           <div className="px-4 pt-24 pb-8 md:p-12 w-full md:w-2/3">
             <h2 className="mb-4 lg:mb-4">Got a problem to solve?</h2>
@@ -25,11 +27,14 @@ export default function FourthHomeSection() {
                 dream application.
               </p>
             </div>
-            <motion.a whileHover={{ scale: 1.1 }}
-                whileTap={{ scale: 0.9 }}
-                initial={{ opacity: 0 }}
-                whileInView={{ opacity: 1 }}
-                viewport={{ once: true }} className="btn btn-inverted bg-eugen-secondary hover:bg-eugen-secondary-hover dark:bg-eugen-secondary-dark dark:hover:bg-eugen-secondary-hover-dark">
+            <motion.a
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              viewport={{ once: true }}
+              className="btn btn-inverted bg-eugen-secondary hover:bg-eugen-secondary-hover dark:bg-eugen-secondary-dark dark:hover:bg-eugen-secondary-hover-dark"
+            >
               Get in touch with me!
             </motion.a>
           </div>

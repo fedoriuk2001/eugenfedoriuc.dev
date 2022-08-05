@@ -1,4 +1,5 @@
 // ! ###############   Importing   ###############
+// ===============   Next JS   ===============
 import Link from "next/link";
 
 // ===============   Animation   ===============
@@ -21,7 +22,16 @@ export default function FirstHomeSection() {
         >
           <MovingComponent
             type="typewriter"
-            dataText={["Start", "Plan", "Build", "Check", "Result"]}
+            dataText={[
+              "Start",
+              "Information Gathering",
+              "Planning",
+              "Design",
+              "Content Writing and Assembly",
+              "Coding",
+              "Testing, Review, Launch & Maintenance",
+              "Result",
+            ]}
           />
         </motion.div>
         <motion.h1

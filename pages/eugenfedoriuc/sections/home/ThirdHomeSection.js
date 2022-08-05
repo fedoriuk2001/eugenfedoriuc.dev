@@ -1,7 +1,9 @@
 // ! ###############   Importing   ###############
+// ===============   Next JS   ===============
+import Link from "next/link";
+
 // ===============   Animation   ===============
 import { motion } from "framer-motion";
-import Link from "next/link";
 
 // ! ###############   Code   ###############
 export default function ThirdHomeSection() {

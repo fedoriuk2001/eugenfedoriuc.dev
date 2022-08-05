@@ -14,9 +14,7 @@ export default function Footer() {
   // const [childname, changeChildName] = useState("I am a child");
 
   return (
-    <footer
-    // className="bg-neutral"
-    >
+    <footer>
       <div className="container">
         <div className="pt-32">
           <div className="flex mb-6">

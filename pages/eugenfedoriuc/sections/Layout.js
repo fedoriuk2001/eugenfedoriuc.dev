@@ -34,7 +34,10 @@ export default function Layout({
       </Head>
 
       {/* Progress Bar */}
-      <motion.div className="progress-bar-eugen dark:progress-bar-eugen-dark" style={{ scaleX }} />
+      <motion.div
+        className="progress-bar-eugen dark:progress-bar-eugen-dark"
+        style={{ scaleX }}
+      />
 
       <Navbar />
 
