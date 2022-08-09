@@ -1,6 +1,7 @@
 // ! ###############   Importing   ###############
 // ===============   Next JS   ===============
 import Link from "next/link";
+import Image from "next/image";
 
 // ===============   Animation   ===============
 import { motion } from "framer-motion";
@@ -32,8 +33,8 @@ export default function ProjectItem() {
               }}
             >
               <a className="group hover:no-underline focus:no-underline">
-                <div className="block hidden relative rounded object-cover w-full transform duration-200 cursor-pointer group-hover:shadow-lg group-focus:shadow-lg group-hover:-translate-y-1 group-focus:-translate-y-1">
-                  Image
+                <div className="block relative object-cover w-full transform duration-200 cursor-pointer group-hover:shadow-lg group-focus:shadow-lg group-hover:-translate-y-1 group-focus:-translate-y-1">
+                  <img src={data.photo} className="rounded-md" height="350px" width="600px" />
                 </div>
                 <div className="mt-6">
                   <p className="text-xs text-inverted-muted my-2 cursor-pointer">
@@ -42,7 +43,9 @@ export default function ProjectItem() {
                   <p className="text-2xl leading-tight text-inverted cursor-pointer group-hover:underline group-focus:underline">
                     {data.stockPrice}
                   </p>
-                  <p className="text-inverted-muted cursor-pointer">{data.timeElapsed}</p>
+                  <p className="text-inverted-muted cursor-pointer">
+                    {data.timeElapsed}
+                  </p>
                 </div>
               </a>
             </Link>

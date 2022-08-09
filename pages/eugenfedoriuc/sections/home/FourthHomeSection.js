@@ -20,12 +20,25 @@ export default function FourthHomeSection() {
             </div>
           </div>
           <div className="px-4 pt-24 pb-8 md:p-12 w-full md:w-2/3">
-            <h2 className="mb-4 lg:mb-4">Got a problem to solve?</h2>
+            <motion.h2
+              className="mb-4 lg:mb-4"
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              viewport={{ once: true }}
+              whileHover={{ scale: 1.01 }}
+            >
+              Got a problem to solve?
+            </motion.h2>
             <div className="mb-4 lg:mb-4">
-              <p>
+              <motion.p
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                viewport={{ once: true }}
+                whileHover={{ scale: 1.01 }}
+              >
                 Get your space suit ready and tell me your ideas to develop your
                 dream application.
-              </p>
+              </motion.p>
             </div>
             <motion.a
               whileHover={{ scale: 1.1 }}

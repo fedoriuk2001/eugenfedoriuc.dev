@@ -6,10 +6,10 @@ import Link from "next/link";
 import React, { useState } from "react";
 
 // ===============   Icons   ===============
-import AstronautIcon from "../../images/AstronautIcon";
-import BurgerLinesIcon from "../../images/BurgerLinesIcon";
-import HomeIcon from "../../images/HomeIcon";
-import LightIcon from "../../images/LightIcon";
+import AstronautIcon from "../../images/iconsJS/AstronautIcon";
+import BurgerLinesIcon from "../../images/iconsJS/BurgerLinesIcon";
+import HomeIcon from "../../images/iconsJS/HomeIcon";
+import LightIcon from "../../images/iconsJS/LightIcon";
 
 // ! ###############   Code   ###############
 export default function Navbar() {

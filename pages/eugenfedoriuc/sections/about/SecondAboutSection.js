@@ -1,4 +1,9 @@
 // ! ###############   Importing   ###############
+// ===============   Next JS   ===============
+import Link from "next/link";
+
+// ===============   Animation   ===============
+import { motion } from "framer-motion";
 
 // ! ###############   Code   ###############
 export default function SecondAboutSection() {
@@ -12,12 +17,26 @@ export default function SecondAboutSection() {
           <h2 className="mb-10">My Story</h2>
           <div>
             <p>
-              I’m a user experience consultant working with teams around the
-              world to help create outstanding websites.
+              I&#39;m
+              <Link href="/eugenfedoriuc/contact">
+                <motion.b
+                  className="transition-all cursor-pointer hover:text-primary dark:hover:text-yellow-300"
+                  whileHover={{ scale: 1.03 }}
+                  whileTap={{ scale: 0.97 }}
+                  initial={{ opacity: 0 }}
+                  whileInView={{ opacity: 1 }}
+                  viewport={{ once: true }}
+                >
+                  {" "}
+                  Full Stack Web Developer{" "}
+                </motion.b>
+              </Link>
+              working with people around the world to help create excellent
+              websites and web apps.
             </p>
 
             <p>
-              I’ve been a developer since I started my career 5 years ago, and
+              I&#39;ve been a developer since I started my career 4 years ago, and
               have always taken a deep interest in making websites the best they
               can be for everyone using them.
             </p>
