@@ -3,7 +3,7 @@
 import Layout from "./sections/Layout";
 
 // ? ===============   Home   ===============
-import FourthHomeSection from "./sections/home/FourthHomeSection";
+import FifthHomeSection from "./sections/home/FifthHomeSection";
 
 // ? ===============  Projects  ===============
 import FirstProjectsSection from "./sections/projects/FirstProjectsSection";
@@ -16,7 +16,7 @@ export default function projects() {
       <FirstProjectsSection title="Projects" />
       <div className="container">
         <ProjectItem />
-        <FourthHomeSection />
+        <FifthHomeSection />
       </div>
     </Layout>
   );

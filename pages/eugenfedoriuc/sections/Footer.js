@@ -205,9 +205,11 @@ export default function Footer() {
                     initial={{ opacity: 0 }}
                     whileInView={{ opacity: 1 }}
                     viewport={{ once: true }}
-                    className="transition-all cursor-pointer hover:text-primary dark:hover:text-yellow-300"
+                    className="transition-all cursor-pointer dark:hover:text-eugen-accent-hover-dark"
                   >
-                    <strong>Click here to check Khrystyna&#39;s Profile</strong>
+                    <strong className="">
+                      Click here to check Khrystyna&#39;s Profile
+                    </strong>
                   </motion.p>
                 </Link>
               </div>

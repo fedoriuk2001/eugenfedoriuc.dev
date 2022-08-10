@@ -1,5 +1,13 @@
 // ! ###############   Importing   ###############
+// ===============   Next JS   ===============
 import Link from "next/link";
+import Image from "next/image";
+
+// ===============   Animation   ===============
+import { motion } from "framer-motion";
+
+// ===============   Images   ===============
+import DesignImg from "../../../images/photos/design.png";
 
 // ! ###############   Code   ###############
 export default function FourthAboutSection() {
@@ -7,19 +15,24 @@ export default function FourthAboutSection() {
     <section className="container">
       <div className="py-8 items-center md:flex md:-mx-8  md:flex-row-reverse">
         <div className="w-full md:w-5/12 md:mx-8 mb-6">
-          <div className="rounded-lg block overflow-hidden relative">4</div>
+          <motion.div
+            className="rounded-lg block overflow-hidden relative"
+            whileHover={{ scale: 1.01 }}
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+          >
+            <Image src={DesignImg} alt="Design" />
+          </motion.div>
         </div>
         <div className="w-full md:w-7/12 md:mx-8">
           <h2></h2>
-          <div>
-            <p>
-              I’ve worked with agencies for 5 years, so I’ve built a large
-              variety of websites. My main focus has been development but as a
-              core member of small teams there were lots of responsibilites I
-              often took charge on so I’ve done things from business strategy to
-              leading teams.
-            </p>
-
+          <motion.div
+            whileHover={{ scale: 1.01 }}
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+          >
             <p>
               I used this flexibility to expand what I can offer. I am no longer
               just a developer, with expertise in User Experience Design,
@@ -34,7 +47,7 @@ export default function FourthAboutSection() {
                 </a>
               </Link>
             </p>
-          </div>
+          </motion.div>
         </div>
       </div>
     </section>

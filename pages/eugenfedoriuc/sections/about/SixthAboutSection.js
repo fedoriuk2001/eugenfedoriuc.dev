@@ -1,16 +1,42 @@
 // ! ###############   Importing   ###############
+// ===============   Next JS   ===============
+import Image from "next/image";
+
+// ===============   Animation   ===============
+import { motion } from "framer-motion";
+
+// ===============   Images   ===============
+import DesignImg from "../../../images/photos/design.png";
 
 // ! ###############   Code   ###############
 export default function SixthAboutSection() {
   return (
     <section className="container">
       <div className="py-8 items-center md:flex md:-mx-8  md:flex-row-reverse">
-        <div className="w-full md:w-5/12 md:mx-8 mb-6">
-          <div className="rounded-lg block relative overflow-hidden">6</div>
-        </div>
-        <div className="w-full md:w-7/12 md:mx-8">
-          <h2></h2>
-          <div>
+        <motion.div
+          className="w-full md:w-5/12 md:mx-8 mb-6"
+          whileHover={{ scale: 1.01 }}
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ once: true }}
+        >
+          <div className="rounded-lg block relative overflow-hidden">
+            <Image src={DesignImg} alt="Design" />
+          </div>
+        </motion.div>
+        <motion.div
+          className="w-full md:w-7/12 md:mx-8"
+          whileHover={{ scale: 1.01 }}
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ once: true }}
+        >
+          <motion.div
+            whileHover={{ scale: 1.01 }}
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+          >
             <p>
               <strong>Don’t know what you need?</strong> I’ll help you build a
               plan of action which will help your business grow without creating
@@ -33,8 +59,8 @@ export default function SixthAboutSection() {
               I’m flexible enough to work with any team, even if they’re part
               way through a project. Just let me know how to get started.
             </p>
-          </div>
-        </div>
+          </motion.div>
+        </motion.div>
       </div>
     </section>
   );

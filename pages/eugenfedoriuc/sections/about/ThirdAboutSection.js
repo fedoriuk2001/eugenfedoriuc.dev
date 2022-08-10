@@ -1,4 +1,12 @@
 // ! ###############   Importing   ###############
+// ===============   Next JS   ===============
+import Image from "next/image";
+
+// ===============   Animation   ===============
+import { motion } from "framer-motion";
+
+// ===============   Images   ===============
+import DesignImg from "../../../images/photos/design.png";
 
 // ! ###############   Code   ###############
 export default function FirstAboutSection() {
@@ -6,44 +14,48 @@ export default function FirstAboutSection() {
     <section className="container">
       <div className="md:flex md:-mx-8 py-8 items-center md:flex-row-normal">
         <div className="w-full md:w-5/12 md:mx-8 mb-6">
-          <div className="rounded-lg block overflow-hidden relative">3</div>
+          <motion.div
+            className="rounded-lg block overflow-hidden relative"
+            whileHover={{ scale: 1.01 }}
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+          >
+            <Image src={DesignImg} alt="Design" />
+          </motion.div>
         </div>
-        <div className="w-full md:w-7/12 md:mx-8">
+        <motion.div
+          className="w-full md:w-7/12 md:mx-8"
+          whileHover={{ scale: 1.01 }}
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ once: true }}
+        >
           <div>
             <p>
-              I&#39;ve always loved technology. From a young age, technology has
-              interested me. Most children play video games of some kind, from
-              tetris to spyro, crash bandicoot to final fantasy, I loved playing
-              with computers, but my interest didn&#39;t stop just at
-              entertainment.
+              I don&#39;t know when I fell in love with programming. I know that
+              I just did. Maybe it was when I went to college and started
+              participating in the coding events. Maybe it was before. I knew
+              always that I wanted to be a programmer. Engineering college
+              opened up a whole new world for me. When I was writing code, I
+              realized I was strong, happiest, I could even call myself
+              invincible. Needless to say, I was thrilled because of websites
+              and web apps.
             </p>
 
             <p>
-              The more I played, the more I wanted to understand how things
-              worked. If something broke, I would take it apart and figure out
-              what had gone wrong, trying to get it back to normal.
+              The more I played with code, the more I wanted to understand how
+              things worked. If something broke or didn&#39;t work, I would
+              figure out what had gone wrong, trying to get it back to normal.
             </p>
 
             <p>
-              I remember taking apart my computer when I was 12, an event which
-              horrified my parents.
-            </p>
-
-            <p>I still build my own computers.</p>
-
-            <p>
-              I never lost my curiosity, but my interest in technologies changed
-              as I expanded my knowledge from taking apart equipment to building
-              new websites in code.
-            </p>
-
-            <p>
-              Now I focus on people and learning how they interact with
-              websites, making sure they can achieve their goals leaving them
-              satisfied and more likely to return as customers.
+              Now I focus on people and learning how they interact with websites
+              and web apps, making sure they can achieve their goals leaving
+              them satisfied and more likely to return as customers.
             </p>
           </div>
-        </div>
+        </motion.div>
       </div>
     </section>
   );

@@ -3,122 +3,121 @@
 // ! ###############   Code   ###############
 export default function FourthProjectSection() {
   return (
-    <div className="relative max-w-3xl mx-auto">
+    <div>
       <p>
-        This is part 1 in a multi-part blog series, talking about my journey
-        from knowing nothing about programming, to where I am now.
+        One More Cloud were looking to make significant improvements to their
+        product website but they had a number of challenges to overcome.
       </p>
-      <blockquote>
-        <p>
-          These posts aim to share some context about my career and to help you
-          get to know me. I believe anybody can be a developer, and I hope this
-          helps someone decide to pursue their dream
-        </p>
-      </blockquote>
+
       <p>
-        First, some context: I&#x27;m a 25-year-old, straight white male born
-        and raised in the UK. I come from a working-class farming family. Small
-        farms typically don&#x27;t make much money, so as a child, I didn&#x27;t
-        have much in terms of electronics. I was that kid who would go over to
-        their friend&#x27;s houses to be able to play the new version of Spyro.
+        Bonsai is a managed elasticsearch platform which looks after your search
+        tools and makes sure they&#39;re always running and performing the best
+        for you. Their team is built up of mostly backend developers and
+        marketers and they have a very relaxed company culture, which gives me
+        the flexibility to work in a way which will be most beneficial to them.
       </p>
+
+      <h2>Step 1: Completing their new marketing website</h2>
+
       <p>
-        My parents got us our first computer when I was 11, a second-hand Dell
-        (one of those ugly cream-coloured boxy things). My brother and I got to
-        use the computer for a couple of hours in the evenings, which I mostly
-        spent playing Runescape.
+        When I began working with Bonsai, they were in a tough situation. They
+        were working on a new marketing website which they desperately needed to
+        make their brand feel fresh, but the site had only been half completed
+        and they needed somebody who could pick up the project and finish it
+        off.
       </p>
+
       <p>
-        As you can probably tell, I was never averse to electronics and was much
-        more of an inside kid than an outside one, which persists to this day
-        (except the kid part, mostly).
+        The website had been built using Jekyll, a headless platform that
+        I&#39;d not worked with before but was very familiar to a combination of
+        other tools I&#39;d used previously. With my experience using many
+        different development platforms across my career
+        <a href="https://www.notion.so/Skills-7c10c6cc2cd140c5955bfcb509cfa8f5">
+          including headless websites
+        </a>
+        it was no problem for me to take over and help them finish creating
+        their new marketing site.
       </p>
+
+      <h2>Step 2: Creating a better experience for the team</h2>
+
       <p>
-        As I grew up, I became the person to fix any problems which came up;
-        mostly just broken printers and plugging in monitors or routers.
-        I&#x27;m sure a lot of you are familiar with being &#x27;tech
-        support&#x27; for your own family.
+        The next step was to make improvements to the site. Even though the
+        marketing site had just been recreated, the new build only solved
+        problems for the websites users but was still causing a ton of issues
+        for the team. That wasn&#39;t good enough.
       </p>
+
       <p>
-        At school, I studied IT from ages 15-18, but the majority of what we
-        learned was how to properly use Microsoft Word, Powerpoint, and a bit of
-        history about the web. We learned about LANs WANs and MANs (networking),
-        but at a fundamental level, and we learned how to put data into
-        Microsoft Access, which I never used for anything practical. I
-        don&#x27;t remember anything about this content now, but it was all
-        low-level stuff.
+        The problem was the Jekyll/Parcel combination which resulted in 2 build
+        processes and two different public folders, a very awkward experience
+        for the team. This combination also caused other weird issues like not
+        being able to check the 404 page.
       </p>
+
       <p>
-        For my exams across all topics, I coasted. I didn&#x27;t study outside
-        of school and managed to achieve A&#x27;s and B&#x27;s at the end of
-        Secondary School (Sophomore year). This approach gave me false
-        confidence, and I coasted through 6th Form (Junior and Senior years)
-        too, which was far less successful. I passed, barely, getting mostly D
-        grades. Still, I managed to get into University (College).
+        The next issue was poor maintainability. The site hadn&#39;t been
+        created in an optimal way making changes time consuming and expensive.
+        Most of the site needed to be adjusted so that it was easy to edit, and
+        more beneficial for a team short on time.
       </p>
+
       <p>
-        I&#x27;m still not sure exactly <strong>why</strong> I went to
-        university. I didn&#x27;t get good grades, so I was going to a
-        below-average university. I think I went because I&#x27;d never planned
-        for my future. I didn&#x27;t know what career path I wanted to take, but
-        I could go to university, so I just followed the path laid out for me. I
-        was still coasting.
+        Together, we decided to convert the site to NextJS while using the
+        current design. React was a favourite library of the team, and NextJS
+        provides a ton of great benefits like flexibility, static pages and a
+        load of optimisations built in.
       </p>
+
       <p>
-        I was most proficient with and most interested in computers, so I
-        studied Computing, the most generic computer course you could take,
-        aiming to figure out what I wanted to specialise in along the way.
+        Rebuilding the site took a few weeks, but the benefits gained were
+        tremendous, returning control of changes to the team and making it much
+        easier for them to understand how their own website works. There were
+        also some performance gains inherited from using improved tools which
+        was a nice side effect.
       </p>
+
       <p>
-        University was my first exposure to coding. I started with C# and
-        learned bits of lots of languages, including C++, Java, HTML, CSS,
-        JavaScript, PHP &amp; .Net. Some of these were more natural to me than
-        others. I also got lots of exposure to theory, including modules on User
-        Experience, History of Computing, User Testing, Security and probably
-        more things I&#x27;m not remembering.
+        I also built in Documentation and basic visual tests in the form of
+        Storybook, which makes it much easier for the team to understand how the
+        website fits together which encourages best practice. It also reduces
+        bottlenecks as design and development can refer back to the
+        documentation to remind themselves how everything works, rather than a
+        single developer.
       </p>
+
+      <h2>Future Changes</h2>
+
       <p>
-        Web development was the most exciting thing for me, so as I got closer
-        to my final year, I specialised more in those topics. By the time I was
-        graduating, I was creating (pretty bad) websites for coursework
-        projects. I wasn&#x27;t coasting any more, maybe because I&#x27;d found
-        a topic I enjoyed, but I was still struggling to achieve consistently
-        good grades.
+        Bonsai are always looking to improve their software and their website is
+        no exception, and as a result we&#39;ve already discussed changes which
+        would further optimise their website improving its reliability and
+        making it easier to work with.
       </p>
-      <blockquote>
-        <p>
-          Being able to score well in exams doesn&#x27;t translate into being
-          able to produce good work. No matter your level or your education,
-          putting in hard work to learn what you need to grow is far more
-          valuable than getting lots of A&#x27;s. Don&#x27;t learn to pass
-          exams. Learn how to learn.
-        </p>
-      </blockquote>
-      <p>
-        I graduated from university with an Upper Second class degree (2:1), but
-        only just. I scored the lowest possible score I could get (not
-        intentionally). The results of my modules varied drastically, with some
-        scoring 35%, while others scored 90%+.
-      </p>
-      <p>
-        I left university with a relatively good grade, but no decent projects
-        to show off, and no practical experience to my name, which led me to my
-        struggled search for a job.
-      </p>
-      <blockquote>
-        <p>
-          Good grades aren&#x27;t everything. Many jobs, especially for junior
-          roles, value practical experience more. Showing off work experience
-          and real projects are incredibly valuable.
-        </p>
-      </blockquote>
-      <p>
-        I may have a university degree, but I know a lot of people who
-        don&#x27;t and are better developers than I am. If you don&#x27;t think
-        university is the right path for you, choose a different one.
-        You&#x27;ll still be able to find a job as employers value real
-        experience more than grades.
-      </p>
+
+      <ul>
+        <li>
+          We want to create more landing pages to help focus on specific
+          sectors, help with SEO and improve conversions, without creating too
+          much additional work. Ideally these landing pages would be able to be
+          created without any development oversight.
+        </li>
+        <li>
+          To improve their brand consistency between their company and their
+          products, and to help reduce the complexity (and therefore time to
+          release), we want to standardise the components across all their
+          websites by creating a component library that is specific to their
+          needs. Changes made in the component library would then update all 3
+          of their websites automatically.
+        </li>
+        <li>
+          To help improve the reliability of their website we want to add more
+          tests to ensure that we never miss issues when things either look
+          wrong or work incorrectly. This is especially important for them as a
+          team of developers, who can&#39;t afford to have mistakes in any of
+          their software, including their website.
+        </li>
+      </ul>
     </div>
   );
 }

@@ -1,19 +1,37 @@
 // ! ###############   Importing   ###############
 // ===============   Next JS   ===============
 import Link from "next/link";
+import Image from "next/image";
 
 // ===============   Animation   ===============
 import { motion } from "framer-motion";
+
+// ===============   Images   ===============
+import DesignImg from "../../../images/photos/design.png";
 
 // ! ###############   Code   ###############
 export default function SecondAboutSection() {
   return (
     <section className="container">
       <div className="md:flex md:-mx-8 py-8 items-center md:flex-row-reverse">
-        <div className="w-full md:w-5/12 md:mx-8 mb-6">
-          <div className="rounded-lg block overflow-hidden relative">2</div>
-        </div>
-        <div className="w-full md:w-7/12 md:mx-8">
+        <motion.div
+          className="w-full md:w-5/12 md:mx-8 mb-6"
+          whileHover={{ scale: 1.01 }}
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ once: true }}
+        >
+          <div className="rounded-lg block overflow-hidden relative">
+            <Image src={DesignImg} alt="Design" />
+          </div>
+        </motion.div>
+        <motion.div
+          className="w-full md:w-7/12 md:mx-8"
+          whileHover={{ scale: 1.01 }}
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ once: true }}
+        >
           <h2 className="mb-10">My Story</h2>
           <div>
             <p>
@@ -36,9 +54,9 @@ export default function SecondAboutSection() {
             </p>
 
             <p>
-              I&#39;ve been a developer since I started my career 4 years ago, and
-              have always taken a deep interest in making websites the best they
-              can be for everyone using them.
+              I&#39;ve been a developer since I started my career 4 years ago,
+              and have always taken a deep interest in making websites the best
+              they can be for everyone using them.
             </p>
 
             <p>
@@ -48,7 +66,7 @@ export default function SecondAboutSection() {
               experience for your users.
             </p>
           </div>
-        </div>
+        </motion.div>
       </div>
     </section>
   );

@@ -14,8 +14,8 @@ export default function project1() {
   return (
     <Layout title="Eugen Fedoriuc - About" description="We have a description">
       <div className="container">
-        <article>
-          <FirstProjectSection />
+        <FirstProjectSection />
+        <article className="relative max-w-3xl mx-auto">
           <SecondProjectSection />
           <ThirdProjectSection />
           <FourthProjectSection />
