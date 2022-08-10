@@ -44,7 +44,7 @@ export default function FourthHomeSection() {
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
           whileHover={{ scale: 1.01 }}
-          className="mb-12 lg:mb-24"
+          className="mb-12 lg:mb-5"
         >
           My Skills
         </motion.h2>

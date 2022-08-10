@@ -22,7 +22,7 @@ export default function ThirdHomeSection() {
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
           whileHover={{ scale: 1.01 }}
-          className="mb-12 lg:mb-24"
+          className="mb-12 lg:mb-24 mt-12 lg:mt-24"
         >
           Everything you need for a perfect website
         </motion.h2>

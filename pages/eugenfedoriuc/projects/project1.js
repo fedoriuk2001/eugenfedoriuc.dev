@@ -3,11 +3,12 @@
 import Layout from "../sections/Layout";
 
 // ? ===============   Project Page   ===============
-import FirstProjectSection from "../sections/projectPage/FirstProjectSection";
-import SecondProjectSection from "../sections/projectPage/SecondProjectSection";
-import ThirdProjectSection from "../sections/projectPage/ThirdProjectSection";
-import FourthProjectSection from "../sections/projectPage/FourthProjectSection";
-import FifthProjectSection from "../sections/projectPage/FifthProjectSection";
+import FirstProjectSection from "../sections/projects/projectPage/project1/FirstProjectSection";
+import SecondProjectSection from "../sections/projects/projectPage/project1/SecondProjectSection";
+import ThirdProjectSection from "../sections/projects/projectPage/project1/ThirdProjectSection";
+import FourthProjectSection from "../sections/projects/projectPage/project1/FourthProjectSection";
+import FifthProjectSection from "../sections/projects/projectPage/project1/FifthProjectSection";
+import SixthProjectSection from "../sections/projects/projectPage/project1/SixthProjectSection";
 
 // ! ###############   Code   ###############
 export default function project1() {
@@ -20,6 +21,7 @@ export default function project1() {
           <ThirdProjectSection />
           <FourthProjectSection />
           <FifthProjectSection />
+          <SixthProjectSection />
         </article>
       </div>
     </Layout>
