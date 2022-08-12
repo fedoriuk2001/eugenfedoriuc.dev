@@ -2,6 +2,8 @@
 // ===============   Next JS   ===============
 import Head from "next/head";
 
+import { useState, useEffect } from "react";
+
 // ===============   Components   ===============
 import Header from "./Header";
 import Footer from "./Footer";
@@ -25,6 +27,12 @@ export default function Layout({
     restDelta: 0.001,
   });
 
+  const [isActive, setActive] = useState(false);
+
+  const toggleClass = () => {
+    setActive(!isActive);
+  };
+
   return (
     <>
       <Head>
@@ -39,11 +47,12 @@ export default function Layout({
         style={{ scaleX }}
       />
 
-      <Navbar />
+      
+      <Navbar onClick={toggleClass} open={isActive} />
 
-      <Background />
+      <Background onClick={toggleClass} />
 
-      <MainSection>
+      <MainSection open={isActive}>
         <Header />
 
         <main>{children}</main>

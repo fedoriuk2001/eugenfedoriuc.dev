@@ -19,7 +19,7 @@ export default function Footer() {
         <div className="pt-32">
           <div className="flex mb-6">
             <div className="relative rounded-full block overflow-hidden">
-              {/* <Image classNameName="block w-full bg-cover opacity-1 transition absolute inset-0" /> */}
+              {/* <Image className="block w-full bg-cover opacity-1 transition absolute inset-0" /> */}
             </div>
           </div>
           <div className="grid gap-4 md:grid-cols-12">

@@ -17,7 +17,8 @@
     "react-dom": "18.2.0",
     "react-icons": "^4.4.0",
     "react-moving-text": "0.0.7",
-    "react-text-transition": "^3.0.2"
+    "react-text-transition": "^3.0.2",
+    "sparkpost": "^2.1.4"
   },
   "devDependencies": {
     "@svgr/webpack": "^6.2.1",

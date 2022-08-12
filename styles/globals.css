@@ -234,6 +234,18 @@ h3 {
   vertical-align: middle;
 }
 
+.btn-xl {
+  padding: 0.625rem 1.25rem;
+}
+
+@media (min-width: 768px) {
+  .btn-xl {
+    padding: 0.875rem 1.75rem;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+}
+
 /* ? ===============   Grid   =============== */
 
 .grid-cols-masonry {
@@ -557,3 +569,4 @@ h3 {
   opacity: 0;
   animation: showText2 0.5s 1.5s linear forwards;
 }
+

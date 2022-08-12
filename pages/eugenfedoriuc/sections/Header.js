@@ -30,7 +30,7 @@ export default function Header() {
     if (currentTheme === "dark") {
       return (
         <SunIcon
-          classNameName="w-[50px] h-[50px]"
+          className="w-[50px] h-[50px]"
           role="button"
           onClick={() => setTheme("light")}
         />
@@ -38,7 +38,7 @@ export default function Header() {
     } else {
       return (
         <MoonIcon
-          classNameName="w-[50px] h-[50px]"
+          className="w-[50px] h-[50px]"
           role="button"
           onClick={() => setTheme("dark")}
         />

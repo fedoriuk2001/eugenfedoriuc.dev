@@ -14,7 +14,7 @@ import { AiOutlineHome } from "react-icons/ai";
 import { IoClose } from "react-icons/io5";
 
 // ! ###############   Code   ###############
-export default function Background() {
+export default function Background({ onClick }) {
   const { systemTheme, theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
 
@@ -30,7 +30,7 @@ export default function Background() {
     if (currentTheme === "dark") {
       return (
         <SunIcon
-          classNameName="w-[50px] h-[50px] text-yellow-500"
+          className="w-[50px] h-[50px] text-yellow-500"
           role="button"
           onClick={() => setTheme("light")}
         />
@@ -38,7 +38,7 @@ export default function Background() {
     } else {
       return (
         <MoonIcon
-          classNameName="w-[50px] h-[50px] text-gray-900"
+          className="w-[50px] h-[50px] text-gray-900"
           role="button"
           onClick={() => setTheme("dark")}
         />
@@ -47,17 +47,20 @@ export default function Background() {
   };
 
   return (
-    <div className="relative w-full min-w-screen xl:overflow-auto ">
+    <div className="relative w-full min-w-screen xl:overflow-auto">
       <div className=" min-h-[828px] absolute top-0 left-0 right-0 flex items-center pl-4 pr-20 py-4 transition-all duration-500 xl:hidden">
         <nav className="z-0">
           <div className="mb-8">
             <div className="relative flex items-center">
               <button className="flex items-center text-inverted text-center px-1 py-2 my-2">
                 <IoClose size="30px" />
-                <span className="text-sm ml-3">Close Menu</span>
+                <span className="text-sm ml-3" onClick={onClick}>
+                  Close Menu
+                </span>
               </button>
               <div className="w-[30px] ml-9">{renderThemeChanger()}</div>
             </div>
+            
             <a
               className="flex items-center justify-start p-2 hover:no-underline"
               href="index.html"

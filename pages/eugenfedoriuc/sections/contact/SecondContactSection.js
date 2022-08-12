@@ -6,36 +6,131 @@ import { motion } from "framer-motion";
 export default function SecondContactSection() {
   return (
     <section className="container">
-      <div className="max-w-3xl text-center my-32 mx-auto">
+      <div className="items-center grid md:grid-cols-2 gap-24">
         <div>
-          <p>
-            With over 5 years of experience creating User Experience focused
-            websites and my own agency in the making, I&#39;m able to create a
-            website which perfectly suits your needs, ensuring that it will
-            engage your customers while making your job easier.
-          </p>
-
-          <h3>Just looking to chat?</h3>
-
-          <p>
-            I&#39;m happy to answer any questions like how I went from a
-            freelancer to an agency owner, or how I typically design and develop
-            websites. Send me an email and start a conversation, or&nbsp;
-            <a
-              href="https://twitter.com/dan_spratling"
-              className="bg-[#ff0000]"
+          <div className="mb-8 text-2xl font-normal leading-none tracking-tight text-gray-900 md:text-4xl lg:text-5xl dark:text-gray-50">
+            <motion.h1
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              viewport={{ once: true }}
+              whileHover={{ scale: 1.01 }}
             >
-              reach out to me on twitter
-            </a>
-            .
-          </p>
-
-          <p>
-            <a href="mailto:dan@danspratling.dev" className="bg-[#ff0000]">
-              dan@danspratling.dev
-            </a>
-          </p>
+              Send me a quick note
+            </motion.h1>
+          </div>
+          <div className="mb-12 text-lg font-light text-gray-700 md:text-xl lg:text-2xl dark:text-gray-200">
+            <motion.p
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              viewport={{ once: true }}
+              whileHover={{ scale: 1.01 }}
+            >
+              Or if you prefer to send me something longer, feel free to email
+              us me{" "}
+              <a
+                href="mailto:fedoriuk2001@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-eugen-accent hover:text-eugen-accent-hover dark:text-eugen-accent-dark dark:hover:text-eugen-accent-hover-dark"
+              >
+                fedoriuk2001@gmail.com
+              </a>
+            </motion.p>
+          </div>
+          <div className="flex flex-wrap gap-3">
+            <motion.a
+              href="mailto:fedoriuk2001@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-primary btn-xl bg-eugen-accent hover:bg-eugen-accent-hover dark:bg-eugen-accent-dark dark:hover:bg-eugen-accent-hover-dark"
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              viewport={{ once: true }}
+            >
+              Ask me a question
+            </motion.a>
+          </div>
         </div>
+
+        <motion.div
+          className="px-6 bg-gray-100 rounded-lg md:px-10 md:py-4 dark:bg-gray-800"
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ once: true }}
+        >
+          <form
+            className="max-w-3xl mx-auto my-6"
+            name="contact"
+            method="POST"
+            id="contactForm"
+          >
+            <div className="grid">
+              <div className="mb-4 text-left grid gap-1">
+                <label className="">First Name</label>
+                <input
+                  name="first_name"
+                  id="first_name"
+                  type="text"
+                  className="w-full px-3 py-4 bg-white border border-gray-200 rounded-lg outline-none shadow-xs dark:text-black focus:ring-1 focus:ring-gray-700"
+                  placeholder="Your first name"
+                />
+              </div>
+            </div>
+
+            <div className="grid">
+              <div className="mb-4 text-left grid gap-1">
+                <label className="">Last Name</label>
+                <input
+                  name="last_name"
+                  id="last_name"
+                  type="text"
+                  className="w-full px-3 py-4 bg-white border border-gray-200 rounded-lg outline-none shadow-xs dark:text-black focus:ring-1 focus:ring-gray-700"
+                  placeholder="Your last name"
+                />
+              </div>
+            </div>
+
+            <div className="grid">
+              <div className="mb-4 text-left grid gap-1">
+                <label className="">Email Address</label>
+                <input
+                  name="email"
+                  id="email"
+                  type="email"
+                  className="w-full px-3 py-4 bg-white border border-gray-200 rounded-lg outline-none shadow-xs dark:text-black focus:ring-1 focus:ring-gray-700"
+                  placeholder="hello@skyward.digital"
+                />
+              </div>
+            </div>
+
+            <div className="mb-4 text-left grid gap-1">
+              <label>Message</label>
+              <textarea
+                name="message"
+                id="message"
+                className="w-full px-3 py-4 bg-white border border-gray-200 rounded-lg outline-none shadow-xs dark:text-black focus:ring-1 focus:ring-gray-700"
+                placeholder="How can we help you?"
+                rows="4"
+              ></textarea>
+            </div>
+
+            <div className="flex flex-wrap items-center justify-center mt-4 lg:justify-start">
+              <motion.button
+                type="submit"
+                className="w-[100%] btn btn-primary btn-xl bg-eugen-accent hover:bg-eugen-accent-hover dark:bg-eugen-accent-dark dark:hover:bg-eugen-accent-hover-dark"
+                whileHover={{ scale: 1.02 }}
+                whileTap={{ scale: 0.98 }}
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                viewport={{ once: true }}
+              >
+                Send
+              </motion.button>
+            </div>
+          </form>
+        </motion.div>
       </div>
     </section>
   );

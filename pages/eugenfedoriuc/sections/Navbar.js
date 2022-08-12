@@ -1,9 +1,9 @@
 // ! ###############   Importing   ###############
+// ===============   React   ===============
+import React from "react";
+
 // ===============   Next JS   ===============
 import Link from "next/link";
-
-// ===============   React   ===============
-import React, { useState } from "react";
 
 // ===============   Icons   ===============
 import AstronautIcon from "../../images/iconsJS/AstronautIcon";
@@ -12,38 +12,14 @@ import HomeIcon from "../../images/iconsJS/HomeIcon";
 import LightIcon from "../../images/iconsJS/LightIcon";
 
 // ! ###############   Code   ###############
-export default function Navbar() {
-  const [isActive, setActive] = useState(false);
-
-  const toggleClass = () => {
-    setActive(!isActive);
-  };
-
-  // const onRemoveClick = (e) => {
-  //   navRef.current.classList.remove("show");
-  // };
-
-  // const onToggleClick = (e) => {
-  //   navRef.current.classList.toggle("red");
-  //   // bodyRef.current.classList.toggle("show");
-  // };
-
+export default function Navbar({ onClick, open }) {
   return (
     <div
-      className="
-        xl:hidden 
-        fixed 
-        z-50 
-        top-auto 
-        bottom-0 
-        w-full 
-        md:w-2/3 
-        md:left-1/2 
-        p-4 
-        transition-all 
-        duration-500 
-        transform 
-        md:-translate-x-1/2"
+    className={
+      open 
+      ? "xl:hidden fixed z-50 top-auto bottom-0 w-full md:w-2/3 md:left-1/2 p-4 transition-all duration-500 transform md:-translate-x-1/2 scale-90 -translate-y-8 translate-x-9/12 sm:translate-x-1/2 xl:translate-x-0" 
+      : "xl:hidden fixed z-50 top-auto bottom-0 w-full md:w-2/3 md:left-1/2 p-4 transition-all duration-500 transform md:-translate-x-1/2"
+    }
     >
       <nav
         className="
@@ -90,10 +66,10 @@ export default function Navbar() {
             text-inverted 
             text-center"
           id="navbar-button-menu"
-          onClick={() => toggleClass()}
+          onClick={onClick}
         >
           <BurgerLinesIcon />
-          <span className={isActive ? "your-class" : "text-sm"}>Menu</span>
+          <span>Menu</span>
         </button>
       </nav>
     </div>
