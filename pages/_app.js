@@ -1,5 +1,5 @@
 // ! ###############   Importing   ###############
-// ===============   Next JS   ===============
+// ===============   Theme Provider   ===============
 import { ThemeProvider } from "next-themes";
 
 // ===============   Styles   ===============

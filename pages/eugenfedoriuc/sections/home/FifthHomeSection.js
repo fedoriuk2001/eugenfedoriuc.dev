@@ -1,13 +1,13 @@
 // ! ###############   Importing   ###############
 // ===============   Next JS   ===============
 import Image from "next/image";
+import Link from "next/link";
 
 // ===============   Animation   ===============
 import { motion } from "framer-motion";
 
 // ===============   Images   ===============
 import DesignImg from "../../../images/photos/design.png";
-import Link from "next/link";
 
 // ! ###############   Code   ###############
 export default function FifthHomeSection() {

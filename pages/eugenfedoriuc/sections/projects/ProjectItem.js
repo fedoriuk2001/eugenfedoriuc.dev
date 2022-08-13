@@ -34,7 +34,12 @@ export default function ProjectItem() {
             >
               <a className="group hover:no-underline focus:no-underline">
                 <div className="block relative object-cover w-full transform duration-200 cursor-pointer group-hover:shadow-lg group-focus:shadow-lg group-hover:-translate-y-1 group-focus:-translate-y-1">
-                  <img src={data.photo} className="rounded-md" height="350px" width="600px" />
+                  <img
+                    src={data.photo}
+                    className="rounded-md"
+                    height="350px"
+                    width="600px"
+                  />
                 </div>
                 <div className="mt-6">
                   <p className="text-xs text-inverted-muted my-2 cursor-pointer">

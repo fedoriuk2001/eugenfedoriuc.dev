@@ -31,6 +31,12 @@ export default function Layout({
 
   const toggleClass = () => {
     setActive(!isActive);
+
+    if (!isActive) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "visible";
+    }
   };
 
   return (
@@ -47,10 +53,9 @@ export default function Layout({
         style={{ scaleX }}
       />
 
-      
       <Navbar onClick={toggleClass} open={isActive} />
 
-      <Background onClick={toggleClass} />
+      <Background onClick={toggleClass} open={isActive} />
 
       <MainSection open={isActive}>
         <Header />

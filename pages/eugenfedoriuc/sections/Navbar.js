@@ -6,31 +6,32 @@ import React from "react";
 import Link from "next/link";
 
 // ===============   Icons   ===============
-import AstronautIcon from "../../images/iconsJS/AstronautIcon";
-import BurgerLinesIcon from "../../images/iconsJS/BurgerLinesIcon";
-import HomeIcon from "../../images/iconsJS/HomeIcon";
-import LightIcon from "../../images/iconsJS/LightIcon";
+import { AiFillHome, AiFillProject } from "react-icons/ai";
+import { RiInformationFill } from "react-icons/ri";
+import { GiHamburgerMenu } from "react-icons/gi";
+import { IoClose } from "react-icons/io5";
 
 // ! ###############   Code   ###############
 export default function Navbar({ onClick, open }) {
   return (
     <div
-    className={
-      open 
-      ? "xl:hidden fixed z-50 top-auto bottom-0 w-full md:w-2/3 md:left-1/2 p-4 transition-all duration-500 transform md:-translate-x-1/2 scale-90 -translate-y-8 translate-x-9/12 sm:translate-x-1/2 xl:translate-x-0" 
-      : "xl:hidden fixed z-50 top-auto bottom-0 w-full md:w-2/3 md:left-1/2 p-4 transition-all duration-500 transform md:-translate-x-1/2"
-    }
+      className={
+        open
+          ? "xl:hidden fixed z-50 top-auto bottom-0 w-full md:w-2/3 md:left-1/2 p-4 transition-all duration-500 transform md:-translate-x-1/2 scale-90 -translate-y-8 translate-x-9/12 sm:translate-x-1/2 xl:translate-x-0"
+          : "xl:hidden fixed z-50 top-auto bottom-0 w-full md:w-2/3 md:left-1/2 p-4 transition-all duration-500 transform md:-translate-x-1/2"
+      }
     >
       <nav
         className="
           flex 
           justify-evenly 
           py-3 
-          bg-[#118dff]
+          bg-eugen-secondary 
+          dark:bg-eugen-secondary-dark
           rounded-lg 
           overflow-hidden"
       >
-        <Link href="/">
+        <Link href="/eugenfedoriuc/home">
           <a
             className="
             relative 
@@ -38,11 +39,11 @@ export default function Navbar({ onClick, open }) {
             text-center"
             title="Home"
           >
-            <HomeIcon />
+            <AiFillHome size="25px" className="m-auto" />
             <span className="text-xs">Home</span>
           </a>
         </Link>
-        <Link href="/about">
+        <Link href="/eugenfedoriuc/about">
           <a
             className="
             relative 
@@ -50,13 +51,13 @@ export default function Navbar({ onClick, open }) {
             text-center"
             title="About"
           >
-            <AstronautIcon />
+            <RiInformationFill size="25px" className="m-auto" />
             <span className="text-xs">About</span>
           </a>
         </Link>
-        <Link href="/">
+        <Link href="/eugenfedoriuc/projects">
           <a className="relative text-inverted text-center" title="Projects">
-            <LightIcon />
+            <AiFillProject size="25px" className="m-auto" />
             <span className="text-xs">Projects</span>
           </a>
         </Link>
@@ -68,8 +69,16 @@ export default function Navbar({ onClick, open }) {
           id="navbar-button-menu"
           onClick={onClick}
         >
-          <BurgerLinesIcon />
-          <span>Menu</span>
+          {open ? (
+            <IoClose size="25px" className="m-auto" />
+          ) : (
+            <GiHamburgerMenu size="25px" className="m-auto" />
+          )}
+          {open ? (
+            <span className="text-xs">Close</span>
+          ) : (
+            <span className="text-xs">Menu</span>
+          )}
         </button>
       </nav>
     </div>

@@ -15,7 +15,7 @@ export default function ThirdProjectSection() {
       <div className="text-center">
         <p className="font-semibold mb-0">Website</p>
         <p className="mb-0">
-          <a href="https://bonsai.io">Visit website</a>
+          <a href="">Visit website</a>
         </p>
       </div>
     </div>
