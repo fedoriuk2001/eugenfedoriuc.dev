@@ -42,9 +42,9 @@ export default function SecondContactSection() {
               href="mailto:fedoriuk2001@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="btn btn-primary btn-xl bg-eugen-accent hover:bg-eugen-accent-hover dark:bg-eugen-accent-dark dark:hover:bg-eugen-accent-hover-dark"
-              whileHover={{ scale: 1.1 }}
-              whileTap={{ scale: 0.9 }}
+              className="text-center w-[100%] btn btn-primary btn-xl bg-eugen-accent hover:bg-eugen-accent-hover dark:bg-eugen-accent-dark dark:hover:bg-eugen-accent-hover-dark"
+              whileHover={{ scale: 1.03 }}
+              whileTap={{ scale: 0.97 }}
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               viewport={{ once: true }}

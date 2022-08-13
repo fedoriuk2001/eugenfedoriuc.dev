@@ -11,7 +11,7 @@ export default function MainSection({ children, open }) {
             : "relative xl:static shadow-2xl max-height-none overflow-hidden transform transition-all duration-500"
         }
       >
-        <div className="z-0 relative bg-eugen-primary dark:bg-eugen-primary-dark w-full min-w-screen pb-20 xl:pb-0 xl:overflow-auto transition-background duration-300 overflow-auto">
+        <div className="overflow-hidden z-0 relative bg-eugen-primary dark:bg-eugen-primary-dark w-full min-w-screen pb-20 xl:pb-0 xl:overflow-auto transition-background duration-300 overflow-auto">
           {children}
         </div>
       </div>
