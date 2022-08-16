@@ -9,6 +9,15 @@
     -moz-tab-size: 4;
     -o-tab-size: 4;
     tab-size: 4;
+
+    --color-text: navy;
+    --color-bg: papayawhip;
+    --color-bg-accent: #ecdcc0;
+    --size: clamp(10rem, 1rem + 40vmin, 30rem);
+    --gap: calc(var(--size) / 14);
+    --duration: 60s;
+    --scroll-start: 0;
+    --scroll-end: calc(-100% - var(--gap));
   }
 
   * {
@@ -641,4 +650,123 @@ h3 {
   to {
     transform: rotate(359deg);
   }
+}
+
+/* ? ===============   Marquee   =============== */
+.marquee {
+  display: flex;
+  overflow: hidden;
+  user-select: none;
+  gap: var(--gap);
+  mask-image: linear-gradient(
+    var(--mask-direction, to right),
+    hsl(0 0% 0% / 0),
+    hsl(0 0% 0% / 1) 20%,
+    hsl(0 0% 0% / 1) 80%,
+    hsl(0 0% 0% / 0)
+  );
+}
+
+.marquee__group {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: var(--gap);
+  min-width: 100%;
+  animation: scroll-x var(--duration) linear infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .marquee__group {
+    animation-play-state: paused;
+  }
+}
+
+.marquee--reverse .marquee__group {
+  animation-direction: reverse;
+  animation-delay: -3s;
+}
+
+@keyframes scroll-x {
+  from {
+    transform: translateX(var(--scroll-start));
+  }
+  to {
+    transform: translateX(var(--scroll-end));
+  }
+}
+
+@keyframes scroll-y {
+  from {
+    transform: translateY(var(--scroll-start));
+  }
+  to {
+    transform: translateY(var(--scroll-end));
+  }
+}
+
+/* Parent wrapper */
+.marquee__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap);
+  max-width: 100vw;
+}
+
+@keyframes fade {
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+/* ? ===============   First Page   =============== */
+.gallery {
+  --z: 32px; /* control the zig-zag  */
+  --s: 360px; /* control the size */
+  --g: 8px; /* control the gap */
+
+  display: grid;
+  gap: var(--g);
+  width: 100%;
+  height: 100vh;
+  grid-auto-flow: column;
+}
+
+.gallery > img {
+  width: 0;
+  min-width: calc(100% + var(--z) / 2);
+  height: 100vh;
+  object-fit: cover;
+  -webkit-mask: var(--mask);
+  mask: var(--mask);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.gallery > img:hover {
+  width: calc(var(--s) / 2);
+}
+
+.gallery > img:first-child {
+  place-self: start;
+  --mask: conic-gradient(
+      from -135deg at right,
+      #0000,
+      #000 1deg 89deg,
+      #0000 90deg
+    )
+    50%/100% calc(2 * var(--z)) repeat-y;
+}
+
+.gallery > img:last-child {
+  place-self: end;
+  --mask: conic-gradient(
+      from 45deg at left,
+      #0000,
+      #000 1deg 89deg,
+      #0000 90deg
+    )
+    50% calc(50% - var(--z)) / 100% calc(2 * var(--z)) repeat-y;
 }

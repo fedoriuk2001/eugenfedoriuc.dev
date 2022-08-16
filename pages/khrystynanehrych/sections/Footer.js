@@ -30,7 +30,7 @@ export default function Footer() {
                 viewport={{ once: true }}
                 className="text-2xl font-semibold"
               >
-                Eugen Fedoriuc
+                Khrystyna Nehrych
               </motion.p>
               <div>
                 <motion.p
@@ -112,7 +112,7 @@ export default function Footer() {
                   Quick Links
                 </motion.p>
                 <div className="grid gap-2">
-                  <Link href="/eugenfedoriuc/home">
+                  <Link href="/khrystynanehrych/home">
                     <motion.p
                       whileHover={{ scale: 1.1 }}
                       whileTap={{ scale: 0.9 }}
@@ -125,7 +125,7 @@ export default function Footer() {
                       </a>
                     </motion.p>
                   </Link>
-                  <Link href="/eugenfedoriuc/about">
+                  <Link href="/khrystynanehrych/about">
                     <motion.p
                       whileHover={{ scale: 1.1 }}
                       whileTap={{ scale: 0.9 }}
@@ -138,7 +138,7 @@ export default function Footer() {
                       </a>
                     </motion.p>
                   </Link>
-                  <Link href="/eugenfedoriuc/projects">
+                  <Link href="/khrystynanehrych/projects">
                     <motion.p
                       whileHover={{ scale: 1.1 }}
                       whileTap={{ scale: 0.9 }}
@@ -151,7 +151,7 @@ export default function Footer() {
                       </a>
                     </motion.p>
                   </Link>
-                  <Link href="/eugenfedoriuc/services">
+                  <Link href="/khrystynanehrych/services">
                     <motion.p
                       whileHover={{ scale: 1.1 }}
                       whileTap={{ scale: 0.9 }}
@@ -164,7 +164,7 @@ export default function Footer() {
                       </a>
                     </motion.p>
                   </Link>
-                  <Link href="/eugenfedoriuc/contact">
+                  <Link href="/khrystynanehrych/contact">
                     <motion.p
                       whileHover={{ scale: 1.1 }}
                       whileTap={{ scale: 0.9 }}
@@ -193,7 +193,7 @@ export default function Footer() {
                   Do you need a beautiful design of photos, websites, web apps,
                   3D models, mock ups and more other stuff?
                 </motion.p>
-                <Link href="/khrystynanehrych/home">
+                <Link href="/eugenfedoriuc/home">
                   <motion.p
                     whileHover={{ scale: 1.02 }}
                     whileTap={{ scale: 0.98 }}

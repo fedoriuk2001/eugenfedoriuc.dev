@@ -6,9 +6,20 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div>
-      <Link href="/eugenfedoriuc/home">Eugen Fedoriuc</Link>
-      <br />
-      <Link href="/khrystynanehrych/home">Khrystyna Nehrych</Link>
+      <div className="gallery">
+        <Link className="absolute" href="/khrystynanehrych/home">
+          <img
+            src="https://assets.codepen.io/1480814/archer.jpg"
+            alt=""
+          />
+        </Link>
+        <Link className="absolute" href="/eugenfedoriuc/home">
+          <img
+            src="https://assets.codepen.io/1480814/saber.jpg"
+            alt=""
+          />
+        </Link>
+      </div>
     </div>
   );
 }

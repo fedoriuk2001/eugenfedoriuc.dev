@@ -46,7 +46,7 @@ export default function FifthHomeSection() {
                 dream application.
               </motion.p>
             </div>
-            <Link href="/eugenfedoriuc/contact">
+            <Link href="/khrystynanehrych/contact">
               <motion.a
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}

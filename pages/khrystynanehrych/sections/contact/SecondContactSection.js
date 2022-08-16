@@ -98,7 +98,7 @@ export default function SecondContactSection() {
                   id="email"
                   type="email"
                   className="w-full px-3 py-4 bg-white border border-gray-200 rounded-lg outline-none shadow-xs dark:text-black focus:ring-1 focus:ring-gray-700"
-                  placeholder="hello@skyward.digital"
+                  placeholder="fedoriuk2001@gmail.com"
                 />
               </div>
             </div>
