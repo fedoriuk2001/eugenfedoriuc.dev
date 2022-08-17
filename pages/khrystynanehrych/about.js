@@ -16,7 +16,10 @@ import SixthAboutSection from "./sections/about/SixthAboutSection";
 // ! ###############   Code   ###############
 export default function about() {
   return (
-    <Layout title="Khrystyna Nehrych - About" description="We have a description">
+    <Layout
+      title="Khrystyna Nehrych - About"
+      description="We have a description"
+    >
       <FirstAboutSection />
       <div>
         <SecondAboutSection />

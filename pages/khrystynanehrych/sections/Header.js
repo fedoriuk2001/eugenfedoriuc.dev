@@ -120,7 +120,7 @@ export default function Header() {
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 viewport={{ once: true }}
-                className="font-bold text-md px-4 rounded-lg text-center bg-eugen-secondary py-2 mr-2 xs:text-sm lg:text-lg lg:px-5 lg:py-2.5 hover:bg-eugen-secondary-hover dark:bg-eugen-secondary-dark dark:hover:bg-eugen-secondary-hover-dark"
+                className="font-bold text-md px-4 rounded-lg text-center bg-kris-secondary py-2 mr-2 xs:text-sm lg:text-lg lg:px-5 lg:py-2.5 hover:bg-kris-secondary-hover dark:bg-kris-secondary-dark dark:hover:bg-kris-secondary-hover-dark"
               >
                 Hire Me
               </motion.a>

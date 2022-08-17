@@ -62,13 +62,7 @@ export default function Background({ onClick, open }) {
   };
 
   return (
-    <div
-      className={
-        open
-          ? "relative w-full min-w-screen xl:overflow-auto z-9000"
-          : "relative w-full min-w-screen xl:overflow-auto z-9000"
-      }
-    >
+    <div className="relative w-full min-w-screen xl:overflow-auto z-9000">
       <div className=" min-h-[628px] fixed top-0 left-0 right-0 flex items-center pl-4 pr-20 py-4 transition-all duration-500 xl:hidden">
         <nav className="z-0">
           <div className="mb-8">
@@ -96,7 +90,6 @@ export default function Background({ onClick, open }) {
                 whileInView={{ opacity: 1 }}
                 viewport={{ once: true }}
                 className="flex items-center justify-start p-2 hover:no-underline"
-                href="index.html"
               >
                 <div className="rounded-full block overflow-hidden relative">
                   {/* <Image className="block w-full"/> */}
@@ -119,10 +112,7 @@ export default function Background({ onClick, open }) {
                 viewport={{ once: true }}
               >
                 <span className="flex items-center">
-                  <a
-                    className="block text-inverted font-semibold p-3 flex items-center"
-                    href="#"
-                  >
+                  <a className="block text-inverted font-semibold p-3 flex items-center">
                     <AiFillHome size="25px" className="mr-6 ml-4" />
                     Home
                   </a>
@@ -139,10 +129,7 @@ export default function Background({ onClick, open }) {
                 viewport={{ once: true }}
               >
                 <span className="flex items-center">
-                  <a
-                    className="block text-inverted font-semibold p-3 flex items-center"
-                    href="#"
-                  >
+                  <a className="block text-inverted font-semibold p-3 flex items-center">
                     <RiInformationFill size="25px" className="mr-6 ml-4" />
                     About
                   </a>
@@ -159,10 +146,7 @@ export default function Background({ onClick, open }) {
                 viewport={{ once: true }}
               >
                 <span className="flex items-center">
-                  <a
-                    className="block text-inverted font-semibold p-3 flex items-center"
-                    href="#"
-                  >
+                  <a className="block text-inverted font-semibold p-3 flex items-center">
                     <AiFillProject size="25px" className="mr-6 ml-4" />
                     Projects
                   </a>
@@ -179,10 +163,7 @@ export default function Background({ onClick, open }) {
                 viewport={{ once: true }}
               >
                 <span className="flex items-center">
-                  <a
-                    className="block text-inverted font-semibold p-3 flex items-center"
-                    href="#"
-                  >
+                  <a className="block text-inverted font-semibold p-3 flex items-center">
                     <RiCustomerServiceFill size="25px" className="mr-6 ml-4" />
                     Services
                   </a>
@@ -199,10 +180,7 @@ export default function Background({ onClick, open }) {
                 viewport={{ once: true }}
               >
                 <span className="flex items-center">
-                  <a
-                    className="block text-inverted font-semibold p-3 flex items-center"
-                    href="#"
-                  >
+                  <a className="block text-inverted font-semibold p-3 flex items-center">
                     <FaHandshake size="25px" className="mr-6 ml-4" />
                     Hire me today
                   </a>

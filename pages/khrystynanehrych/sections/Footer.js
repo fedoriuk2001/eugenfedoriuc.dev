@@ -11,8 +11,6 @@ import { motion } from "framer-motion";
 
 // ! ###############   Code   ###############
 export default function Footer() {
-  // const [childname, changeChildName] = useState("I am a child");
-
   return (
     <footer>
       <div className="container">
@@ -38,8 +36,7 @@ export default function Footer() {
                   whileInView={{ opacity: 1 }}
                   viewport={{ once: true }}
                 >
-                  One of the easiest way to make a modern website is to let me
-                  make it.
+                  Simplicity is the soul of efficiency
                 </motion.p>
                 <br />
                 <motion.p
@@ -68,7 +65,7 @@ export default function Footer() {
                       <BsInstagram size="25px" />
                     </motion.a>
                   </Link>
-                  <Link href="https://at.linkedin.com/in/eugen-fedoriuc-745804227">
+                  <Link href="#">
                     <motion.a
                       whileHover={{ scale: 1.1 }}
                       whileTap={{ scale: 0.9 }}
@@ -83,7 +80,7 @@ export default function Footer() {
                       <BsLinkedin size="25px" />
                     </motion.a>
                   </Link>
-                  <Link href="https://github.com/fedoriuk2001">
+                  <Link href="#">
                     <motion.a
                       whileHover={{ scale: 1.1 }}
                       whileTap={{ scale: 0.9 }}
@@ -190,8 +187,7 @@ export default function Footer() {
                   viewport={{ once: true }}
                   className="font-semibold"
                 >
-                  Do you need a beautiful design of photos, websites, web apps,
-                  3D models, mock ups and more other stuff?
+                  Do you need a website or web app to create?
                 </motion.p>
                 <Link href="/eugenfedoriuc/home">
                   <motion.p
@@ -202,9 +198,7 @@ export default function Footer() {
                     viewport={{ once: true }}
                     className="transition-all cursor-pointer dark:hover:text-eugen-accent-hover-dark"
                   >
-                    <strong className="">
-                      Click here to check Khrystyna&#39;s Profile
-                    </strong>
+                    <strong>Click here to check Eugen&#39;s Profile</strong>
                   </motion.p>
                 </Link>
               </div>

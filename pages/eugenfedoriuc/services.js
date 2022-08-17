@@ -16,7 +16,7 @@ export default function services() {
       title="Eugen Fedoriuc - Services"
       description="We have a description"
     >
-      <FirstProjectsSection title="I'll do everything, what necessary is in order to get website of your dream" />
+      <FirstProjectsSection title="I'll do everything in order to get website of your dream" />
       <div>
         <ThirdHomeSection />
         <FifthHomeSection />

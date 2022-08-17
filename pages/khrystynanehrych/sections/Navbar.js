@@ -26,8 +26,8 @@ export default function Navbar({ onClick, open }) {
           flex 
           justify-evenly 
           py-3 
-          bg-eugen-secondary 
-          dark:bg-eugen-secondary-dark
+          bg-kris-secondary 
+          dark:bg-kris-secondary-dark
           rounded-lg 
           overflow-hidden"
       >
@@ -55,7 +55,7 @@ export default function Navbar({ onClick, open }) {
             <span className="text-xs">About</span>
           </a>
         </Link>
-        <Link href="/eugenfedoriuc/projects">
+        <Link href="/khrystynanehrych/projects">
           <a className="relative text-inverted text-center" title="Projects">
             <AiFillProject size="25px" className="m-auto" />
             <span className="text-xs">Projects</span>

@@ -12,7 +12,10 @@ import ProjectItem from "./sections/projects/ProjectItem";
 // ! ###############   Code   ###############
 export default function projects() {
   return (
-    <Layout title="Khrystyna Nehrych - About" description="We have a description">
+    <Layout
+      title="Khrystyna Nehrych - Projects"
+      description="We have a description"
+    >
       <FirstProjectsSection title="Projects" />
       <div className="container">
         <ProjectItem />

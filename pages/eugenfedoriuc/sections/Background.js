@@ -62,13 +62,7 @@ export default function Background({ onClick, open }) {
   };
 
   return (
-    <div
-      className={
-        open
-          ? "relative w-full min-w-screen xl:overflow-auto z-9000"
-          : "relative w-full min-w-screen xl:overflow-auto z-9000"
-      }
-    >
+    <div className="relative w-full min-w-screen xl:overflow-auto z-9000">
       <div className=" min-h-[628px] fixed top-0 left-0 right-0 flex items-center pl-4 pr-20 py-4 transition-all duration-500 xl:hidden">
         <nav className="z-0">
           <div className="mb-8">
@@ -229,7 +223,7 @@ export default function Background({ onClick, open }) {
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
-              href=""
+              href="https://at.linkedin.com/in/eugen-fedoriuc-745804227"
               className="p-1 pl-3"
               title="LinkedIn"
             >
@@ -241,7 +235,7 @@ export default function Background({ onClick, open }) {
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
-              href=""
+              href="https://github.com/fedoriuk2001"
               className="p-1 pl-3"
               title="GitHub"
             >

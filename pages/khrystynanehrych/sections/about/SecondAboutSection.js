@@ -36,7 +36,7 @@ export default function SecondAboutSection() {
           <div>
             <p>
               I&#39;m
-              <Link href="/eugenfedoriuc/contact">
+              <Link href="/khrystynanehrych/contact">
                 <motion.b
                   className="transition-all cursor-pointer hover:text-primary dark:hover:text-yellow-300"
                   whileHover={{ scale: 1.03 }}

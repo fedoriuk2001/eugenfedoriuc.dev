@@ -42,8 +42,8 @@ export default function FifthHomeSection() {
                 whileInView={{ opacity: 1 }}
                 viewport={{ once: true }}
               >
-                Get your space suit ready and tell me your ideas to develop your
-                dream application.
+                Get your space suit ready and tell me your ideas to create the
+                project of your dream.
               </motion.p>
             </div>
             <Link href="/khrystynanehrych/contact">
@@ -53,7 +53,7 @@ export default function FifthHomeSection() {
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 viewport={{ once: true }}
-                className="btn btn-inverted bg-eugen-secondary hover:bg-eugen-secondary-hover dark:bg-eugen-secondary-dark dark:hover:bg-eugen-secondary-hover-dark"
+                className="btn btn-inverted bg-kris-secondary hover:bg-kris-secondary-hover dark:bg-kris-secondary-dark dark:hover:bg-kris-secondary-hover-dark"
               >
                 Get in touch with me!
               </motion.a>

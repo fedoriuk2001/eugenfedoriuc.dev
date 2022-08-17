@@ -1,15 +1,15 @@
 // ! ###############   Importing   ###############
 // ===============   Next JS   ===============
 import Link from "next/link";
+import Image from "next/image";
 
 // ===============   Animation   ===============
 import { motion } from "framer-motion";
 
 // ===============   Icons   ===============
-import { CodeIcon } from "@heroicons/react/solid";
 import SearchIcon from "../../../images/iconsJS/SearchIcon";
 import PlanningIcon from "../../../images/iconsJS/PlanningIcon";
-import DesignIcon from "../../../images/iconsJS/DesignIcon";
+import TestingIcon from "../../../images/iconsJS/TestingIcon";
 import { BiBookContent } from "react-icons/bi";
 
 // ! ###############   Code   ###############
@@ -24,13 +24,13 @@ export default function ThirdHomeSection() {
           whileHover={{ scale: 1.01 }}
           className="mb-12 lg:mb-24 mt-12 lg:mt-24"
         >
-          Everything you need for a perfect website
+          Everything you need for a perfect design
         </motion.h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-16 mb-12 lg:mb-24">
           <div className="flex -mx-3 text-left">
             <div className="mx-3">
               <motion.div
-                className="rounded-lg p-4 w-16 h-16 grid place-items-center bg-eugen-secondary hover:bg-eugen-secondary-hover dark:bg-eugen-secondary-dark dark:hover:bg-eugen-secondary-hover-dark"
+                className="rounded-lg p-4 w-16 h-16 grid place-items-center bg-kris-secondary hover:bg-kris-secondary-hover dark:bg-kris-secondary-dark dark:hover:bg-kris-secondary-hover-dark"
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 viewport={{ once: true }}
@@ -46,16 +46,17 @@ export default function ThirdHomeSection() {
                 viewport={{ once: true }}
                 className="text-2xl mb-4"
               >
-                Information Gathering
+                Information Gathering &#38; Planning
               </motion.h3>
               <motion.p
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 viewport={{ once: true }}
               >
-                I get a clear understanding of your future website purposes, the
-                main goals are, what you wish to get, and the target audience
-                you want to attract to your site.
+                I get a clear understanding of your future project, what you
+                wish to get, and the target audience you want to attract to the
+                project and I create the data that allows you to judge how the
+                entire project will look like.
               </motion.p>
             </div>
           </div>
@@ -66,73 +67,7 @@ export default function ThirdHomeSection() {
                 whileInView={{ opacity: 1 }}
                 viewport={{ once: true }}
                 whileHover={{ scale: 1.02 }}
-                className="rounded-lg p-4 w-16 h-16 grid place-items-center bg-eugen-secondary hover:bg-eugen-secondary-hover dark:bg-eugen-secondary-dark dark:hover:bg-eugen-secondary-hover-dark"
-              >
-                <PlanningIcon />
-              </motion.div>
-            </div>
-            <div className="mx-3">
-              <motion.h3
-                initial={{ opacity: 0 }}
-                whileInView={{ opacity: 1 }}
-                viewport={{ once: true }}
-                className="text-2xl mb-4"
-              >
-                Planning
-              </motion.h3>
-              <motion.p
-                initial={{ opacity: 0 }}
-                whileInView={{ opacity: 1 }}
-                viewport={{ once: true }}
-              >
-                I create the data that allows you to judge how the entire site
-                will look like.
-              </motion.p>
-            </div>
-          </div>
-          <Link href="/khrystynanehrych/home">
-            <div className="flex -mx-3 text-left cursor-pointer">
-              <div className="mx-3">
-                <motion.div
-                  initial={{ opacity: 0 }}
-                  whileInView={{ opacity: 1 }}
-                  viewport={{ once: true }}
-                  whileHover={{ scale: 1.02 }}
-                  className="rounded-lg p-4 w-16 h-16 grid place-items-center bg-eugen-secondary hover:bg-eugen-secondary-hover dark:bg-eugen-secondary-dark dark:hover:bg-eugen-secondary-hover-dark"
-                >
-                  <DesignIcon />
-                </motion.div>
-              </div>
-              <div className="mx-3">
-                <motion.h3
-                  initial={{ opacity: 0 }}
-                  whileInView={{ opacity: 1 }}
-                  viewport={{ once: true }}
-                  className="text-2xl mb-4 cursor-pointer"
-                >
-                  Design
-                </motion.h3>
-
-                <motion.p
-                  initial={{ opacity: 0 }}
-                  whileInView={{ opacity: 1 }}
-                  viewport={{ once: true }}
-                  className="cursor-pointer"
-                >
-                  <strong>Khrystyna Nehrych</strong> creates a beautiful design
-                  for you beyond my control.
-                </motion.p>
-              </div>
-            </div>
-          </Link>
-          <div className="flex -mx-3 text-left">
-            <div className="mx-3">
-              <motion.div
-                initial={{ opacity: 0 }}
-                whileInView={{ opacity: 1 }}
-                viewport={{ once: true }}
-                whileHover={{ scale: 1.02 }}
-                className="rounded-lg p-4 w-16 h-16 grid place-items-center bg-eugen-secondary hover:bg-eugen-secondary-hover dark:bg-eugen-secondary-dark dark:hover:bg-eugen-secondary-hover-dark"
+                className="rounded-lg p-4 w-16 h-16 grid place-items-center bg-kris-secondary hover:bg-kris-secondary-hover dark:bg-kris-secondary-dark dark:hover:bg-kris-secondary-hover-dark"
               >
                 <BiBookContent className="w-8 h-8" />
               </motion.div>
@@ -144,15 +79,14 @@ export default function ThirdHomeSection() {
                 viewport={{ once: true }}
                 className="text-2xl mb-4"
               >
-                Content Writing and Assembly
+                Doing a project
               </motion.h3>
               <motion.p
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 viewport={{ once: true }}
               >
-                I build with your goals in mind, whether you want a simple
-                flexible website, a custom storefront or a SaaS product.
+                I build a perfect project with your goals in mind.
               </motion.p>
             </div>
           </div>
@@ -163,9 +97,9 @@ export default function ThirdHomeSection() {
                 whileInView={{ opacity: 1 }}
                 viewport={{ once: true }}
                 whileHover={{ scale: 1.02 }}
-                className="rounded-lg p-4 w-16 h-16 grid place-items-center bg-eugen-secondary hover:bg-eugen-secondary-hover dark:bg-eugen-secondary-dark dark:hover:bg-eugen-secondary-hover-dark"
+                className="rounded-lg p-4 w-16 h-16 grid place-items-center bg-kris-secondary hover:bg-kris-secondary-hover dark:bg-kris-secondary-dark dark:hover:bg-kris-secondary-hover-dark"
               >
-                <CodeIcon />
+                <TestingIcon />
               </motion.div>
             </div>
             <div className="mx-3">
@@ -175,65 +109,20 @@ export default function ThirdHomeSection() {
                 viewport={{ once: true }}
                 className="text-2xl mb-4"
               >
-                Coding
+                Review
               </motion.h3>
               <motion.p
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 viewport={{ once: true }}
               >
-                I ensure your website is of excellent quality by thoroughly
-                testing using multiple approaches.
-              </motion.p>
-            </div>
-          </div>
-          <div className="flex -mx-3 text-left">
-            <div className="mx-3">
-              <motion.div
-                initial={{ opacity: 0 }}
-                whileInView={{ opacity: 1 }}
-                viewport={{ once: true }}
-                whileHover={{ scale: 1.02 }}
-                className="rounded-lg p-4 w-16 h-16 grid place-items-center bg-eugen-secondary hover:bg-eugen-secondary-hover dark:bg-eugen-secondary-dark dark:hover:bg-eugen-secondary-hover-dark"
-              >
-                <svg
-                  aria-hidden="true"
-                  focusable="false"
-                  data-prefix="fal"
-                  data-icon="vial"
-                  className="svg-inline--fa fa-vial fa-w-15 text-2xl"
-                  role="img"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 480 512"
-                >
-                  <path
-                    fill="currentColor"
-                    d="M477.7 188L308 18.3c-3.1-3.1-8.2-3.1-11.3 0l-11.3 11.3c-3.1 3.1-3.1 8.2 0 11.3l17 17L28.1 332.1c-37.5 37.5-37.6 98.2 0 135.7 37.5 37.5 98.2 37.6 135.7 0L438 193.6l17 17c3.1 3.1 8.2 3.1 11.3 0l11.3-11.3c3.2-3.1 3.2-8.1.1-11.3zM141.3 445.2c-24.2 24.2-66.3 24.2-90.5 0-25-25-25-65.5 0-90.5l66.7-66.7h181L141.3 445.2zM330.5 256h-181L324.9 80.6l90.5 90.5-84.9 84.9z"
-                  ></path>
-                </svg>
-              </motion.div>
-            </div>
-            <div className="mx-3">
-              <motion.h3
-                initial={{ opacity: 0 }}
-                whileInView={{ opacity: 1 }}
-                viewport={{ once: true }}
-                className="text-2xl mb-4"
-              >
-                Testing, Review, Launch &#38; Maintenance
-              </motion.h3>
-              <motion.p
-                initial={{ opacity: 0 }}
-                whileInView={{ opacity: 1 }}
-                viewport={{ once: true }}
-              >
-                Your website is always growing. Whether you’re adding new
-                features or making improvements I’m here to help.
+                On this point, you can review the project and be sure that the
+                it&#39;s done.
               </motion.p>
             </div>
           </div>
         </div>
-        <Link href="/eugenfedoriuc/services">
+        <Link href="/khrystynanehrych/services">
           <motion.a
             className="btn btn-muted"
             whileHover={{ scale: 1.1 }}

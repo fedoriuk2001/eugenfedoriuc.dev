@@ -13,7 +13,7 @@ import SixthProjectSection from "../sections/projects/projectPage/project1/Sixth
 // ! ###############   Code   ###############
 export default function project1() {
   return (
-    <Layout title="Eugen Fedoriuc - About" description="We have a description">
+    <Layout title="Eugen Fedoriuc - Project 1" description="We have a description">
       <div className="container">
         <FirstProjectSection />
         <article className="relative max-w-3xl mx-auto">

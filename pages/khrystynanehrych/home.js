@@ -12,7 +12,10 @@ import FifthHomeSection from "./sections/home/FifthHomeSection";
 // ! ###############   Code   ###############
 export default function home() {
   return (
-    <Layout title="Khrystyna Nehrych - Home" description="We have a description">
+    <Layout
+      title="Khrystyna Nehrych - Home"
+      description="We have a description"
+    >
       <FirstHomeSection />
       <div>
         <SecondHomeSection />

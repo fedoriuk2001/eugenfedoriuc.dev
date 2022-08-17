@@ -11,8 +11,6 @@ import { motion } from "framer-motion";
 
 // ! ###############   Code   ###############
 export default function Footer() {
-  // const [childname, changeChildName] = useState("I am a child");
-
   return (
     <footer>
       <div className="container">
@@ -202,7 +200,7 @@ export default function Footer() {
                     viewport={{ once: true }}
                     className="transition-all cursor-pointer dark:hover:text-eugen-accent-hover-dark"
                   >
-                    <strong className="">
+                    <strong>
                       Click here to check Khrystyna&#39;s Profile
                     </strong>
                   </motion.p>

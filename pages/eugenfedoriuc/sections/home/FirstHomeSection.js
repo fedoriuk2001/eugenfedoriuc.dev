@@ -41,8 +41,7 @@ export default function FirstHomeSection() {
           whileHover={{ scale: 1.01 }}
           className="mb-10"
         >
-          One of the easiest way to realize, what you want is to <br /> let me
-          make it
+          In order to be irreplaceable, one must always be different
         </motion.h1>
 
         <Link href="/eugenfedoriuc/contact">

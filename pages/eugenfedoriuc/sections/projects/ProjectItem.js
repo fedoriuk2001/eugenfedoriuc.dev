@@ -1,7 +1,6 @@
 // ! ###############   Importing   ###############
 // ===============   Next JS   ===============
 import Link from "next/link";
-import Image from "next/image";
 
 // ===============   Animation   ===============
 import { motion } from "framer-motion";

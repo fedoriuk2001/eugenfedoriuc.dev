@@ -24,12 +24,9 @@ export default function FirstHomeSection() {
             type="typewriter"
             dataText={[
               "Start",
-              "Information Gathering",
-              "Planning",
-              "Design",
-              "Content Writing and Assembly",
-              "Coding",
-              "Testing, Review, Launch & Maintenance",
+              "Information Gathering & Planning",
+              "Doing a project",
+              "Review",
               "Result",
             ]}
           />
@@ -41,8 +38,7 @@ export default function FirstHomeSection() {
           whileHover={{ scale: 1.01 }}
           className="mb-10"
         >
-          One of the easiest way to realize, what you want is to <br /> let me
-          make it
+          Simplicity is the soul of efficiency
         </motion.h1>
 
         <Link href="/khrystynanehrych/contact">
