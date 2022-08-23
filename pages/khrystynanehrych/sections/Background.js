@@ -9,7 +9,7 @@ import { useState, useEffect } from "react";
 
 // ===============   Icons   ===============
 import { SunIcon, MoonIcon } from "@heroicons/react/solid";
-import { BsInstagram, BsLinkedin, BsGithub } from "react-icons/bs";
+import { BsInstagram, BsLinkedin } from "react-icons/bs";
 import { AiFillHome, AiFillProject } from "react-icons/ai";
 import { IoClose } from "react-icons/io5";
 import { RiInformationFill, RiCustomerServiceFill } from "react-icons/ri";
@@ -212,18 +212,6 @@ export default function Background({ onClick, open }) {
               title="LinkedIn"
             >
               <BsLinkedin size="25px" />
-            </motion.a>
-            <motion.a
-              whileHover={{ scale: 1.1 }}
-              whileTap={{ scale: 0.9 }}
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
-              viewport={{ once: true }}
-              href=""
-              className="p-1 pl-3"
-              title="GitHub"
-            >
-              <BsGithub size="25px" />
             </motion.a>
           </div>
         </nav>

@@ -26,7 +26,7 @@ export default function FourthAboutSection() {
           </motion.div>
         </div>
         <div className="w-full md:w-7/12 md:mx-8">
-          <h2></h2>
+          <h2 className="mb-10">HTML &#38; CSS</h2>
           <motion.div
             whileHover={{ scale: 1.01 }}
             initial={{ opacity: 0 }}
@@ -34,18 +34,11 @@ export default function FourthAboutSection() {
             viewport={{ once: true }}
           >
             <p>
-              I used this flexibility to expand what I can offer. I am no longer
-              just a developer, with expertise in User Experience Design,
-              Accessibility, Strategy and Testing I help businesses realise
-              their goal by bringing their ideas to life.
-            </p>
-
-            <p>
-              <Link href="/services">
-                <a className="text-[#ff0000]">
-                  How the services I offer could help you
-                </a>
-              </Link>
+              I proceeded to learn the fundamentals of HTML &#38; CSS and web
+              design through Youtube and W3School. They are still my
+              favorites today, since the pacing is great, and the overall scope
+              of what they cover allowed me to acquire a stronger foundation to
+              this.
             </p>
           </motion.div>
         </div>

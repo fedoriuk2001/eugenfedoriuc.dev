@@ -32,7 +32,7 @@ export default function SecondAboutSection() {
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
         >
-          <h2 className="mb-10">My Story</h2>
+          <h2 className="mb-10">About Me</h2>
           <div>
             <p>
               I&#39;m

@@ -13,7 +13,7 @@ export default function FirstContactSection() {
           viewport={{ once: true }}
           whileHover={{ scale: 1.01 }}
         >
-          Get a fast websites designed to grow with your business
+          Get a fast respond about your project ideas
         </motion.h1>
       </div>
     </section>

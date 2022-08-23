@@ -4,7 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 // ===============   Icons   ===============
-import { BsInstagram, BsLinkedin, BsGithub } from "react-icons/bs";
+import { BsInstagram, BsLinkedin } from "react-icons/bs";
 
 // ===============   Animation   ===============
 import { motion } from "framer-motion";
@@ -78,21 +78,6 @@ export default function Footer() {
                       rel="noopener noreferrer"
                     >
                       <BsLinkedin size="25px" />
-                    </motion.a>
-                  </Link>
-                  <Link href="#">
-                    <motion.a
-                      whileHover={{ scale: 1.1 }}
-                      whileTap={{ scale: 0.9 }}
-                      initial={{ opacity: 0 }}
-                      whileInView={{ opacity: 1 }}
-                      viewport={{ once: true }}
-                      className="p-1 pl-2 pt-0"
-                      title="GitHub"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <BsGithub size="25px" />
                     </motion.a>
                   </Link>
                 </div>

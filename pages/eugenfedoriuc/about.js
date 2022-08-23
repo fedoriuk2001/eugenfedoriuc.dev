@@ -12,6 +12,9 @@ import ThirdAboutSection from "./sections/about/ThirdAboutSection";
 import FourthAboutSection from "./sections/about/FourthAboutSection";
 import FifthAboutSection from "./sections/about/FifthAboutSection";
 import SixthAboutSection from "./sections/about/SixthAboutSection";
+import SeventhAboutSection from "./sections/about/SeventhAboutSection";
+
+import LastAboutSection from "./sections/about/LastAboutSection";
 
 // ! ###############   Code   ###############
 export default function about() {
@@ -24,6 +27,8 @@ export default function about() {
         <FourthAboutSection />
         <FifthAboutSection />
         <SixthAboutSection />
+        <SeventhAboutSection />
+        <LastAboutSection />
         <FifthHomeSection />
       </div>
     </Layout>

@@ -1,9 +1,38 @@
 // ! ###############   Importing   ###############
+// ===============   React  ===============
+import React, { useRef } from "react";
+
+// ===============   Email JS   ===============
+import emailjs from "@emailjs/browser";
+
 // ===============   Animation   ===============
 import { motion } from "framer-motion";
 
 // ! ###############   Code   ###############
 export default function SecondContactSection() {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_rigtkyv",
+        "template_r8wggmg",
+        form.current,
+        "user_0NbRzg53Ywgzu6Pyrfm34"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          console.log("message sent!");
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
+
   return (
     <section className="container">
       <div className="items-center grid md:grid-cols-2 gap-24">
@@ -26,18 +55,18 @@ export default function SecondContactSection() {
               Or if you prefer to send me something longer, feel free to email
               us me{" "}
               <a
-                href="mailto:fedoriuk2001@gmail.com"
+                href="mailto:khrystynanehrych@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="font-bold text-eugen-accent hover:text-eugen-accent-hover dark:text-eugen-accent-dark dark:hover:text-eugen-accent-hover-dark"
               >
-                fedoriuk2001@gmail.com
+                khrystynanehrych@gmail.com
               </a>
             </motion.p>
           </div>
           <div className="flex flex-wrap gap-3">
             <motion.a
-              href="mailto:fedoriuk2001@gmail.com"
+              href="mailto:khrystynanehrych@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
               className="text-center w-[100%] btn btn-primary btn-xl bg-eugen-accent hover:bg-eugen-accent-hover dark:bg-eugen-accent-dark dark:hover:bg-eugen-accent-hover-dark"
@@ -59,17 +88,15 @@ export default function SecondContactSection() {
           viewport={{ once: true }}
         >
           <form
+            ref={form}
+            onSubmit={sendEmail}
             className="max-w-3xl mx-auto my-6"
-            name="contact"
-            method="POST"
-            id="contactForm"
           >
             <div className="grid">
               <div className="mb-4 text-left grid gap-1">
                 <label className="">First Name</label>
                 <input
-                  name="first_name"
-                  id="first_name"
+                  name="user_firstname"
                   type="text"
                   className="w-full px-3 py-4 bg-white border border-gray-200 rounded-lg outline-none shadow-xs dark:text-black focus:ring-1 focus:ring-gray-700"
                   placeholder="Your first name"
@@ -81,8 +108,7 @@ export default function SecondContactSection() {
               <div className="mb-4 text-left grid gap-1">
                 <label className="">Last Name</label>
                 <input
-                  name="last_name"
-                  id="last_name"
+                  name="user_lastname"
                   type="text"
                   className="w-full px-3 py-4 bg-white border border-gray-200 rounded-lg outline-none shadow-xs dark:text-black focus:ring-1 focus:ring-gray-700"
                   placeholder="Your last name"
@@ -94,11 +120,10 @@ export default function SecondContactSection() {
               <div className="mb-4 text-left grid gap-1">
                 <label className="">Email Address</label>
                 <input
-                  name="email"
-                  id="email"
+                  name="user_email"
                   type="email"
                   className="w-full px-3 py-4 bg-white border border-gray-200 rounded-lg outline-none shadow-xs dark:text-black focus:ring-1 focus:ring-gray-700"
-                  placeholder="fedoriuk2001@gmail.com"
+                  placeholder="khrystynanehrych@gmail.com"
                 />
               </div>
             </div>
@@ -107,7 +132,6 @@ export default function SecondContactSection() {
               <label>Message</label>
               <textarea
                 name="message"
-                id="message"
                 className="w-full px-3 py-4 bg-white border border-gray-200 rounded-lg outline-none shadow-xs dark:text-black focus:ring-1 focus:ring-gray-700"
                 placeholder="How can we help you?"
                 rows="4"

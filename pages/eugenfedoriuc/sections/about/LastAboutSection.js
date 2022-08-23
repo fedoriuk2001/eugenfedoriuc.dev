@@ -9,7 +9,7 @@ import { motion } from "framer-motion";
 import DesignImg from "../../../images/photos/design.png";
 
 // ! ###############   Code   ###############
-export default function SixthAboutSection() {
+export default function LastAboutSection() {
   return (
     <section className="container">
       <div className="py-8 items-center md:flex md:-mx-8  md:flex-row-reverse">
@@ -39,25 +39,25 @@ export default function SixthAboutSection() {
           >
             <p>
               <strong>Don’t know what you need?</strong> I’ll help you build a
-              plan of action which will help your business grow without creating
-              lots more work.
+              plan of action which&#39;ll help you to understand how your future
+              project&#39;ll look like.
             </p>
 
             <p>
               <strong>
                 Already have an idea and need somebody to help create it?
-              </strong>
-              I’ll listen to what you’re trying to achieve and make it as close
-              to your vision as possible, with suggestions along the way to
-              create the best product possible.
+              </strong>{" "}
+              I&#39;ll listen to what you&#39;re trying to achieve and make it
+              as close to your vision as possible, with suggestions along the
+              way to create the best product possible.
             </p>
 
             <p>
               <strong>
                 Have a team working on a project but need a boost of support?
-              </strong>
-              I’m flexible enough to work with any team, even if they’re part
-              way through a project. Just let me know how to get started.
+              </strong>{" "}
+              I&#39;m flexible enough to work with any team, even if they&#39;re
+              part way through a project. Just let me know how to get started.
             </p>
           </motion.div>
         </motion.div>

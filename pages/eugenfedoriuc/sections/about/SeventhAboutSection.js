@@ -9,7 +9,7 @@ import { motion } from "framer-motion";
 import DesignImg from "../../../images/photos/design.png";
 
 // ! ###############   Code   ###############
-export default function FifthAboutSection() {
+export default function SeventhAboutSection() {
   return (
     <section className="container">
       <div className="py-8 items-center md:flex md:-mx-8 md:flex-row-normal">
@@ -31,14 +31,12 @@ export default function FifthAboutSection() {
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
         >
-          <h2 className="mb-10">Less / Sass</h2>
+          <h2 className="mb-10">JavaScript</h2>
 
           <p>
-            For those unfamiliar, Less &#38; Sass are CSS transpilers that allow you
-            to write CSS in a more elegant manner. This lets you do things that
-            aren&#39;t normally supported, like nesting CSS rules. Once finished,
-            these CSS transpilers “compile” your code and convert it to normal
-            CSS. There are 2 major CSS transpilers right now: Less and Sass.
+            I began to start learning JavaScript through Youtube. Once I got the
+            basics out of the way, I proceeded to get a stronger JavaScript
+            foundation. 
           </p>
         </motion.div>
       </div>

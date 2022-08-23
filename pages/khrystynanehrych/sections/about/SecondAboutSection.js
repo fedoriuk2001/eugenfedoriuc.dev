@@ -54,16 +54,18 @@ export default function SecondAboutSection() {
             </p>
 
             <p>
-              I&#39;ve been a developer since I started my career 4 years ago,
-              and have always taken a deep interest in making websites the best
-              they can be for everyone using them.
-            </p>
-
-            <p>
-              Now I design and develop beautiful websites which focus on
-              providing the best experience for everyone using them, ensuring
-              they are easy for your team to edit while also delivering the best
-              experience for your users.
+              My name is Annmarie Jones, and I am from Houston, Texas. I got my
+              start as a graphic designer by creating a logo for my dads
+              barbeque joint. As locals began to see my work, I began designing
+              materials for everything from western wear to crawdads on a stick.
+              Today, I am open to all kinds of design work, although I am always
+              drawn to passion projects that let me go back to my Texan roots.
+              When I'm not working on my latest graphic design project, I might
+              be thrift shopping, cuddling with my cat or volunteering at my
+              local food shelter. I am fully invested in my community and would
+              love to work with a brand that shares these values. If you like my
+              work, please reach out by filling in the contact form below. I
+              can't wait to learn about your brand's design needs!
             </p>
           </div>
         </motion.div>

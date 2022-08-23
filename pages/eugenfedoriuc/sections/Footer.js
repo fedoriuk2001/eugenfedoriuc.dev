@@ -36,8 +36,7 @@ export default function Footer() {
                   whileInView={{ opacity: 1 }}
                   viewport={{ once: true }}
                 >
-                  One of the easiest way to make a modern website is to let me
-                  make it.
+                  In order to be irreplaceable, one must always be different.
                 </motion.p>
                 <br />
                 <motion.p
