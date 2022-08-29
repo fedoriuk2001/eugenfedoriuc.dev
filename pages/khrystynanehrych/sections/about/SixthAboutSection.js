@@ -6,7 +6,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 
 // ===============   Images   ===============
-import ResponsImg from "../../../images/eugen/respons.png";
+import FigmaImg from "../../../images/khrystyna/figma.png";
 
 // ! ###############   Code   ###############
 export default function SixthAboutSection() {
@@ -21,7 +21,7 @@ export default function SixthAboutSection() {
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
           >
-            <Image src={ResponsImg} alt="Design" />
+            <Image src={FigmaImg} alt="Design" />
           </motion.div>
         </div>
         <div className="w-full md:w-7/12 md:mx-8">
@@ -31,12 +31,10 @@ export default function SixthAboutSection() {
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
           >
-          <h2 className="mb-10">Responsive Design</h2>
+            <h2 className="mb-10">Figma</h2>
             <p>
-              I originally learned about responsive design and Bootstrap using
-              Youtube. I can do responsive design without any additional
-              framework, but it&#39;s far easier with the help of a responsive
-              framework like Bootstrap.
+              Figma is one of the best app for creating design of different
+              projects. I can show my personal reflections with Figma, including UI/UX Design for your projects.
             </p>
           </motion.div>
         </div>

@@ -10,6 +10,9 @@ import { useState, useEffect } from "react";
 // ===============   Icons   ===============
 import { SunIcon, MoonIcon } from "@heroicons/react/solid";
 
+// ===============   Images   ===============
+import Logo from "../../images/eugen/fefe.png";
+
 // ===============   Animation   ===============
 import { motion } from "framer-motion";
 
@@ -59,9 +62,11 @@ export default function Header() {
               viewport={{ once: true }}
               className="flex items-center"
             >
-              <img
-                src="https://flowbite.com/docs/images/logo.svg"
-                className="mr-3 h-6 sm:h-9"
+              <Image
+                src={Logo}
+                className="mr-2 h-6 sm:h-9 rounded-full"
+                width={40}
+                height={40}
                 alt="Flowbite Logo"
               />
               <span className="self-center font-semibold whitespace-nowrap text-lg sm:text-xl dark:text-white">

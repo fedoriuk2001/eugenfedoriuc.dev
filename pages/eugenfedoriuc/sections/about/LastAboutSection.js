@@ -6,7 +6,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 
 // ===============   Images   ===============
-import DesignImg from "../../../images/photos/design.png";
+import HandsImg from "../../../images/eugen/hands.png";
 
 // ! ###############   Code   ###############
 export default function LastAboutSection() {
@@ -21,7 +21,7 @@ export default function LastAboutSection() {
           viewport={{ once: true }}
         >
           <div className="rounded-lg block relative overflow-hidden">
-            <Image src={DesignImg} alt="Design" />
+            <Image src={HandsImg} alt="Design" />
           </div>
         </motion.div>
         <motion.div

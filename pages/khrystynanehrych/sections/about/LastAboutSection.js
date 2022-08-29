@@ -6,13 +6,13 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 
 // ===============   Images   ===============
-import DesignImg from "../../../images/photos/design.png";
+import HandsImg from "../../../images/eugen/hands.png";
 
 // ! ###############   Code   ###############
 export default function LastAboutSection() {
   return (
     <section className="container">
-      <div className="py-8 items-center md:flex md:-mx-8  md:flex-row-reverse">
+      <div className="py-8 items-center md:flex md:-mx-8  md:flex-row-normal">
         <motion.div
           className="w-full md:w-5/12 md:mx-8 mb-6"
           whileHover={{ scale: 1.01 }}
@@ -21,7 +21,7 @@ export default function LastAboutSection() {
           viewport={{ once: true }}
         >
           <div className="rounded-lg block relative overflow-hidden">
-            <Image src={DesignImg} alt="Design" />
+            <Image src={HandsImg} alt="Design" />
           </div>
         </motion.div>
         <motion.div
@@ -39,8 +39,8 @@ export default function LastAboutSection() {
           >
             <p>
               <strong>Don’t know what you need?</strong> I’ll help you build a
-              plan of action which will help your business grow without creating
-              lots more work.
+              plan of action which will help you to understand how it should
+              look.
             </p>
 
             <p>

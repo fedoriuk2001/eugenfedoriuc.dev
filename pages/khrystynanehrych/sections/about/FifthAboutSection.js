@@ -6,7 +6,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 
 // ===============   Images   ===============
-import DesignImg from "../../../images/photos/design.png";
+import IllustratorImg from "../../../images/khrystyna/illustrator.png";
 
 // ! ###############   Code   ###############
 export default function FifthAboutSection() {
@@ -21,37 +21,24 @@ export default function FifthAboutSection() {
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
           >
-            <Image src={DesignImg} alt="Design" />
+            <Image src={IllustratorImg} alt="Design" />
           </motion.div>
         </div>
-        <motion.div
-          className="w-full md:w-7/12 md:mx-8"
-          whileHover={{ scale: 1.01 }}
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          viewport={{ once: true }}
-        >
-          <div>
+        <div className="w-full md:w-7/12 md:mx-8">
+          <motion.div
+            whileHover={{ scale: 1.01 }}
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+          >
+            <h2 className="mb-10">Adobe Illustrator</h2>
             <p>
-              When working with teams I tailor my approach to your needs. One
-              tool does not work for everybody and I always aim to achieve the
-              best results for who I’m currently working with.
+              I originally learned about Adobe Illustrator, including vector
+              graphic using Youtube. I can do logos, icons etc without any
+              issues.
             </p>
-
-            <p>
-              I focus on building approaches which scale well to help promote
-              growth while being simple enough to understand without extensive
-              documentation. Whatever your team requires, I’ll be able to help
-              out and provide improvements along the way.
-            </p>
-
-            <p>
-              Here&#39;s just a few of the tools I’ve worked with in the past.
-              I’m always open to adding more to this list if they will help the
-              project in need.
-            </p>
-          </div>
-        </motion.div>
+          </motion.div>
+        </div>
       </div>
     </section>
   );

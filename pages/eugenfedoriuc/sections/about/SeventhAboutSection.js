@@ -6,7 +6,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 
 // ===============   Images   ===============
-import DesignImg from "../../../images/photos/design.png";
+import JavascriptImg from "../../../images/eugen/javascript.png";
 
 // ! ###############   Code   ###############
 export default function SeventhAboutSection() {
@@ -21,7 +21,7 @@ export default function SeventhAboutSection() {
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
           >
-            <Image src={DesignImg} alt="Design" />
+            <Image src={JavascriptImg} alt="Design" />
           </motion.div>
         </div>
         <motion.div

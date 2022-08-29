@@ -7,7 +7,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 
 // ===============   Images   ===============
-import DesignImg from "../../../images/photos/design.png";
+import GraphicImg from "../../../images/khrystyna/graphic.png";
 
 // ! ###############   Code   ###############
 export default function SecondAboutSection() {
@@ -22,7 +22,7 @@ export default function SecondAboutSection() {
           viewport={{ once: true }}
         >
           <div className="rounded-lg block overflow-hidden relative">
-            <Image src={DesignImg} alt="Design" />
+            <Image src={GraphicImg} alt="Design" />
           </div>
         </motion.div>
         <motion.div
@@ -32,7 +32,7 @@ export default function SecondAboutSection() {
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
         >
-          <h2 className="mb-10">My Story</h2>
+          <h2 className="mb-10">About Me</h2>
           <div>
             <p>
               I&#39;m
@@ -46,27 +46,22 @@ export default function SecondAboutSection() {
                   viewport={{ once: true }}
                 >
                   {" "}
-                  Full Stack Web Developer{" "}
+                  Graphic Designer &#38; Web Designer{" "}
                 </motion.b>
               </Link>
               working with people around the world to help create excellent
-              websites and web apps.
+              projects.
             </p>
 
             <p>
-              My name is Annmarie Jones, and I am from Houston, Texas. I got my
-              start as a graphic designer by creating a logo for my dads
-              barbeque joint. As locals began to see my work, I began designing
-              materials for everything from western wear to crawdads on a stick.
-              Today, I am open to all kinds of design work, although I am always
-              drawn to passion projects that let me go back to my Texan roots.
-              When I'm not working on my latest graphic design project, I might
-              be thrift shopping, cuddling with my cat or volunteering at my
-              local food shelter. I am fully invested in my community and would
-              love to work with a brand that shares these values. If you like my
-              work, please reach out by filling in the contact form below. I
-              can't wait to learn about your brand's design needs!
+              I got my start as a graphic designer by editing a photo for my
+              sister. As locals began to see my work, I began designing
+              materials for everything. Today, I am open to all kinds of design
+              work. I am fully invested in my community and would love to work
+              with a brand that shares these values. If you like my work, reach
+              out by filling in the contact form.
             </p>
+            <p>I can&#39;t wait to learn about your brand&#39;s design needs!</p>
           </div>
         </motion.div>
       </div>

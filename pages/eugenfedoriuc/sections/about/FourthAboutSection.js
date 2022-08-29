@@ -1,13 +1,12 @@
 // ! ###############   Importing   ###############
 // ===============   Next JS   ===============
-import Link from "next/link";
 import Image from "next/image";
 
 // ===============   Animation   ===============
 import { motion } from "framer-motion";
 
 // ===============   Images   ===============
-import DesignImg from "../../../images/photos/design.png";
+import HtmlCSSImg from "../../../images/eugen/htmlandcss.png";
 
 // ! ###############   Code   ###############
 export default function FourthAboutSection() {
@@ -22,17 +21,17 @@ export default function FourthAboutSection() {
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
           >
-            <Image src={DesignImg} alt="Design" />
+            <Image src={HtmlCSSImg} alt="Design" />
           </motion.div>
         </div>
         <div className="w-full md:w-7/12 md:mx-8">
-          <h2 className="mb-10">HTML &#38; CSS</h2>
           <motion.div
             whileHover={{ scale: 1.01 }}
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
           >
+          <h2 className="mb-10">HTML &#38; CSS</h2>
             <p>
               I proceeded to learn the fundamentals of HTML &#38; CSS and web
               design through Youtube and W3School. They are still my

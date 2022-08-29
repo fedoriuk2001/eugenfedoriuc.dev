@@ -1,13 +1,12 @@
 // ! ###############   Importing   ###############
 // ===============   Next JS   ===============
-import Link from "next/link";
 import Image from "next/image";
 
 // ===============   Animation   ===============
 import { motion } from "framer-motion";
 
 // ===============   Images   ===============
-import DesignImg from "../../../images/photos/design.png";
+import PhotoshopImg from "../../../images/khrystyna/photoshop.png";
 
 // ! ###############   Code   ###############
 export default function FourthAboutSection() {
@@ -22,30 +21,21 @@ export default function FourthAboutSection() {
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
           >
-            <Image src={DesignImg} alt="Design" />
+            <Image src={PhotoshopImg} alt="Design" />
           </motion.div>
         </div>
         <div className="w-full md:w-7/12 md:mx-8">
-          <h2></h2>
           <motion.div
             whileHover={{ scale: 1.01 }}
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
           >
+            <h2 className="mb-10">Adobe Photoshop</h2>
             <p>
-              I used this flexibility to expand what I can offer. I am no longer
-              just a developer, with expertise in User Experience Design,
-              Accessibility, Strategy and Testing I help businesses realise
-              their goal by bringing their ideas to life.
-            </p>
-
-            <p>
-              <Link href="/services">
-                <a className="text-[#ff0000]">
-                  How the services I offer could help you
-                </a>
-              </Link>
+              I proceeded to learn the functions of Adobe Photoshop through
+              Youtube. Adobe Phoroshop is still my favorite today, since my
+              childhood I&#39;ve been interested in Graphic Design.
             </p>
           </motion.div>
         </div>
