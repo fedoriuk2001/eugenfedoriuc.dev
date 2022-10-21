@@ -12,7 +12,7 @@ import SecondContactSection from "./sections/contact/SecondContactSection";
 // ! ###############   Code   ###############
 export default function contact() {
   return (
-    <Layout title="Eugen Fedoriuc - Home" description="We have a description">
+    <Layout title="Eugen Fedoriuc - Contact" description="We have a description">
       <FirstContactSection />
       <div>
         <SecondContactSection />
