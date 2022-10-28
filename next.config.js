@@ -15,6 +15,6 @@ const nextConfig = {
 
 module.exports = {
   images: {
-    domains: ['assets.example.com'],
+    domains: ['https://ibb.co/'],
   },
 };

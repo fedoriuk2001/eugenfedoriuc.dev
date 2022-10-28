@@ -15,7 +15,16 @@ export default function SixthProjectSection() {
           whileHover={{ scale: 1.03 }}
           className="font-semibold py-2 px-4 mr-2 my-2 rounded bg-eugen-accent hover:bg-eugen-accent-hover dark:bg-eugen-accent-dark dark:hover:bg-eugen-accent-hover-dark"
         >
-          Design
+          Career
+        </motion.p>
+        <motion.p
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ once: true }}
+          whileHover={{ scale: 1.03 }}
+          className="font-semibold py-2 px-4 mr-2 my-2 rounded bg-eugen-accent hover:bg-eugen-accent-hover dark:bg-eugen-accent-dark dark:hover:bg-eugen-accent-hover-dark"
+        >
+          Job
         </motion.p>
         <motion.p
           initial={{ opacity: 0 }}
@@ -25,15 +34,6 @@ export default function SixthProjectSection() {
           className="font-semibold py-2 px-4 mr-2 my-2 rounded bg-eugen-accent hover:bg-eugen-accent-hover dark:bg-eugen-accent-dark dark:hover:bg-eugen-accent-hover-dark"
         >
           Coding
-        </motion.p>
-        <motion.p
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          viewport={{ once: true }}
-          whileHover={{ scale: 1.03 }}
-          className="font-semibold py-2 px-4 mr-2 my-2 rounded bg-eugen-accent hover:bg-eugen-accent-hover dark:bg-eugen-accent-dark dark:hover:bg-eugen-accent-hover-dark"
-        >
-          Website
         </motion.p>
       </div>
     </div>

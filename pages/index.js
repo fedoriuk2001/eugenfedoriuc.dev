@@ -1,25 +1,25 @@
 // ! ###############   Importing   ###############
-// ===============   Next JS   ===============
-import Link from "next/link";
+// ===============   Components   ===============
+import Layout from "../pages/eugenfedoriuc/home";
+
+// ? ===============   Home   ===============
+import FirstHomeSection from "../pages/eugenfedoriuc/sections/home/FirstHomeSection";
+import SecondHomeSection from "../pages/eugenfedoriuc/sections/home/SecondHomeSection";
+import ThirdHomeSection from "../pages/eugenfedoriuc/sections/home/ThirdHomeSection";
+import FourthHomeSection from "../pages/eugenfedoriuc/sections/home/FourthHomeSection";
+import FifthHomeSection from "../pages/eugenfedoriuc/sections/home/FifthHomeSection";
 
 // ! ###############   Code   ###############
-export default function Home() {
+export default function home() {
   return (
-    <div>
-      <div className="gallery">
-        <Link className="absolute" href="/khrystynanehrych/home">
-          <img
-            src="https://assets.codepen.io/1480814/archer.jpg"
-            alt=""
-          />
-        </Link>
-        <Link className="absolute" href="/eugenfedoriuc/home">
-          <img
-            src="https://assets.codepen.io/1480814/saber.jpg"
-            alt=""
-          />
-        </Link>
+    <Layout title="Eugen Fedoriuc - Home" description="We have a description">
+      <FirstHomeSection />
+      <div>
+        <SecondHomeSection />
+        <ThirdHomeSection />
+        <FourthHomeSection />
+        <FifthHomeSection />
       </div>
-    </div>
+    </Layout>
   );
 }

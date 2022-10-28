@@ -11,155 +11,26 @@ export default function FifthProjectSection() {
       viewport={{ once: true }}
     >
       <p>
-        lorem Lorem lorem lorem ipson ispon lorem Lorem lorem lorem ipson ispon
-        lorem Lorem lorem lorem ipson isponlorem Lorem lorem lorem ipson ispon
+        Here you can see the best portfolio, that was ever made!
       </p>
+
+      <h2>Step 1: Development</h2>
 
       <p>
-        orem Lorem lorem lorem ipson ispon lorem Lorem lorem lorem ipson ispon
-        lorem Lorem lorem lorem ipson isponlorem Lorem lorem lorem ipson
-        isponorem Lorem lorem lorem ipson ispon lorem Lorem lorem lorem ipson
-        ispon lorem Lorem lorem lorem ipson isponlorem Lorem lorem lorem ipson
-        isponorem Lorem lorem lorem ipson ispon lorem Lorem lorem lorem ipson
-        ispon lorem Lorem lorem lorem ipson isponlorem Lorem lorem lorem ipson
-        isponorem Lorem lorem lorem ipson ispon lorem Lorem lorem lorem ipson
-        ispon lorem Lorem lorem lorem ipson isponlorem Lorem lorem lorem ipson
-        ispon
+        Understanding the proccess and write all steps, like design, choosing technologies etc.
       </p>
 
-      <h2>Step 1: Complete</h2>
-
-      <p>
-        orem Lorem lorem lorem ipson ispon lorem Lorem lorem lorem ipson ispon
-        lorem Lorem lorem lorem ipson isponlorem Lorem lorem lorem ipson
-        isponorem Lorem lorem lorem ipson ispon lorem Lorem lorem lorem ipson
-        ispon lorem Lorem lorem lorem ipson isponlorem Lorem lorem lorem ipson
-        isponorem Lorem lorem lorem ipson ispon lorem Lorem lorem lorem ipson
-        ispon lorem Lorem lorem lorem ipson isponlorem Lorem lorem lorem ipson
-        ispon
-      </p>
-
-      <p>
-        orem Lorem lorem lorem ipson ispon lorem Lorem lorem lorem ipson ispon
-        lorem Lorem lorem lorem ipson isponlorem Lorem lorem lorem ipson
-        isponorem Lorem lorem lorem ipson ispon lorem Lorem lorem lorem ipson
-        ispon lorem Lorem lorem lorem ipson isponlorem Lorem lorem lorem ipson
-        isponorem Lorem lorem lorem ipson ispon lorem Lorem lorem lorem ipson
-        ispon lorem Lorem lorem lorem ipson isponlorem Lorem lorem lorem ipson
-        isponorem Lorem lorem lorem ipson ispon lorem Lorem lorem lorem ipson
-        ispon lorem Lorem lorem lorem ipson isponlorem Lorem lorem lorem ipson
-        isponorem Lorem lorem lorem ipson ispon lorem Lorem lorem lorem ipson
-        ispon lorem Lorem lorem lorem ipson isponlorem Lorem lorem lorem ipson
-        isponorem Lorem lorem lorem ipson ispon lorem Lorem lorem lorem ipson
-        ispon lorem Lorem lorem lorem ipson isponlorem Lorem lorem lorem ipson
-        ispon
-      </p>
-
-      <h2>Step 2: Complete</h2>
-
-      <p>
-        orem Lorem lorem lorem ipson ispon lorem Lorem lorem lorem ipson ispon
-        lorem Lorem lorem lorem ipson isponlorem Lorem lorem lorem ipson
-        isponorem Lorem lorem lorem ipson ispon lorem Lorem lorem lorem ipson
-        ispon lorem Lorem lorem lorem ipson isponlorem Lorem lorem lorem ipson
-        ispon
-      </p>
-
-      <p>
-        orem Lorem lorem lorem ipson ispon lorem Lorem lorem lorem ipson ispon
-        lorem Lorem lorem lorem ipson isponlorem Lorem lorem lorem ipson
-        isponorem Lorem lorem lorem ipson ispon lorem Lorem lorem lorem ipson
-        ispon lorem Lorem lorem lorem ipson isponlorem Lorem lorem lorem ipson
-        ispon
-      </p>
-
-      <p>
-        orem Lorem lorem lorem ipson ispon lorem Lorem lorem lorem ipson ispon
-        lorem Lorem lorem lorem ipson isponlorem Lorem lorem lorem ipson
-        isponorem Lorem lorem lorem ipson ispon lorem Lorem lorem lorem ipson
-        ispon lorem Lorem lorem lorem ipson isponlorem Lorem lorem lorem ipson
-        ispon
-      </p>
-
-      <p>
-        orem Lorem lorem lorem ipson ispon lorem Lorem lorem lorem ipson ispon
-        lorem Lorem lorem lorem ipson isponlorem Lorem lorem lorem ipson
-        isponorem Lorem lorem lorem ipson ispon lorem Lorem lorem lorem ipson
-        ispon lorem Lorem lorem lorem ipson isponlorem Lorem lorem lorem ipson
-        ispon
-      </p>
-
-      <p>
-        orem Lorem lorem lorem ipson ispon lorem Lorem lorem lorem ipson ispon
-        lorem Lorem lorem lorem ipson isponlorem Lorem lorem lorem ipson
-        isponorem Lorem lorem lorem ipson ispon lorem Lorem lorem lorem ipson
-        ispon lorem Lorem lorem lorem ipson isponlorem Lorem lorem lorem ipson
-        isponorem Lorem lorem lorem ipson ispon lorem Lorem lorem lorem ipson
-        ispon lorem Lorem lorem lorem ipson isponlorem Lorem lorem lorem ipson
-        ispon
-      </p>
-
-      <p>
-        orem Lorem lorem lorem ipson ispon lorem Lorem lorem lorem ipson ispon
-        lorem Lorem lorem lorem ipson isponlorem Lorem lorem lorem ipson
-        isponorem Lorem lorem lorem ipson ispon lorem Lorem lorem lorem ipson
-        ispon lorem Lorem lorem lorem ipson isponlorem Lorem lorem lorem ipson
-        isponorem Lorem lorem lorem ipson ispon lorem Lorem lorem lorem ipson
-        ispon lorem Lorem lorem lorem ipson isponlorem Lorem lorem lorem ipson
-        isponorem Lorem lorem lorem ipson ispon lorem Lorem lorem lorem ipson
-        ispon lorem Lorem lorem lorem ipson isponlorem Lorem lorem lorem ipson
-        isponorem Lorem lorem lorem ipson ispon lorem Lorem lorem lorem ipson
-        ispon lorem Lorem lorem lorem ipson isponlorem Lorem lorem lorem ipson
-        ispon
-      </p>
-
-      <h2>Compliting</h2>
-
-      <p>
-        orem Lorem lorem lorem ipson ispon lorem Lorem lorem lorem ipson ispon
-        lorem Lorem lorem lorem ipson isponlorem Lorem lorem lorem ipson
-        isponorem Lorem lorem lorem ipson ispon lorem Lorem lorem lorem ipson
-        ispon lorem Lorem lorem lorem ipson isponlorem Lorem lorem lorem ipson
-        isponorem Lorem lorem lorem ipson ispon lorem Lorem lorem lorem ipson
-        ispon lorem Lorem lorem lorem ipson isponlorem Lorem lorem lorem ipson
-        isponorem Lorem lorem lorem ipson ispon lorem Lorem lorem lorem ipson
-        ispon lorem Lorem lorem lorem ipson isponlorem Lorem lorem lorem ipson
-        ispon
-      </p>
+      <h2>Step 2: Completing</h2>
 
       <ul>
         <li>
-          orem Lorem lorem lorem ipson ispon lorem Lorem lorem lorem ipson ispon
-          lorem Lorem lorem lorem ipson isponlorem Lorem lorem lorem ipson
-          isponorem Lorem lorem lorem ipson ispon lorem Lorem lorem lorem ipson
-          ispon lorem Lorem lorem lorem ipson isponlorem Lorem lorem lorem ipson
-          isponorem Lorem lorem lorem ipson ispon lorem Lorem lorem lorem ipson
-          ispon lorem Lorem lorem lorem ipson isponlorem Lorem lorem lorem ipson
-          isponorem Lorem lorem lorem ipson ispon lorem Lorem lorem lorem ipson
-          ispon lorem Lorem lorem lorem ipson isponlorem Lorem lorem lorem ipson
-          ispon
+          Compliting Design
         </li>
         <li>
-          orem Lorem lorem lorem ipson ispon lorem Lorem lorem lorem ipson ispon
-          lorem Lorem lorem lorem ipson isponlorem Lorem lorem lorem ipson
-          isponorem Lorem lorem lorem ipson ispon lorem Lorem lorem lorem ipson
-          ispon lorem Lorem lorem lorem ipson isponlorem Lorem lorem lorem ipson
-          isponorem Lorem lorem lorem ipson ispon lorem Lorem lorem lorem ipson
-          ispon lorem Lorem lorem lorem ipson isponlorem Lorem lorem lorem ipson
-          isponorem Lorem lorem lorem ipson ispon lorem Lorem lorem lorem ipson
-          ispon lorem Lorem lorem lorem ipson isponlorem Lorem lorem lorem ipson
-          ispon
+          Coding pages and their components
         </li>
         <li>
-          orem Lorem lorem lorem ipson ispon lorem Lorem lorem lorem ipson ispon
-          lorem Lorem lorem lorem ipson isponlorem Lorem lorem lorem ipson
-          isponorem Lorem lorem lorem ipson ispon lorem Lorem lorem lorem ipson
-          ispon lorem Lorem lorem lorem ipson isponlorem Lorem lorem lorem ipson
-          isponorem Lorem lorem lorem ipson ispon lorem Lorem lorem lorem ipson
-          ispon lorem Lorem lorem lorem ipson isponlorem Lorem lorem lorem ipson
-          isponorem Lorem lorem lorem ipson ispon lorem Lorem lorem lorem ipson
-          ispon lorem Lorem lorem lorem ipson isponlorem Lorem lorem lorem ipson
-          ispon
+          Deploying the website on Internet
         </li>
       </ul>
     </motion.div>

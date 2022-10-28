@@ -90,12 +90,8 @@ export default function Background({ onClick, open }) {
                 whileInView={{ opacity: 1 }}
                 viewport={{ once: true }}
                 className="flex items-center justify-start p-2 hover:no-underline"
-                href="index.html"
+                href=""
               >
-                <div className="rounded-full block overflow-hidden relative">
-                  {/* <Image className="block w-full"/> */}
-                  <div className="bg-[#333333] w-[40px] h-[40px] opacity-1 transition inset-0"></div>
-                </div>
                 <span className="font-semibold text-inverted ml-4">
                   Eugen Fedoriuc
                 </span>
@@ -211,9 +207,10 @@ export default function Background({ onClick, open }) {
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
-              href=""
+              href="https://www.instagram.com/fedoriuk_/"
               className="p-1 pl-2"
               title="Instagram"
+              target="_blank"
             >
               <BsInstagram size="25px" />
             </motion.a>
@@ -226,6 +223,7 @@ export default function Background({ onClick, open }) {
               href="https://at.linkedin.com/in/eugen-fedoriuc-745804227"
               className="p-1 pl-3"
               title="LinkedIn"
+              target="_blank"
             >
               <BsLinkedin size="25px" />
             </motion.a>
@@ -238,6 +236,7 @@ export default function Background({ onClick, open }) {
               href="https://github.com/fedoriuk2001"
               className="p-1 pl-3"
               title="GitHub"
+              target="_blank"
             >
               <BsGithub size="25px" />
             </motion.a>

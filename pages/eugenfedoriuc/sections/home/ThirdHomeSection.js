@@ -90,41 +90,41 @@ export default function ThirdHomeSection() {
               </motion.p>
             </div>
           </div>
-          <Link href="/khrystynanehrych/home">
-            <div className="flex -mx-3 text-left cursor-pointer">
-              <div className="mx-3">
-                <motion.div
-                  initial={{ opacity: 0 }}
-                  whileInView={{ opacity: 1 }}
-                  viewport={{ once: true }}
-                  whileHover={{ scale: 1.02 }}
-                  className="rounded-lg p-4 w-16 h-16 grid place-items-center bg-eugen-secondary hover:bg-eugen-secondary-hover dark:bg-eugen-secondary-dark dark:hover:bg-eugen-secondary-hover-dark"
-                >
-                  <DesignIcon />
-                </motion.div>
-              </div>
-              <div className="mx-3">
-                <motion.h3
-                  initial={{ opacity: 0 }}
-                  whileInView={{ opacity: 1 }}
-                  viewport={{ once: true }}
-                  className="text-2xl mb-4 cursor-pointer"
-                >
-                  Design
-                </motion.h3>
-
-                <motion.p
-                  initial={{ opacity: 0 }}
-                  whileInView={{ opacity: 1 }}
-                  viewport={{ once: true }}
-                  className="cursor-pointer"
-                >
-                  <strong>Khrystyna Nehrych</strong> creates a beautiful design
-                  for you beyond my control.
-                </motion.p>
-              </div>
+          {/* <Link href="/khrystynanehrych/home"> */}
+          <div className="flex -mx-3 text-left cursor-pointer">
+            <div className="mx-3">
+              <motion.div
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                viewport={{ once: true }}
+                whileHover={{ scale: 1.02 }}
+                className="rounded-lg p-4 w-16 h-16 grid place-items-center bg-eugen-secondary hover:bg-eugen-secondary-hover dark:bg-eugen-secondary-dark dark:hover:bg-eugen-secondary-hover-dark"
+              >
+                <DesignIcon />
+              </motion.div>
             </div>
-          </Link>
+            <div className="mx-3">
+              <motion.h3
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                viewport={{ once: true }}
+                className="text-2xl mb-4 cursor-pointer"
+              >
+                Design
+              </motion.h3>
+
+              <motion.p
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                viewport={{ once: true }}
+                className="cursor-pointer"
+              >
+                <strong>Khrystyna Nehrych</strong> creates a beautiful design
+                for you beyond my control.
+              </motion.p>
+            </div>
+          </div>
+          {/* </Link> */}
           <div className="flex -mx-3 text-left">
             <div className="mx-3">
               <motion.div

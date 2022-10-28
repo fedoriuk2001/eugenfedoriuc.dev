@@ -18,7 +18,6 @@ export default function FourthProjectSection() {
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
           href="https://www.instagram.com/fedoriuk_/"
-          target="_blank"
           title="Instagram"
         >
           <span className="grid place-items-center w-12 h-12 p-1 m-2 transform transition-all duration-200 cursor-pointer group-hover:shadow-lg group-focus:shadow-lg group-hover:-translate-y-1 group-focus:-translate-y-1">
@@ -34,7 +33,6 @@ export default function FourthProjectSection() {
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
           href="https://at.linkedin.com/in/eugen-fedoriuc-745804227"
-          target="_blank"
           title="LinkedIn"
         >
           <span className="grid place-items-center w-12 h-12 p-1 m-2 transform transition-all duration-200 cursor-pointer group-hover:shadow-lg group-focus:shadow-lg group-hover:-translate-y-1 group-focus:-translate-y-1">
@@ -50,7 +48,6 @@ export default function FourthProjectSection() {
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
           href="https://github.com/fedoriuk2001"
-          target="_blank"
           title="Github"
         >
           <span className="grid place-items-center w-12 h-12 p-1 m-2 transform transition-all duration-200 cursor-pointer group-hover:shadow-lg group-focus:shadow-lg group-hover:-translate-y-1 group-focus:-translate-y-1">

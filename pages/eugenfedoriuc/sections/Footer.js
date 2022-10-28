@@ -50,51 +50,48 @@ export default function Footer() {
               </div>
               <div className="-mx-4">
                 <div className="flex mx-4">
-                  <Link href="#">
-                    <motion.a
-                      whileHover={{ scale: 1.1 }}
-                      whileTap={{ scale: 0.9 }}
-                      initial={{ opacity: 0 }}
-                      whileInView={{ opacity: 1 }}
-                      viewport={{ once: true }}
-                      className="p-1 pl-0 pt-0"
-                      title="Instagram"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <BsInstagram size="25px" />
-                    </motion.a>
-                  </Link>
-                  <Link href="https://at.linkedin.com/in/eugen-fedoriuc-745804227">
-                    <motion.a
-                      whileHover={{ scale: 1.1 }}
-                      whileTap={{ scale: 0.9 }}
-                      initial={{ opacity: 0 }}
-                      whileInView={{ opacity: 1 }}
-                      viewport={{ once: true }}
-                      className="p-1 pl-2 pt-0"
-                      title="LinkedIn"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <BsLinkedin size="25px" />
-                    </motion.a>
-                  </Link>
-                  <Link href="https://github.com/fedoriuk2001">
-                    <motion.a
-                      whileHover={{ scale: 1.1 }}
-                      whileTap={{ scale: 0.9 }}
-                      initial={{ opacity: 0 }}
-                      whileInView={{ opacity: 1 }}
-                      viewport={{ once: true }}
-                      className="p-1 pl-2 pt-0"
-                      title="GitHub"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <BsGithub size="25px" />
-                    </motion.a>
-                  </Link>
+                  <motion.a
+                    whileHover={{ scale: 1.1 }}
+                    whileTap={{ scale: 0.9 }}
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }}
+                    viewport={{ once: true }}
+                    className="p-1 pl-0 pt-0"
+                    href="https://www.instagram.com/fedoriuk_/"
+                    title="Instagram"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <BsInstagram size="25px" />
+                  </motion.a>
+                  <motion.a
+                    whileHover={{ scale: 1.1 }}
+                    whileTap={{ scale: 0.9 }}
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }}
+                    viewport={{ once: true }}
+                    className="p-1 pl-2 pt-0"
+                    href="https://at.linkedin.com/in/eugen-fedoriuc-745804227"
+                    title="LinkedIn"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <BsLinkedin size="25px" />
+                  </motion.a>
+                  <motion.a
+                    whileHover={{ scale: 1.1 }}
+                    whileTap={{ scale: 0.9 }}
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }}
+                    viewport={{ once: true }}
+                    className="p-1 pl-2 pt-0"
+                    href="https://github.com/fedoriuk2001"
+                    title="GitHub"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <BsGithub size="25px" />
+                  </motion.a>
                 </div>
               </div>
             </div>
@@ -178,7 +175,7 @@ export default function Footer() {
               </div>
             </div>
           </div>
-          <div className="grid my-6 md:grid-cols-12">
+          {/* <div className="grid my-6 md:grid-cols-12">
             <div className="md:col-span-5">
               <div>
                 <motion.p
@@ -207,7 +204,7 @@ export default function Footer() {
               </div>
               <div></div>
             </div>
-          </div>
+          </div> */}
         </div>
         <motion.div
           initial={{ opacity: 0 }}

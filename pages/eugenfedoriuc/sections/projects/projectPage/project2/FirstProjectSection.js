@@ -14,7 +14,7 @@ export default function FirstProjectSection() {
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
         >
-          Eugen&#39;s Portfolio
+          Codeflügel
         </motion.h1>
       </div>
     </section>

@@ -431,7 +431,11 @@ h3 {
   background-size: 100% auto;
   overflow: hidden;
   cursor: pointer;
-  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/451895/datauri-generator-preview.jpg");
+  background-image: url("https://i.ibb.co/MNh9C0V/project1.png");
+}
+
+.macbook .viewport.project2 {
+  background-image: url("https://i.ibb.co/fHqVDwg/project2.png");
 }
 
 .macbook:hover .viewport {
