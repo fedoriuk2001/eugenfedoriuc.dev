@@ -73,37 +73,49 @@ export default function FourthHomeSection() {
               src={htmlIcon}
               width={100}
               height={100}
+              alt="Design"
             />
-            <Image className="svgIcon" src={cssIcon} width={100} height={100} />
+            <Image
+              className="svgIcon"
+              src={cssIcon}
+              width={100}
+              height={100}
+              alt="Design"
+            />
             <Image
               className="svgIcon"
               src={javaspringIcon}
               width={100}
               height={100}
+              alt="Design"
             />
             <Image
               className="svgIcon"
               src={reactIcon}
               width={100}
               height={100}
+              alt="Design"
             />
             <Image
               className="svgIcon"
               src={jqueryIcon}
               width={100}
               height={100}
+              alt="Design"
             />
             <Image
               className="svgIcon"
               src={bootstrapIcon}
               width={100}
               height={100}
+              alt="Design"
             />
             <Image
               className="svgIcon"
               src={firebaseIcon}
               width={100}
               height={100}
+              alt="Design"
             />
 
             <Image
@@ -111,12 +123,14 @@ export default function FourthHomeSection() {
               src={gatsbyIcon}
               width={100}
               height={100}
+              alt="Design"
             />
             <Image
               className="svgIcon"
               src={nextjsIcon}
               width={100}
               height={100}
+              alt="Design"
             />
           </div>
 
@@ -126,18 +140,21 @@ export default function FourthHomeSection() {
               src={sassIcon}
               width={100}
               height={100}
+              alt="Design"
             />
             <Image
               className="svgIcon"
               src={mongoIcon}
               width={100}
               height={100}
+              alt="Design"
             />
             <Image
               className="svgIcon"
               src={nodejsIcon}
               width={100}
               height={100}
+              alt="Design"
             />
 
             <Image
@@ -145,31 +162,42 @@ export default function FourthHomeSection() {
               src={tailwindcssIcon}
               width={100}
               height={100}
+              alt="Design"
             />
             <Image
               className="svgIcon"
               src={reduxIcon}
               width={100}
               height={100}
+              alt="Design"
             />
             <Image
               className="svgIcon"
               src={graphqlIcon}
               width={100}
               height={100}
+              alt="Design"
             />
             <Image
               className="svgIcon"
               src={angularIcon}
               width={100}
               height={100}
+              alt="Design"
             />
-            <Image className="svgIcon" src={jsIcon} width={100} height={100} />
+            <Image
+              className="svgIcon"
+              src={jsIcon}
+              width={100}
+              height={100}
+              alt="Design"
+            />
             <Image
               className="svgIcon"
               src={typescriptIcon}
               width={100}
               height={100}
+              alt="Design"
             />
           </div>
         </div>
@@ -181,24 +209,28 @@ export default function FourthHomeSection() {
               src={sassIcon}
               width={100}
               height={100}
+              alt="Design"
             />
             <Image
               className="svgIcon"
               src={jqueryIcon}
               width={100}
               height={100}
+              alt="Design"
             />
             <Image
               className="svgIcon"
               src={nodejsIcon}
               width={100}
               height={100}
+              alt="Design"
             />
             <Image
               className="svgIcon"
               src={bootstrapIcon}
               width={100}
               height={100}
+              alt="Design"
             />
 
             <Image
@@ -206,26 +238,42 @@ export default function FourthHomeSection() {
               src={tailwindcssIcon}
               width={100}
               height={100}
+              alt="Design"
             />
-            <Image className="svgIcon" src={cssIcon} width={100} height={100} />
-            <Image className="svgIcon" src={jsIcon} width={100} height={100} />
+            <Image
+              className="svgIcon"
+              src={cssIcon}
+              width={100}
+              height={100}
+              alt="Design"
+            />
+            <Image
+              className="svgIcon"
+              src={jsIcon}
+              width={100}
+              height={100}
+              alt="Design"
+            />
             <Image
               className="svgIcon"
               src={reduxIcon}
               width={100}
               height={100}
+              alt="Design"
             />
             <Image
               className="svgIcon"
               src={typescriptIcon}
               width={100}
               height={100}
+              alt="Design"
             />
             <Image
               className="svgIcon"
               src={javaspringIcon}
               width={100}
               height={100}
+              alt="Design"
             />
           </div>
 
@@ -235,36 +283,42 @@ export default function FourthHomeSection() {
               src={htmlIcon}
               width={100}
               height={100}
+              alt="Design"
             />
             <Image
               className="svgIcon"
               src={nextjsIcon}
               width={100}
               height={100}
+              alt="Design"
             />
             <Image
               className="svgIcon"
               src={angularIcon}
               width={100}
               height={100}
+              alt="Design"
             />
             <Image
               className="svgIcon"
               src={gatsbyIcon}
               width={100}
               height={100}
+              alt="Design"
             />
             <Image
               className="svgIcon"
               src={firebaseIcon}
               width={100}
               height={100}
+              alt="Design"
             />
             <Image
               className="svgIcon"
               src={mongoIcon}
               width={100}
               height={100}
+              alt="Design"
             />
 
             <Image
@@ -272,12 +326,14 @@ export default function FourthHomeSection() {
               src={reactIcon}
               width={100}
               height={100}
+              alt="Design"
             />
             <Image
               className="svgIcon"
               src={graphqlIcon}
               width={100}
               height={100}
+              alt="Design"
             />
           </div>
         </div>
@@ -293,7 +349,7 @@ export default function FourthHomeSection() {
               viewport={{ once: true }}
               whileHover={{ scale: 1.02 }}
             >
-              <Image src={htmlLogo} />
+              <Image src={htmlLogo} alt="Design" />
             </motion.div>
           </div>
           <div className="mx-3">
@@ -330,7 +386,7 @@ export default function FourthHomeSection() {
               whileHover={{ scale: 1.02 }}
               className="rounded-lg p-3 w-16 h-16 grid place-items-center bg-eugen-accent hover:bg-eugen-accent-hover dark:bg-eugen-accent-dark dark:hover:bg-eugen-accent-hover-dark"
             >
-              <Image src={cssLogo} />
+              <Image src={cssLogo} alt="Design" />
             </motion.div>
           </div>
           <div className="mx-3">
@@ -366,7 +422,7 @@ export default function FourthHomeSection() {
               whileHover={{ scale: 1.02 }}
               className="rounded-lg p-2 w-16 h-16 grid place-items-center bg-eugen-secondary hover:bg-eugen-secondary-hover dark:bg-eugen-secondary-dark dark:hover:bg-eugen-secondary-hover-dark"
             >
-              <Image src={sassLogo} />
+              <Image src={sassLogo} alt="Design" />
             </motion.div>
           </div>
           <div className="mx-3">
@@ -402,7 +458,7 @@ export default function FourthHomeSection() {
               whileHover={{ scale: 1.02 }}
               className="rounded-lg p-2 w-16 h-16 grid place-items-center bg-eugen-secondary hover:bg-eugen-secondary-hover dark:bg-eugen-secondary-dark dark:hover:bg-eugen-secondary-hover-dark"
             >
-              <Image src={bootstrapLogo} />
+              <Image src={bootstrapLogo} alt="Design" />
             </motion.div>
           </div>
           <div className="mx-3">
@@ -438,7 +494,7 @@ export default function FourthHomeSection() {
               whileHover={{ scale: 1.02 }}
               className="rounded-lg p-2 w-16 h-16 grid place-items-center bg-eugen-accent hover:bg-eugen-accent-hover dark:bg-eugen-accent-dark dark:hover:bg-eugen-accent-hover-dark"
             >
-              <Image src={tailwindcss} />
+              <Image src={tailwindcss} alt="Design" />
             </motion.div>
           </div>
           <div className="mx-3">
@@ -474,7 +530,7 @@ export default function FourthHomeSection() {
               whileHover={{ scale: 1.02 }}
               className="rounded-lg p-3 w-16 h-16 grid place-items-center bg-eugen-secondary hover:bg-eugen-secondary-hover dark:bg-eugen-secondary-dark dark:hover:bg-eugen-secondary-hover-dark"
             >
-              <Image src={jsLogo} />
+              <Image src={jsLogo} alt="Design" />
             </motion.div>
           </div>
           <div className="mx-3">
@@ -510,7 +566,7 @@ export default function FourthHomeSection() {
               whileHover={{ scale: 1.02 }}
               className="rounded-lg p-0 w-16 h-16 grid place-items-center bg-eugen-secondary hover:bg-eugen-secondary-hover dark:bg-eugen-secondary-dark dark:hover:bg-eugen-secondary-hover-dark"
             >
-              <Image src={reactLogo} />
+              <Image src={reactLogo} alt="Design" />
             </motion.div>
           </div>
           <div className="mx-3">
@@ -546,7 +602,7 @@ export default function FourthHomeSection() {
               whileHover={{ scale: 1.02 }}
               className="rounded-lg p-3 w-16 h-16 grid place-items-center bg-eugen-accent hover:bg-eugen-accent-hover dark:bg-eugen-accent-dark dark:hover:bg-eugen-accent-hover-dark"
             >
-              <Image src={jqueryLogo} />
+              <Image src={jqueryLogo} alt="Design" />
             </motion.div>
           </div>
           <div className="mx-3">
@@ -582,7 +638,7 @@ export default function FourthHomeSection() {
               whileHover={{ scale: 1.02 }}
               className="rounded-lg p-2 w-16 h-16 grid place-items-center bg-eugen-secondary hover:bg-eugen-secondary-hover dark:bg-eugen-secondary-dark dark:hover:bg-eugen-secondary-hover-dark"
             >
-              <Image src={nextjsLogo} />
+              <Image src={nextjsLogo} alt="Design" />
             </motion.div>
           </div>
           <div className="mx-3">
@@ -618,7 +674,7 @@ export default function FourthHomeSection() {
               whileHover={{ scale: 1.02 }}
               className="rounded-lg p-3 w-16 h-16 grid place-items-center bg-eugen-secondary hover:bg-eugen-secondary-hover dark:bg-eugen-secondary-dark dark:hover:bg-eugen-secondary-hover-dark"
             >
-              <Image src={gatsby} />
+              <Image src={gatsby} alt="Design" />
             </motion.div>
           </div>
           <div className="mx-3">
@@ -654,7 +710,7 @@ export default function FourthHomeSection() {
               whileHover={{ scale: 1.02 }}
               className="rounded-lg p-3 w-16 h-16 grid place-items-center bg-eugen-accent hover:bg-eugen-accent-hover dark:bg-eugen-accent-dark dark:hover:bg-eugen-accent-hover-dark"
             >
-              <Image src={typescript} />
+              <Image src={typescript} alt="Design" />
             </motion.div>
           </div>
           <div className="mx-3">
@@ -690,7 +746,7 @@ export default function FourthHomeSection() {
               whileHover={{ scale: 1.02 }}
               className="rounded-lg p-2 w-16 h-16 grid place-items-center bg-eugen-secondary hover:bg-eugen-secondary-hover dark:bg-eugen-secondary-dark dark:hover:bg-eugen-secondary-hover-dark"
             >
-              <Image src={nodejsLogo} />
+              <Image src={nodejsLogo} alt="Design" />
             </motion.div>
           </div>
           <div className="mx-3">
@@ -726,7 +782,7 @@ export default function FourthHomeSection() {
               whileHover={{ scale: 1.02 }}
               className="rounded-lg p-2 w-16 h-16 grid place-items-center bg-eugen-secondary hover:bg-eugen-secondary-hover dark:bg-eugen-secondary-dark dark:hover:bg-eugen-secondary-hover-dark"
             >
-              <Image src={springLogo} />
+              <Image src={springLogo} alt="Design" />
             </motion.div>
           </div>
           <div className="mx-3">
@@ -762,7 +818,7 @@ export default function FourthHomeSection() {
               whileHover={{ scale: 1.02 }}
               className="rounded-lg p-2 w-16 h-16 grid place-items-center bg-eugen-accent hover:bg-eugen-accent-hover dark:bg-eugen-accent-dark dark:hover:bg-eugen-accent-hover-dark"
             >
-              <Image src={angularLogo} />
+              <Image src={angularLogo} alt="Design" />
             </motion.div>
           </div>
           <div className="mx-3">
@@ -798,7 +854,7 @@ export default function FourthHomeSection() {
               whileHover={{ scale: 1.02 }}
               className="rounded-lg p-3 w-16 h-16 grid place-items-center bg-eugen-secondary hover:bg-eugen-secondary-hover dark:bg-eugen-secondary-dark dark:hover:bg-eugen-secondary-hover-dark"
             >
-              <Image src={firebase} />
+              <Image src={firebase} alt="Design" />
             </motion.div>
           </div>
           <div className="mx-3">
@@ -834,7 +890,7 @@ export default function FourthHomeSection() {
               whileHover={{ scale: 1.02 }}
               className="rounded-lg p-3 w-16 h-16 grid place-items-center bg-eugen-secondary hover:bg-eugen-secondary-hover dark:bg-eugen-secondary-dark dark:hover:bg-eugen-secondary-hover-dark"
             >
-              <Image src={mongodb} />
+              <Image src={mongodb} alt="Design" />
             </motion.div>
           </div>
           <div className="mx-3">
@@ -870,7 +926,7 @@ export default function FourthHomeSection() {
               whileHover={{ scale: 1.02 }}
               className="rounded-lg p-3 w-16 h-16 grid place-items-center bg-eugen-accent hover:bg-eugen-accent-hover dark:bg-eugen-accent-dark dark:hover:bg-eugen-accent-hover-dark"
             >
-              <Image src={reduxLogo} />
+              <Image src={reduxLogo} alt="Design" />
             </motion.div>
           </div>
           <div className="mx-3">
@@ -906,7 +962,7 @@ export default function FourthHomeSection() {
               whileHover={{ scale: 1.02 }}
               className="rounded-lg p-3 w-16 h-16 grid place-items-center bg-eugen-secondary hover:bg-eugen-secondary-hover dark:bg-eugen-secondary-dark dark:hover:bg-eugen-secondary-hover-dark"
             >
-              <Image src={graphqlLogo} />
+              <Image src={graphqlLogo} alt="Design" />
             </motion.div>
           </div>
           <div className="mx-3">

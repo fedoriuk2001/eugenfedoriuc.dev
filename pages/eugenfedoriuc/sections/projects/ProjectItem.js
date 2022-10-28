@@ -7,6 +7,7 @@ import { motion } from "framer-motion";
 
 // ===============   ProjectItem Data   ===============
 import { projectItemData } from "../../data/projectItem/projectItem";
+import Image from "next/image";
 
 // ! ###############   Code   ###############
 export default function ProjectItem() {
@@ -33,11 +34,12 @@ export default function ProjectItem() {
             >
               <a className="group hover:no-underline focus:no-underline">
                 <div className="block relative object-cover w-full transform duration-200 cursor-pointer group-hover:shadow-lg group-focus:shadow-lg group-hover:-translate-y-1 group-focus:-translate-y-1">
-                  <img
+                  <Image
                     src={data.photo}
                     className="rounded-md"
                     height="350px"
                     width="600px"
+                    alt="Design"
                   />
                 </div>
                 <div className="mt-6">
