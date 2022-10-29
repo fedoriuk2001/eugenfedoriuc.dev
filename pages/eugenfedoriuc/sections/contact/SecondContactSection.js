@@ -39,8 +39,8 @@ export default function SecondContactSection() {
         <div>
           <div className="mb-8 text-2xl font-normal leading-none tracking-tight text-gray-900 md:text-4xl lg:text-5xl dark:text-gray-50">
             <motion.h1
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
+              // initial={{ opacity: 0 }}
+              // whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
             >
               Send me a quick note
@@ -48,8 +48,8 @@ export default function SecondContactSection() {
           </div>
           <div className="mb-12 text-lg font-light text-gray-700 md:text-xl lg:text-2xl dark:text-gray-200">
             <motion.p
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
+              // initial={{ opacity: 0 }}
+              // whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
             >
               Or if you prefer to send me something longer, feel free to email
@@ -70,10 +70,10 @@ export default function SecondContactSection() {
               target="_blank"
               rel="noopener noreferrer"
               className="text-center w-[100%] btn btn-primary btn-xl bg-eugen-accent hover:bg-eugen-accent-hover dark:bg-eugen-accent-dark dark:hover:bg-eugen-accent-hover-dark"
-              whileHover={{ scale: 1.03 }}
-              whileTap={{ scale: 0.97 }}
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
+              // whileHover={{ scale: 1.03 }}
+              // whileTap={{ scale: 0.97 }}
+              // initial={{ opacity: 0 }}
+              // whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
             >
               Ask me a question
@@ -83,8 +83,8 @@ export default function SecondContactSection() {
 
         <motion.div
           className="px-6 bg-gray-100 rounded-lg md:px-10 md:py-4 dark:bg-gray-800"
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
+          // initial={{ opacity: 0 }}
+          // whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
         >
           <form
@@ -143,10 +143,10 @@ export default function SecondContactSection() {
               <motion.button
                 type="submit"
                 className="w-[100%] btn btn-primary btn-xl bg-eugen-accent hover:bg-eugen-accent-hover dark:bg-eugen-accent-dark dark:hover:bg-eugen-accent-hover-dark"
-                whileHover={{ scale: 1.02 }}
-                whileTap={{ scale: 0.98 }}
-                initial={{ opacity: 0 }}
-                whileInView={{ opacity: 1 }}
+                // whileHover={{ scale: 1.02 }}
+                // whileTap={{ scale: 0.98 }}
+                // initial={{ opacity: 0 }}
+                // whileInView={{ opacity: 1 }}
                 viewport={{ once: true }}
               >
                 Send

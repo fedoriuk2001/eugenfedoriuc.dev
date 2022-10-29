@@ -14,7 +14,8 @@ const nextConfig = {
 };
 
 module.exports = {
+  reactStrictMode: true, 
   images: {
-    domains: ['https://ibb.co/'],
+    domains: ['i.ibb.co'],
   },
 };

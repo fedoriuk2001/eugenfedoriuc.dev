@@ -14,8 +14,8 @@ export default function FirstHomeSection() {
     <section className="container">
       <div className="text-center mx-auto my-20 lg:w-3/4 xl:w-2/3 xl:my-40">
         <motion.div
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
+          // initial={{ opacity: 0 }}
+          // whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 1 }}
           className="text-2xl font-semibold cursor-default"
@@ -35,10 +35,10 @@ export default function FirstHomeSection() {
           />
         </motion.div>
         <motion.h1
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
+          // initial={{ opacity: 0 }}
+          // whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
-          whileHover={{ scale: 1.01 }}
+          // whileHover={{ scale: 1.01 }}
           className="mb-10"
         >
           In order to be irreplaceable, one must always be different
@@ -46,10 +46,10 @@ export default function FirstHomeSection() {
 
         <Link href="/eugenfedoriuc/contact">
           <motion.a
-            whileHover={{ scale: 1.1 }}
-            whileTap={{ scale: 0.9 }}
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
+            // whileHover={{ scale: 1.1 }}
+            // whileTap={{ scale: 0.9 }}
+            // initial={{ opacity: 0 }}
+            // whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
             className="btn btn-primary bg-eugen-accent hover:bg-eugen-accent-hover dark:bg-eugen-accent-dark dark:hover:bg-eugen-accent-hover-dark"
           >

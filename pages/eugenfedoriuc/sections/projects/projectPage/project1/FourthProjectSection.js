@@ -12,10 +12,10 @@ export default function FourthProjectSection() {
       <div className="md:sticky md:top-0 flex md:flex-col -mx-2 md:mx-8 pb-12 md:pt-12">
         <motion.a
           className="group"
-          whileHover={{ scale: 1.1 }}
-          whileTap={{ scale: 0.9 }}
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
+          // whileHover={{ scale: 1.1 }}
+          // whileTap={{ scale: 0.9 }}
+          // initial={{ opacity: 0 }}
+          // whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
           href="https://www.instagram.com/fedoriuk_/"
           target="_blank"
@@ -28,10 +28,10 @@ export default function FourthProjectSection() {
         </motion.a>
         <motion.a
           className="group"
-          whileHover={{ scale: 1.1 }}
-          whileTap={{ scale: 0.9 }}
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
+          // whileHover={{ scale: 1.1 }}
+          // whileTap={{ scale: 0.9 }}
+          // initial={{ opacity: 0 }}
+          // whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
           href="https://at.linkedin.com/in/eugen-fedoriuc-745804227"
           target="_blank"
@@ -44,10 +44,10 @@ export default function FourthProjectSection() {
         </motion.a>
         <motion.a
           className="group"
-          whileHover={{ scale: 1.1 }}
-          whileTap={{ scale: 0.9 }}
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
+          // whileHover={{ scale: 1.1 }}
+          // whileTap={{ scale: 0.9 }}
+          // initial={{ opacity: 0 }}
+          // whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
           href="https://github.com/fedoriuk2001"
           target="_blank"

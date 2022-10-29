@@ -16,9 +16,9 @@ export default function SecondAboutSection() {
       <div className="md:flex md:-mx-8 py-8 items-center md:flex-row-reverse">
         <motion.div
           className="w-full md:w-5/12 md:mx-8 mb-6"
-          whileHover={{ scale: 1.01 }}
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
+          // whileHover={{ scale: 1.01 }}
+          // initial={{ opacity: 0 }}
+          // whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
         >
           <div className="rounded-lg block overflow-hidden relative">
@@ -27,9 +27,9 @@ export default function SecondAboutSection() {
         </motion.div>
         <motion.div
           className="w-full md:w-7/12 md:mx-8"
-          whileHover={{ scale: 1.01 }}
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
+          // whileHover={{ scale: 1.01 }}
+          // initial={{ opacity: 0 }}
+          // whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
         >
           <h2 className="mb-10">About Me</h2>
@@ -39,10 +39,10 @@ export default function SecondAboutSection() {
               <Link href="/eugenfedoriuc/contact">
                 <motion.b
                   className="transition-all cursor-pointer hover:text-primary dark:hover:text-yellow-300"
-                  whileHover={{ scale: 1.03 }}
-                  whileTap={{ scale: 0.97 }}
-                  initial={{ opacity: 0 }}
-                  whileInView={{ opacity: 1 }}
+                  // whileHover={{ scale: 1.03 }}
+                  // whileTap={{ scale: 0.97 }}
+                  // initial={{ opacity: 0 }}
+                  // whileInView={{ opacity: 1 }}
                   viewport={{ once: true }}
                 >
                   {" "}

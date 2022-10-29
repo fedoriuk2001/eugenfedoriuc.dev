@@ -17,10 +17,10 @@ export default function ProjectItem() {
         return (
           <motion.div
             className="mb-12 cursor-pointer"
-            whileHover={{ scale: 1.03 }}
-            whileTap={{ scale: 0.97 }}
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
+            // whileHover={{ scale: 1.03 }}
+            // whileTap={{ scale: 0.97 }}
+            // initial={{ opacity: 0 }}
+            // whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
             key={key}
           >
@@ -37,8 +37,8 @@ export default function ProjectItem() {
                   <Image
                     src={data.photo}
                     className="rounded-md"
-                    height="350px"
-                    width="600px"
+                    height="350"
+                    width="600"
                     alt="Design"
                   />
                 </div>

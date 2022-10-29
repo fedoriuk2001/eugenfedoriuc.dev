@@ -35,10 +35,10 @@ export default function Background({ onClick, open }) {
     if (currentTheme === "dark") {
       return (
         <SunIcon
-          whileHover={{ scale: 1.1 }}
-          whileTap={{ scale: 0.9 }}
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
+          // whileHover={{ scale: 1.1 }}
+          // whileTap={{ scale: 0.9 }}
+          // initial={{ opacity: 0 }}
+          // whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
           className="w-[40px] h-[40px] text-yellow-500"
           role="button"
@@ -48,10 +48,10 @@ export default function Background({ onClick, open }) {
     } else {
       return (
         <MoonIcon
-          whileHover={{ scale: 1.1 }}
-          whileTap={{ scale: 0.9 }}
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
+          // whileHover={{ scale: 1.1 }}
+          // whileTap={{ scale: 0.9 }}
+          // initial={{ opacity: 0 }}
+          // whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
           className="w-[40px] h-[40px] text-gray-900"
           role="button"
@@ -68,10 +68,10 @@ export default function Background({ onClick, open }) {
           <div className="mb-8">
             <div className="relative flex items-center">
               <motion.button
-                whileHover={{ scale: 1.1 }}
-                whileTap={{ scale: 0.9 }}
-                initial={{ opacity: 0 }}
-                whileInView={{ opacity: 1 }}
+                // whileHover={{ scale: 1.1 }}
+                // whileTap={{ scale: 0.9 }}
+                // initial={{ opacity: 0 }}
+                // whileInView={{ opacity: 1 }}
                 viewport={{ once: true }}
                 onClick={onClick}
                 className="flex items-center text-inverted text-center px-1 py-2 my-2"
@@ -84,10 +84,10 @@ export default function Background({ onClick, open }) {
 
             <Link href="/eugenfedoriuc/home">
               <motion.a
-                whileHover={{ scale: 1.1 }}
-                whileTap={{ scale: 0.9 }}
-                initial={{ opacity: 0 }}
-                whileInView={{ opacity: 1 }}
+                // whileHover={{ scale: 1.1 }}
+                // whileTap={{ scale: 0.9 }}
+                // initial={{ opacity: 0 }}
+                // whileInView={{ opacity: 1 }}
                 viewport={{ once: true }}
                 className="flex items-center justify-start p-2 hover:no-underline"
                 href=""
@@ -102,10 +102,10 @@ export default function Background({ onClick, open }) {
             <Link href="/eugenfedoriuc/home">
               <motion.li
                 className="relative"
-                whileHover={{ scale: 1.1 }}
-                whileTap={{ scale: 0.9 }}
-                initial={{ opacity: 0 }}
-                whileInView={{ opacity: 1 }}
+                // whileHover={{ scale: 1.1 }}
+                // whileTap={{ scale: 0.9 }}
+                // initial={{ opacity: 0 }}
+                // whileInView={{ opacity: 1 }}
                 viewport={{ once: true }}
               >
                 <span className="flex items-center">
@@ -122,10 +122,10 @@ export default function Background({ onClick, open }) {
             <Link href="/eugenfedoriuc/about">
               <motion.li
                 className="relative"
-                whileHover={{ scale: 1.1 }}
-                whileTap={{ scale: 0.9 }}
-                initial={{ opacity: 0 }}
-                whileInView={{ opacity: 1 }}
+                // whileHover={{ scale: 1.1 }}
+                // whileTap={{ scale: 0.9 }}
+                // initial={{ opacity: 0 }}
+                // whileInView={{ opacity: 1 }}
                 viewport={{ once: true }}
               >
                 <span className="flex items-center">
@@ -142,10 +142,10 @@ export default function Background({ onClick, open }) {
             <Link href="/eugenfedoriuc/projects">
               <motion.li
                 className="relative"
-                whileHover={{ scale: 1.1 }}
-                whileTap={{ scale: 0.9 }}
-                initial={{ opacity: 0 }}
-                whileInView={{ opacity: 1 }}
+                // whileHover={{ scale: 1.1 }}
+                // whileTap={{ scale: 0.9 }}
+                // initial={{ opacity: 0 }}
+                // whileInView={{ opacity: 1 }}
                 viewport={{ once: true }}
               >
                 <span className="flex items-center">
@@ -162,10 +162,10 @@ export default function Background({ onClick, open }) {
             <Link href="/eugenfedoriuc/services">
               <motion.li
                 className="relative"
-                whileHover={{ scale: 1.1 }}
-                whileTap={{ scale: 0.9 }}
-                initial={{ opacity: 0 }}
-                whileInView={{ opacity: 1 }}
+                // whileHover={{ scale: 1.1 }}
+                // whileTap={{ scale: 0.9 }}
+                // initial={{ opacity: 0 }}
+                // whileInView={{ opacity: 1 }}
                 viewport={{ once: true }}
               >
                 <span className="flex items-center">
@@ -182,10 +182,10 @@ export default function Background({ onClick, open }) {
             <Link href="/eugenfedoriuc/contact">
               <motion.li
                 className="relative"
-                whileHover={{ scale: 1.1 }}
-                whileTap={{ scale: 0.9 }}
-                initial={{ opacity: 0 }}
-                whileInView={{ opacity: 1 }}
+                // whileHover={{ scale: 1.1 }}
+                // whileTap={{ scale: 0.9 }}
+                // initial={{ opacity: 0 }}
+                // whileInView={{ opacity: 1 }}
                 viewport={{ once: true }}
               >
                 <span className="flex items-center">
@@ -202,10 +202,10 @@ export default function Background({ onClick, open }) {
           </ul>
           <div className="flex mt-8">
             <motion.a
-              whileHover={{ scale: 1.1 }}
-              whileTap={{ scale: 0.9 }}
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
+              // whileHover={{ scale: 1.1 }}
+              // whileTap={{ scale: 0.9 }}
+              // initial={{ opacity: 0 }}
+              // whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
               href="https://www.instagram.com/fedoriuk_/"
               className="p-1 pl-2"
@@ -215,10 +215,10 @@ export default function Background({ onClick, open }) {
               <BsInstagram size="25px" />
             </motion.a>
             <motion.a
-              whileHover={{ scale: 1.1 }}
-              whileTap={{ scale: 0.9 }}
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
+              // whileHover={{ scale: 1.1 }}
+              // whileTap={{ scale: 0.9 }}
+              // initial={{ opacity: 0 }}
+              // whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
               href="https://at.linkedin.com/in/eugen-fedoriuc-745804227"
               className="p-1 pl-3"
@@ -228,10 +228,10 @@ export default function Background({ onClick, open }) {
               <BsLinkedin size="25px" />
             </motion.a>
             <motion.a
-              whileHover={{ scale: 1.1 }}
-              whileTap={{ scale: 0.9 }}
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
+              // whileHover={{ scale: 1.1 }}
+              // whileTap={{ scale: 0.9 }}
+              // initial={{ opacity: 0 }}
+              // whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
               href="https://github.com/fedoriuk2001"
               className="p-1 pl-3"

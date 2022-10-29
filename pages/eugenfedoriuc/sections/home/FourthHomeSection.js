@@ -51,8 +51,8 @@ export default function FourthHomeSection() {
     <section>
       <div className="text-center py-8 xl:py-20">
         <motion.h2
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
+          // initial={{ opacity: 0 }}
+          // whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
           className="mt-12 mb-12 lg:mb-5"
         >
@@ -62,8 +62,8 @@ export default function FourthHomeSection() {
 
       <motion.article
         className="marquee__wrapper mb-20"
-        initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
+        // initial={{ opacity: 0 }}
+        // whileInView={{ opacity: 1 }}
         viewport={{ once: true }}
       >
         <div className="marquee">
@@ -344,18 +344,18 @@ export default function FourthHomeSection() {
           <div className="mx-3">
             <motion.div
               className="rounded-lg p-3 w-16 h-16 grid place-items-center bg-eugen-secondary hover:bg-eugen-secondary-hover dark:bg-eugen-secondary-dark dark:hover:bg-eugen-secondary-hover-dark"
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
+              // initial={{ opacity: 0 }}
+              // whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
-              whileHover={{ scale: 1.02 }}
+              // whileHover={{ scale: 1.02 }}
             >
               <Image src={htmlLogo} alt="Design" />
             </motion.div>
           </div>
           <div className="mx-3">
             <motion.h3
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
+              // initial={{ opacity: 0 }}
+              // whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
               className="text-2xl mb-4"
             >
@@ -364,8 +364,8 @@ export default function FourthHomeSection() {
 
             <motion.div
               className="bar w-[100%]"
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
+              // initial={{ opacity: 0 }}
+              // whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
             >
               <div className="info">
@@ -380,10 +380,10 @@ export default function FourthHomeSection() {
         <div className="flex -mx-3 text-left">
           <div className="mx-3 ">
             <motion.div
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
+              // initial={{ opacity: 0 }}
+              // whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
-              whileHover={{ scale: 1.02 }}
+              // whileHover={{ scale: 1.02 }}
               className="rounded-lg p-3 w-16 h-16 grid place-items-center bg-eugen-accent hover:bg-eugen-accent-hover dark:bg-eugen-accent-dark dark:hover:bg-eugen-accent-hover-dark"
             >
               <Image src={cssLogo} alt="Design" />
@@ -391,8 +391,8 @@ export default function FourthHomeSection() {
           </div>
           <div className="mx-3">
             <motion.h3
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
+              // initial={{ opacity: 0 }}
+              // whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
               className="text-2xl mb-4"
             >
@@ -400,8 +400,8 @@ export default function FourthHomeSection() {
             </motion.h3>
             <motion.div
               className="bar w-[100%]"
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
+              // initial={{ opacity: 0 }}
+              // whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
             >
               <div className="info">
@@ -416,10 +416,10 @@ export default function FourthHomeSection() {
         <div className="flex -mx-3 text-left">
           <div className="mx-3">
             <motion.div
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
+              // initial={{ opacity: 0 }}
+              // whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
-              whileHover={{ scale: 1.02 }}
+              // whileHover={{ scale: 1.02 }}
               className="rounded-lg p-2 w-16 h-16 grid place-items-center bg-eugen-secondary hover:bg-eugen-secondary-hover dark:bg-eugen-secondary-dark dark:hover:bg-eugen-secondary-hover-dark"
             >
               <Image src={sassLogo} alt="Design" />
@@ -427,8 +427,8 @@ export default function FourthHomeSection() {
           </div>
           <div className="mx-3">
             <motion.h3
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
+              // initial={{ opacity: 0 }}
+              // whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
               className="text-2xl mb-4"
             >
@@ -436,8 +436,8 @@ export default function FourthHomeSection() {
             </motion.h3>
             <motion.div
               className="bar w-[100%]"
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
+              // initial={{ opacity: 0 }}
+              // whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
             >
               <div className="info">
@@ -452,10 +452,10 @@ export default function FourthHomeSection() {
         <div className="flex -mx-3 text-left">
           <div className="mx-3">
             <motion.div
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
+              // initial={{ opacity: 0 }}
+              // whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
-              whileHover={{ scale: 1.02 }}
+              // whileHover={{ scale: 1.02 }}
               className="rounded-lg p-2 w-16 h-16 grid place-items-center bg-eugen-secondary hover:bg-eugen-secondary-hover dark:bg-eugen-secondary-dark dark:hover:bg-eugen-secondary-hover-dark"
             >
               <Image src={bootstrapLogo} alt="Design" />
@@ -463,8 +463,8 @@ export default function FourthHomeSection() {
           </div>
           <div className="mx-3">
             <motion.h3
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
+              // initial={{ opacity: 0 }}
+              // whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
               className="text-2xl mb-4"
             >
@@ -472,8 +472,8 @@ export default function FourthHomeSection() {
             </motion.h3>
             <motion.div
               className="bar w-[100%]"
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
+              // initial={{ opacity: 0 }}
+              // whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
             >
               <div className="info">
@@ -488,10 +488,10 @@ export default function FourthHomeSection() {
         <div className="flex -mx-3 text-left">
           <div className="mx-3">
             <motion.div
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
+              // initial={{ opacity: 0 }}
+              // whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
-              whileHover={{ scale: 1.02 }}
+              // whileHover={{ scale: 1.02 }}
               className="rounded-lg p-2 w-16 h-16 grid place-items-center bg-eugen-accent hover:bg-eugen-accent-hover dark:bg-eugen-accent-dark dark:hover:bg-eugen-accent-hover-dark"
             >
               <Image src={tailwindcss} alt="Design" />
@@ -499,8 +499,8 @@ export default function FourthHomeSection() {
           </div>
           <div className="mx-3">
             <motion.h3
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
+              // initial={{ opacity: 0 }}
+              // whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
               className="text-2xl mb-4"
             >
@@ -508,8 +508,8 @@ export default function FourthHomeSection() {
             </motion.h3>
             <motion.div
               className="bar w-[100%]"
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
+              // initial={{ opacity: 0 }}
+              // whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
             >
               <div className="info">
@@ -524,10 +524,10 @@ export default function FourthHomeSection() {
         <div className="flex -mx-3 text-left">
           <div className="mx-3">
             <motion.div
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
+              // initial={{ opacity: 0 }}
+              // whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
-              whileHover={{ scale: 1.02 }}
+              // whileHover={{ scale: 1.02 }}
               className="rounded-lg p-3 w-16 h-16 grid place-items-center bg-eugen-secondary hover:bg-eugen-secondary-hover dark:bg-eugen-secondary-dark dark:hover:bg-eugen-secondary-hover-dark"
             >
               <Image src={jsLogo} alt="Design" />
@@ -535,8 +535,8 @@ export default function FourthHomeSection() {
           </div>
           <div className="mx-3">
             <motion.h3
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
+              // initial={{ opacity: 0 }}
+              // whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
               className="text-2xl mb-4"
             >
@@ -544,8 +544,8 @@ export default function FourthHomeSection() {
             </motion.h3>
             <motion.div
               className="bar w-[100%]"
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
+              // initial={{ opacity: 0 }}
+              // whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
             >
               <div className="info">
@@ -560,10 +560,10 @@ export default function FourthHomeSection() {
         <div className="flex -mx-3 text-left">
           <div className="mx-3">
             <motion.div
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
+              // initial={{ opacity: 0 }}
+              // whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
-              whileHover={{ scale: 1.02 }}
+              // whileHover={{ scale: 1.02 }}
               className="rounded-lg p-0 w-16 h-16 grid place-items-center bg-eugen-secondary hover:bg-eugen-secondary-hover dark:bg-eugen-secondary-dark dark:hover:bg-eugen-secondary-hover-dark"
             >
               <Image src={reactLogo} alt="Design" />
@@ -571,8 +571,8 @@ export default function FourthHomeSection() {
           </div>
           <div className="mx-3">
             <motion.h3
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
+              // initial={{ opacity: 0 }}
+              // whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
               className="text-2xl mb-4"
             >
@@ -580,8 +580,8 @@ export default function FourthHomeSection() {
             </motion.h3>
             <motion.div
               className="bar w-[100%]"
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
+              // initial={{ opacity: 0 }}
+              // whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
             >
               <div className="info">
@@ -596,10 +596,10 @@ export default function FourthHomeSection() {
         <div className="flex -mx-3 text-left">
           <div className="mx-3">
             <motion.div
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
+              // initial={{ opacity: 0 }}
+              // whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
-              whileHover={{ scale: 1.02 }}
+              // whileHover={{ scale: 1.02 }}
               className="rounded-lg p-3 w-16 h-16 grid place-items-center bg-eugen-accent hover:bg-eugen-accent-hover dark:bg-eugen-accent-dark dark:hover:bg-eugen-accent-hover-dark"
             >
               <Image src={jqueryLogo} alt="Design" />
@@ -607,8 +607,8 @@ export default function FourthHomeSection() {
           </div>
           <div className="mx-3">
             <motion.h3
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
+              // initial={{ opacity: 0 }}
+              // whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
               className="text-2xl mb-4"
             >
@@ -616,8 +616,8 @@ export default function FourthHomeSection() {
             </motion.h3>
             <motion.div
               className="bar w-[100%]"
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
+              // initial={{ opacity: 0 }}
+              // whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
             >
               <div className="info">
@@ -632,10 +632,10 @@ export default function FourthHomeSection() {
         <div className="flex -mx-3 text-left">
           <div className="mx-3">
             <motion.div
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
+              // initial={{ opacity: 0 }}
+              // whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
-              whileHover={{ scale: 1.02 }}
+              // whileHover={{ scale: 1.02 }}
               className="rounded-lg p-2 w-16 h-16 grid place-items-center bg-eugen-secondary hover:bg-eugen-secondary-hover dark:bg-eugen-secondary-dark dark:hover:bg-eugen-secondary-hover-dark"
             >
               <Image src={nextjsLogo} alt="Design" />
@@ -643,8 +643,8 @@ export default function FourthHomeSection() {
           </div>
           <div className="mx-3">
             <motion.h3
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
+              // initial={{ opacity: 0 }}
+              // whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
               className="text-2xl mb-4"
             >
@@ -652,8 +652,8 @@ export default function FourthHomeSection() {
             </motion.h3>
             <motion.div
               className="bar w-[100%]"
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
+              // initial={{ opacity: 0 }}
+              // whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
             >
               <div className="info">
@@ -668,10 +668,10 @@ export default function FourthHomeSection() {
         <div className="flex -mx-3 text-left">
           <div className="mx-3">
             <motion.div
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
+              // initial={{ opacity: 0 }}
+              // whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
-              whileHover={{ scale: 1.02 }}
+              // whileHover={{ scale: 1.02 }}
               className="rounded-lg p-3 w-16 h-16 grid place-items-center bg-eugen-secondary hover:bg-eugen-secondary-hover dark:bg-eugen-secondary-dark dark:hover:bg-eugen-secondary-hover-dark"
             >
               <Image src={gatsby} alt="Design" />
@@ -679,8 +679,8 @@ export default function FourthHomeSection() {
           </div>
           <div className="mx-3">
             <motion.h3
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
+              // initial={{ opacity: 0 }}
+              // whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
               className="text-2xl mb-4"
             >
@@ -688,8 +688,8 @@ export default function FourthHomeSection() {
             </motion.h3>
             <motion.div
               className="bar w-[100%]"
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
+              // initial={{ opacity: 0 }}
+              // whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
             >
               <div className="info">
@@ -704,10 +704,10 @@ export default function FourthHomeSection() {
         <div className="flex -mx-3 text-left">
           <div className="mx-3">
             <motion.div
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
+              // initial={{ opacity: 0 }}
+              // whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
-              whileHover={{ scale: 1.02 }}
+              // whileHover={{ scale: 1.02 }}
               className="rounded-lg p-3 w-16 h-16 grid place-items-center bg-eugen-accent hover:bg-eugen-accent-hover dark:bg-eugen-accent-dark dark:hover:bg-eugen-accent-hover-dark"
             >
               <Image src={typescript} alt="Design" />
@@ -715,8 +715,8 @@ export default function FourthHomeSection() {
           </div>
           <div className="mx-3">
             <motion.h3
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
+              // initial={{ opacity: 0 }}
+              // whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
               className="text-2xl mb-4"
             >
@@ -724,8 +724,8 @@ export default function FourthHomeSection() {
             </motion.h3>
             <motion.div
               className="bar w-[100%]"
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
+              // initial={{ opacity: 0 }}
+              // whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
             >
               <div className="info">
@@ -740,10 +740,10 @@ export default function FourthHomeSection() {
         <div className="flex -mx-3 text-left">
           <div className="mx-3">
             <motion.div
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
+              // initial={{ opacity: 0 }}
+              // whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
-              whileHover={{ scale: 1.02 }}
+              // whileHover={{ scale: 1.02 }}
               className="rounded-lg p-2 w-16 h-16 grid place-items-center bg-eugen-secondary hover:bg-eugen-secondary-hover dark:bg-eugen-secondary-dark dark:hover:bg-eugen-secondary-hover-dark"
             >
               <Image src={nodejsLogo} alt="Design" />
@@ -751,8 +751,8 @@ export default function FourthHomeSection() {
           </div>
           <div className="mx-3">
             <motion.h3
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
+              // initial={{ opacity: 0 }}
+              // whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
               className="text-2xl mb-4"
             >
@@ -760,8 +760,8 @@ export default function FourthHomeSection() {
             </motion.h3>
             <motion.div
               className="bar w-[100%]"
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
+              // initial={{ opacity: 0 }}
+              // whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
             >
               <div className="info">
@@ -776,10 +776,10 @@ export default function FourthHomeSection() {
         <div className="flex -mx-3 text-left">
           <div className="mx-3">
             <motion.div
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
+              // initial={{ opacity: 0 }}
+              // whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
-              whileHover={{ scale: 1.02 }}
+              // whileHover={{ scale: 1.02 }}
               className="rounded-lg p-2 w-16 h-16 grid place-items-center bg-eugen-secondary hover:bg-eugen-secondary-hover dark:bg-eugen-secondary-dark dark:hover:bg-eugen-secondary-hover-dark"
             >
               <Image src={springLogo} alt="Design" />
@@ -787,8 +787,8 @@ export default function FourthHomeSection() {
           </div>
           <div className="mx-3">
             <motion.h3
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
+              // initial={{ opacity: 0 }}
+              // whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
               className="text-2xl mb-4"
             >
@@ -796,8 +796,8 @@ export default function FourthHomeSection() {
             </motion.h3>
             <motion.div
               className="bar w-[100%]"
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
+              // initial={{ opacity: 0 }}
+              // whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
             >
               <div className="info">
@@ -812,10 +812,10 @@ export default function FourthHomeSection() {
         <div className="flex -mx-3 text-left">
           <div className="mx-3">
             <motion.div
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
+              // initial={{ opacity: 0 }}
+              // whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
-              whileHover={{ scale: 1.02 }}
+              // whileHover={{ scale: 1.02 }}
               className="rounded-lg p-2 w-16 h-16 grid place-items-center bg-eugen-accent hover:bg-eugen-accent-hover dark:bg-eugen-accent-dark dark:hover:bg-eugen-accent-hover-dark"
             >
               <Image src={angularLogo} alt="Design" />
@@ -823,8 +823,8 @@ export default function FourthHomeSection() {
           </div>
           <div className="mx-3">
             <motion.h3
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
+              // initial={{ opacity: 0 }}
+              // whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
               className="text-2xl mb-4"
             >
@@ -832,8 +832,8 @@ export default function FourthHomeSection() {
             </motion.h3>
             <motion.div
               className="bar w-[100%]"
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
+              // initial={{ opacity: 0 }}
+              // whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
             >
               <div className="info">
@@ -848,10 +848,10 @@ export default function FourthHomeSection() {
         <div className="flex -mx-3 text-left">
           <div className="mx-3">
             <motion.div
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
+              // initial={{ opacity: 0 }}
+              // whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
-              whileHover={{ scale: 1.02 }}
+              // whileHover={{ scale: 1.02 }}
               className="rounded-lg p-3 w-16 h-16 grid place-items-center bg-eugen-secondary hover:bg-eugen-secondary-hover dark:bg-eugen-secondary-dark dark:hover:bg-eugen-secondary-hover-dark"
             >
               <Image src={firebase} alt="Design" />
@@ -859,8 +859,8 @@ export default function FourthHomeSection() {
           </div>
           <div className="mx-3">
             <motion.h3
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
+              // initial={{ opacity: 0 }}
+              // whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
               className="text-2xl mb-4"
             >
@@ -868,8 +868,8 @@ export default function FourthHomeSection() {
             </motion.h3>
             <motion.div
               className="bar w-[100%]"
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
+              // initial={{ opacity: 0 }}
+              // whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
             >
               <div className="info">
@@ -884,10 +884,10 @@ export default function FourthHomeSection() {
         <div className="flex -mx-3 text-left">
           <div className="mx-3">
             <motion.div
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
+              // initial={{ opacity: 0 }}
+              // whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
-              whileHover={{ scale: 1.02 }}
+              // whileHover={{ scale: 1.02 }}
               className="rounded-lg p-3 w-16 h-16 grid place-items-center bg-eugen-secondary hover:bg-eugen-secondary-hover dark:bg-eugen-secondary-dark dark:hover:bg-eugen-secondary-hover-dark"
             >
               <Image src={mongodb} alt="Design" />
@@ -895,8 +895,8 @@ export default function FourthHomeSection() {
           </div>
           <div className="mx-3">
             <motion.h3
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
+              // initial={{ opacity: 0 }}
+              // whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
               className="text-2xl mb-4"
             >
@@ -904,8 +904,8 @@ export default function FourthHomeSection() {
             </motion.h3>
             <motion.div
               className="bar w-[100%]"
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
+              // initial={{ opacity: 0 }}
+              // whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
             >
               <div className="info">
@@ -920,10 +920,10 @@ export default function FourthHomeSection() {
         <div className="flex -mx-3 text-left">
           <div className="mx-3">
             <motion.div
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
+              // initial={{ opacity: 0 }}
+              // whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
-              whileHover={{ scale: 1.02 }}
+              // whileHover={{ scale: 1.02 }}
               className="rounded-lg p-3 w-16 h-16 grid place-items-center bg-eugen-accent hover:bg-eugen-accent-hover dark:bg-eugen-accent-dark dark:hover:bg-eugen-accent-hover-dark"
             >
               <Image src={reduxLogo} alt="Design" />
@@ -931,8 +931,8 @@ export default function FourthHomeSection() {
           </div>
           <div className="mx-3">
             <motion.h3
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
+              // initial={{ opacity: 0 }}
+              // whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
               className="text-2xl mb-4"
             >
@@ -940,8 +940,8 @@ export default function FourthHomeSection() {
             </motion.h3>
             <motion.div
               className="bar w-[100%]"
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
+              // initial={{ opacity: 0 }}
+              // whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
             >
               <div className="info">
@@ -956,10 +956,10 @@ export default function FourthHomeSection() {
         <div className="flex -mx-3 text-left">
           <div className="mx-3">
             <motion.div
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
+              // initial={{ opacity: 0 }}
+              // whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
-              whileHover={{ scale: 1.02 }}
+              // whileHover={{ scale: 1.02 }}
               className="rounded-lg p-3 w-16 h-16 grid place-items-center bg-eugen-secondary hover:bg-eugen-secondary-hover dark:bg-eugen-secondary-dark dark:hover:bg-eugen-secondary-hover-dark"
             >
               <Image src={graphqlLogo} alt="Design" />
@@ -967,8 +967,8 @@ export default function FourthHomeSection() {
           </div>
           <div className="mx-3">
             <motion.h3
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
+              // initial={{ opacity: 0 }}
+              // whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
               className="text-2xl mb-4"
             >
@@ -976,8 +976,8 @@ export default function FourthHomeSection() {
             </motion.h3>
             <motion.div
               className="bar w-[100%]"
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
+              // initial={{ opacity: 0 }}
+              // whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
             >
               <div className="info">

@@ -15,9 +15,9 @@ export default function LastAboutSection() {
       <div className="py-8 items-center md:flex md:-mx-8  md:flex-row-reverse">
         <motion.div
           className="w-full md:w-5/12 md:mx-8 mb-6"
-          whileHover={{ scale: 1.01 }}
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
+          // whileHover={{ scale: 1.01 }}
+          // initial={{ opacity: 0 }}
+          // whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
         >
           <div className="rounded-lg block relative overflow-hidden">
@@ -26,15 +26,15 @@ export default function LastAboutSection() {
         </motion.div>
         <motion.div
           className="w-full md:w-7/12 md:mx-8"
-          whileHover={{ scale: 1.01 }}
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
+          // whileHover={{ scale: 1.01 }}
+          // initial={{ opacity: 0 }}
+          // whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
         >
           <motion.div
-            whileHover={{ scale: 1.01 }}
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
+            // whileHover={{ scale: 1.01 }}
+            // initial={{ opacity: 0 }}
+            // whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
           >
             <p>
