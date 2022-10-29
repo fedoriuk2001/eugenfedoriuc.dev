@@ -52,10 +52,10 @@ export default function Header() {
         <div className="flex flex-wrap justify-between items-center mx-auto">
           <Link href="/eugenfedoriuc/home">
             <motion.a
-              // whileHover={{ scale: 1.1 }}
-              // whileTap={{ scale: 0.9 }}
-              // initial={{ opacity: 0 }}
-              // whileInView={{ opacity: 1 }}
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
               className="flex items-center"
             >
@@ -69,10 +69,10 @@ export default function Header() {
               <Link href="/eugenfedoriuc/about">
                 <li>
                   <motion.a
-                    // whileHover={{ scale: 1.1 }}
-                    // whileTap={{ scale: 0.9 }}
-                    // initial={{ opacity: 0 }}
-                    // whileInView={{ opacity: 1 }}
+                    whileHover={{ scale: 1.1 }}
+                    whileTap={{ scale: 0.9 }}
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }}
                     viewport={{ once: true }}
                     className="block text-lg py-2 pr-4 pl-3 border-b border-gray-100 rounded-lg hover:bg-black lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
                   >
@@ -83,10 +83,10 @@ export default function Header() {
               <Link href="/eugenfedoriuc/projects">
                 <li>
                   <motion.a
-                    // whileHover={{ scale: 1.1 }}
-                    // whileTap={{ scale: 0.9 }}
-                    // initial={{ opacity: 0 }}
-                    // whileInView={{ opacity: 1 }}
+                    whileHover={{ scale: 1.1 }}
+                    whileTap={{ scale: 0.9 }}
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }}
                     viewport={{ once: true }}
                     className="block text-lg py-2 pr-4 pl-3 border-b border-gray-100 rounded-lg hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
                   >
@@ -97,10 +97,10 @@ export default function Header() {
               <Link href="/eugenfedoriuc/services">
                 <li>
                   <motion.a
-                    // whileHover={{ scale: 1.1 }}
-                    // whileTap={{ scale: 0.9 }}
-                    // initial={{ opacity: 0 }}
-                    // whileInView={{ opacity: 1 }}
+                    whileHover={{ scale: 1.1 }}
+                    whileTap={{ scale: 0.9 }}
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }}
                     viewport={{ once: true }}
                     className="block text-lg py-2 pr-4 pl-3 border-b border-gray-100 rounded-lg hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
                   >
@@ -111,10 +111,10 @@ export default function Header() {
             </ul>
             <Link href="/eugenfedoriuc/contact">
               <motion.a
-                // whileHover={{ scale: 1.1 }}
-                // whileTap={{ scale: 0.9 }}
-                // initial={{ opacity: 0 }}
-                // whileInView={{ opacity: 1 }}
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.9 }}
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
                 viewport={{ once: true }}
                 className="font-bold text-md px-4 rounded-lg text-center bg-eugen-secondary py-2 mr-2 xs:text-sm lg:text-lg lg:px-5 lg:py-2.5 hover:bg-eugen-secondary-hover dark:bg-eugen-secondary-dark dark:hover:bg-eugen-secondary-hover-dark"
               >
@@ -124,10 +124,10 @@ export default function Header() {
             <div className="px-1 xs:hidden"></div>
             <motion.div
               className="w-[40px] xs:w-[30px] text-gray-900 dark:text-yellow-500"
-              // whileHover={{ scale: 1.1 }}
-              // whileTap={{ scale: 0.9 }}
-              // initial={{ opacity: 0 }}
-              // whileInView={{ opacity: 1 }}
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
             >
               {renderThemeChanger()}

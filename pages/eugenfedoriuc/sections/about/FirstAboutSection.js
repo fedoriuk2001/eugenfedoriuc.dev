@@ -7,9 +7,9 @@ export default function FirstAboutSection() {
   return (
     <motion.section
       className="container"
-      // whileHover={{ scale: 1.01 }}
-      // initial={{ opacity: 0 }}
-      // whileInView={{ opacity: 1 }}
+      whileHover={{ scale: 1.01 }}
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
       viewport={{ once: true }}
     >
       <div className="text-center lg:w-3/4 xl:w-2/3 mx-auto my-20 xl:my-60">

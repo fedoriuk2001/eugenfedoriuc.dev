@@ -14,8 +14,8 @@ export default function FifthHomeSection() {
   return (
     <section className="container px-0 lg:px-4">
       <motion.div
-        // initial={{ opacity: 0 }}
-        // whileInView={{ opacity: 1 }}
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
         viewport={{ once: true }}
         transition={{ duration: 1 }}
         className="max-w-5xl my-16 mx-auto lg:my-32"
@@ -29,8 +29,8 @@ export default function FifthHomeSection() {
           <div className="px-4 pt-24 pb-8 md:p-12 w-full md:w-2/3">
             <motion.h2
               className="mb-4 lg:mb-4"
-              // initial={{ opacity: 0 }}
-              // whileInView={{ opacity: 1 }}
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
             >
               Got a problem to solve?
@@ -38,8 +38,8 @@ export default function FifthHomeSection() {
 
             <div className="mb-4 lg:mb-4">
               <motion.p
-                // initial={{ opacity: 0 }}
-                // whileInView={{ opacity: 1 }}
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
                 viewport={{ once: true }}
               >
                 Get your space suit ready and tell me your ideas to develop your
@@ -48,10 +48,10 @@ export default function FifthHomeSection() {
             </div>
             <Link href="/eugenfedoriuc/contact">
               <motion.a
-                // whileHover={{ scale: 1.1 }}
-                // whileTap={{ scale: 0.9 }}
-                // initial={{ opacity: 0 }}
-                // whileInView={{ opacity: 1 }}
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.9 }}
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
                 viewport={{ once: true }}
                 className="btn btn-inverted bg-eugen-secondary hover:bg-eugen-secondary-hover dark:bg-eugen-secondary-dark dark:hover:bg-eugen-secondary-hover-dark"
               >

@@ -23,8 +23,8 @@ export default function Footer() {
           <div className="grid gap-4 md:grid-cols-12">
             <div className="grid gap-4 mb-auto md:col-span-5">
               <motion.p
-                // initial={{ opacity: 0 }}
-                // whileInView={{ opacity: 1 }}
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
                 viewport={{ once: true }}
                 className="text-2xl font-semibold"
               >
@@ -32,16 +32,16 @@ export default function Footer() {
               </motion.p>
               <div>
                 <motion.p
-                  // initial={{ opacity: 0 }}
-                  // whileInView={{ opacity: 1 }}
+                  initial={{ opacity: 0 }}
+                  whileInView={{ opacity: 1 }}
                   viewport={{ once: true }}
                 >
                   In order to be irreplaceable, one must always be different.
                 </motion.p>
                 <br />
                 <motion.p
-                  // initial={{ opacity: 0 }}
-                  // whileInView={{ opacity: 1 }}
+                  initial={{ opacity: 0 }}
+                  whileInView={{ opacity: 1 }}
                   viewport={{ once: true }}
                   className="font-semibold"
                 >
@@ -51,10 +51,10 @@ export default function Footer() {
               <div className="-mx-4">
                 <div className="flex mx-4">
                   <motion.a
-                    // whileHover={{ scale: 1.1 }}
-                    // whileTap={{ scale: 0.9 }}
-                    // initial={{ opacity: 0 }}
-                    // whileInView={{ opacity: 1 }}
+                    whileHover={{ scale: 1.1 }}
+                    whileTap={{ scale: 0.9 }}
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }}
                     viewport={{ once: true }}
                     className="p-1 pl-0 pt-0"
                     href="https://www.instagram.com/fedoriuk_/"
@@ -65,10 +65,10 @@ export default function Footer() {
                     <BsInstagram size="25px" />
                   </motion.a>
                   <motion.a
-                    // whileHover={{ scale: 1.1 }}
-                    // whileTap={{ scale: 0.9 }}
-                    // initial={{ opacity: 0 }}
-                    // whileInView={{ opacity: 1 }}
+                    whileHover={{ scale: 1.1 }}
+                    whileTap={{ scale: 0.9 }}
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }}
                     viewport={{ once: true }}
                     className="p-1 pl-2 pt-0"
                     href="https://at.linkedin.com/in/eugen-fedoriuc-745804227"
@@ -79,10 +79,10 @@ export default function Footer() {
                     <BsLinkedin size="25px" />
                   </motion.a>
                   <motion.a
-                    // whileHover={{ scale: 1.1 }}
-                    // whileTap={{ scale: 0.9 }}
-                    // initial={{ opacity: 0 }}
-                    // whileInView={{ opacity: 1 }}
+                    whileHover={{ scale: 1.1 }}
+                    whileTap={{ scale: 0.9 }}
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }}
                     viewport={{ once: true }}
                     className="p-1 pl-2 pt-0"
                     href="https://github.com/fedoriuk2001"
@@ -98,8 +98,8 @@ export default function Footer() {
             <div className="grid gap-4 md:col-span-7 md:grid-cols-2">
               <div className="my-4 md:mx-auto">
                 <motion.p
-                  // initial={{ opacity: 0 }}
-                  // whileInView={{ opacity: 1 }}
+                  initial={{ opacity: 0 }}
+                  whileInView={{ opacity: 1 }}
                   viewport={{ once: true }}
                   className="mb-6 font-semibold"
                 >
@@ -108,10 +108,10 @@ export default function Footer() {
                 <div className="grid gap-2">
                   <Link href="/eugenfedoriuc/home">
                     <motion.p
-                      // whileHover={{ scale: 1.1 }}
-                      // whileTap={{ scale: 0.9 }}
-                      // initial={{ opacity: 0 }}
-                      // whileInView={{ opacity: 1 }}
+                      whileHover={{ scale: 1.1 }}
+                      whileTap={{ scale: 0.9 }}
+                      initial={{ opacity: 0 }}
+                      whileInView={{ opacity: 1 }}
                       viewport={{ once: true }}
                     >
                       <a className="text-inverted hover:text-highlight focus:text-highlight">
@@ -121,10 +121,10 @@ export default function Footer() {
                   </Link>
                   <Link href="/eugenfedoriuc/about">
                     <motion.p
-                      // whileHover={{ scale: 1.1 }}
-                      // whileTap={{ scale: 0.9 }}
-                      // initial={{ opacity: 0 }}
-                      // whileInView={{ opacity: 1 }}
+                      whileHover={{ scale: 1.1 }}
+                      whileTap={{ scale: 0.9 }}
+                      initial={{ opacity: 0 }}
+                      whileInView={{ opacity: 1 }}
                       viewport={{ once: true }}
                     >
                       <a className="text-inverted hover:text-highlight focus:text-highlight">
@@ -134,10 +134,10 @@ export default function Footer() {
                   </Link>
                   <Link href="/eugenfedoriuc/projects">
                     <motion.p
-                      // whileHover={{ scale: 1.1 }}
-                      // whileTap={{ scale: 0.9 }}
-                      // initial={{ opacity: 0 }}
-                      // whileInView={{ opacity: 1 }}
+                      whileHover={{ scale: 1.1 }}
+                      whileTap={{ scale: 0.9 }}
+                      initial={{ opacity: 0 }}
+                      whileInView={{ opacity: 1 }}
                       viewport={{ once: true }}
                     >
                       <a className="text-inverted hover:text-highlight focus:text-highlight">
@@ -147,10 +147,10 @@ export default function Footer() {
                   </Link>
                   <Link href="/eugenfedoriuc/services">
                     <motion.p
-                      // whileHover={{ scale: 1.1 }}
-                      // whileTap={{ scale: 0.9 }}
-                      // initial={{ opacity: 0 }}
-                      // whileInView={{ opacity: 1 }}
+                      whileHover={{ scale: 1.1 }}
+                      whileTap={{ scale: 0.9 }}
+                      initial={{ opacity: 0 }}
+                      whileInView={{ opacity: 1 }}
                       viewport={{ once: true }}
                     >
                       <a className="text-inverted hover:text-highlight focus:text-highlight">
@@ -160,10 +160,10 @@ export default function Footer() {
                   </Link>
                   <Link href="/eugenfedoriuc/contact">
                     <motion.p
-                      // whileHover={{ scale: 1.1 }}
-                      // whileTap={{ scale: 0.9 }}
-                      // initial={{ opacity: 0 }}
-                      // whileInView={{ opacity: 1 }}
+                      whileHover={{ scale: 1.1 }}
+                      whileTap={{ scale: 0.9 }}
+                      initial={{ opacity: 0 }}
+                      whileInView={{ opacity: 1 }}
                       viewport={{ once: true }}
                     >
                       <a className="text-inverted hover:text-highlight focus:text-highlight">
@@ -179,8 +179,8 @@ export default function Footer() {
             <div className="md:col-span-5">
               <div>
                 <motion.p
-                  // initial={{ opacity: 0 }}
-                  // whileInView={{ opacity: 1 }}
+                  initial={{ opacity: 0 }}
+                  whileInView={{ opacity: 1 }}
                   viewport={{ once: true }}
                   className="font-semibold"
                 >
@@ -189,10 +189,10 @@ export default function Footer() {
                 </motion.p>
                 <Link href="/khrystynanehrych/home">
                   <motion.p
-                    // whileHover={{ scale: 1.02 }}
-                    // whileTap={{ scale: 0.98 }}
-                    // initial={{ opacity: 0 }}
-                    // whileInView={{ opacity: 1 }}
+                    whileHover={{ scale: 1.02 }}
+                    whileTap={{ scale: 0.98 }}
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }}
                     viewport={{ once: true }}
                     className="transition-all cursor-pointer dark:hover:text-eugen-accent-hover-dark"
                   >
@@ -207,14 +207,14 @@ export default function Footer() {
           </div> */}
         </div>
         <motion.div
-          // initial={{ opacity: 0 }}
-          // whileInView={{ opacity: 1 }}
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
           className="py-8 mt-16 border-t-[1px] border-gray-900 dark:border-gray-300"
         >
           <motion.p
-            // initial={{ opacity: 0 }}
-            // whileInView={{ opacity: 1 }}
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
             className="text-sm"
           >

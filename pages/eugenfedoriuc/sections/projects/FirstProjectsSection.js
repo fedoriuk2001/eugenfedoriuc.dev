@@ -9,10 +9,10 @@ export default function FirstProjectsSection({ title }) {
       <div className="text-center lg:w-3/4 xl:w-2/3 mx-auto my-20 xl:my-40">
         <motion.h1
           className="mb-10 text-[30px] sm:text-[70px]"
-          // initial={{ opacity: 0 }}
-          // whileInView={{ opacity: 1 }}
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
-          // whileHover={{ scale: 1.01 }}
+          whileHover={{ scale: 1.01 }}
         >
           {title}
         </motion.h1>

@@ -18,10 +18,10 @@ export default function ThirdHomeSection() {
     <section className="container">
       <div className="text-center py-8 xl:py-20">
         <motion.h2
-          // initial={{ opacity: 0 }}
-          // whileInView={{ opacity: 1 }}
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
-          // whileHover={{ scale: 1.01 }}
+          whileHover={{ scale: 1.01 }}
           className="mb-12 lg:mb-24 mt-12 lg:mt-24"
         >
           Everything you need for a perfect website
@@ -31,26 +31,26 @@ export default function ThirdHomeSection() {
             <div className="mx-3">
               <motion.div
                 className="rounded-lg p-4 w-16 h-16 grid place-items-center bg-eugen-secondary hover:bg-eugen-secondary-hover dark:bg-eugen-secondary-dark dark:hover:bg-eugen-secondary-hover-dark"
-                // initial={{ opacity: 0 }}
-                // whileInView={{ opacity: 1 }}
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
                 viewport={{ once: true }}
-                // whileHover={{ scale: 1.02 }}
+                whileHover={{ scale: 1.02 }}
               >
                 <SearchIcon />
               </motion.div>
             </div>
             <div className="mx-3">
               <motion.h3
-                // initial={{ opacity: 0 }}
-                // whileInView={{ opacity: 1 }}
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
                 viewport={{ once: true }}
                 className="text-2xl mb-4"
               >
                 Information Gathering
               </motion.h3>
               <motion.p
-                // initial={{ opacity: 0 }}
-                // whileInView={{ opacity: 1 }}
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
                 viewport={{ once: true }}
               >
                 I get a clear understanding of your future website purposes, the
@@ -62,10 +62,10 @@ export default function ThirdHomeSection() {
           <div className="flex -mx-3 text-left">
             <div className="mx-3">
               <motion.div
-                // initial={{ opacity: 0 }}
-                // whileInView={{ opacity: 1 }}
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
                 viewport={{ once: true }}
-                // whileHover={{ scale: 1.02 }}
+                whileHover={{ scale: 1.02 }}
                 className="rounded-lg p-4 w-16 h-16 grid place-items-center bg-eugen-secondary hover:bg-eugen-secondary-hover dark:bg-eugen-secondary-dark dark:hover:bg-eugen-secondary-hover-dark"
               >
                 <PlanningIcon />
@@ -73,16 +73,16 @@ export default function ThirdHomeSection() {
             </div>
             <div className="mx-3">
               <motion.h3
-                // initial={{ opacity: 0 }}
-                // whileInView={{ opacity: 1 }}
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
                 viewport={{ once: true }}
                 className="text-2xl mb-4"
               >
                 Planning
               </motion.h3>
               <motion.p
-                // initial={{ opacity: 0 }}
-                // whileInView={{ opacity: 1 }}
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
                 viewport={{ once: true }}
               >
                 I create the data that allows you to judge how the entire site
@@ -94,10 +94,10 @@ export default function ThirdHomeSection() {
           <div className="flex -mx-3 text-left cursor-pointer">
             <div className="mx-3">
               <motion.div
-                // initial={{ opacity: 0 }}
-                // whileInView={{ opacity: 1 }}
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
                 viewport={{ once: true }}
-                // whileHover={{ scale: 1.02 }}
+                whileHover={{ scale: 1.02 }}
                 className="rounded-lg p-4 w-16 h-16 grid place-items-center bg-eugen-secondary hover:bg-eugen-secondary-hover dark:bg-eugen-secondary-dark dark:hover:bg-eugen-secondary-hover-dark"
               >
                 <DesignIcon />
@@ -105,8 +105,8 @@ export default function ThirdHomeSection() {
             </div>
             <div className="mx-3">
               <motion.h3
-                // initial={{ opacity: 0 }}
-                // whileInView={{ opacity: 1 }}
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
                 viewport={{ once: true }}
                 className="text-2xl mb-4 cursor-pointer"
               >
@@ -114,8 +114,8 @@ export default function ThirdHomeSection() {
               </motion.h3>
 
               <motion.p
-                // initial={{ opacity: 0 }}
-                // whileInView={{ opacity: 1 }}
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
                 viewport={{ once: true }}
                 className="cursor-pointer"
               >
@@ -128,10 +128,10 @@ export default function ThirdHomeSection() {
           <div className="flex -mx-3 text-left">
             <div className="mx-3">
               <motion.div
-                // initial={{ opacity: 0 }}
-                // whileInView={{ opacity: 1 }}
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
                 viewport={{ once: true }}
-                // whileHover={{ scale: 1.02 }}
+                whileHover={{ scale: 1.02 }}
                 className="rounded-lg p-4 w-16 h-16 grid place-items-center bg-eugen-secondary hover:bg-eugen-secondary-hover dark:bg-eugen-secondary-dark dark:hover:bg-eugen-secondary-hover-dark"
               >
                 <BiBookContent className="w-8 h-8" />
@@ -139,16 +139,16 @@ export default function ThirdHomeSection() {
             </div>
             <div className="mx-3">
               <motion.h3
-                // initial={{ opacity: 0 }}
-                // whileInView={{ opacity: 1 }}
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
                 viewport={{ once: true }}
                 className="text-2xl mb-4"
               >
                 Content Writing and Assembly
               </motion.h3>
               <motion.p
-                // initial={{ opacity: 0 }}
-                // whileInView={{ opacity: 1 }}
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
                 viewport={{ once: true }}
               >
                 I build with your goals in mind, whether you want a simple
@@ -159,10 +159,10 @@ export default function ThirdHomeSection() {
           <div className="flex -mx-3 text-left">
             <div className="mx-3">
               <motion.div
-                // initial={{ opacity: 0 }}
-                // whileInView={{ opacity: 1 }}
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
                 viewport={{ once: true }}
-                // whileHover={{ scale: 1.02 }}
+                whileHover={{ scale: 1.02 }}
                 className="rounded-lg p-4 w-16 h-16 grid place-items-center bg-eugen-secondary hover:bg-eugen-secondary-hover dark:bg-eugen-secondary-dark dark:hover:bg-eugen-secondary-hover-dark"
               >
                 <CodeIcon />
@@ -170,16 +170,16 @@ export default function ThirdHomeSection() {
             </div>
             <div className="mx-3">
               <motion.h3
-                // initial={{ opacity: 0 }}
-                // whileInView={{ opacity: 1 }}
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
                 viewport={{ once: true }}
                 className="text-2xl mb-4"
               >
                 Coding
               </motion.h3>
               <motion.p
-                // initial={{ opacity: 0 }}
-                // whileInView={{ opacity: 1 }}
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
                 viewport={{ once: true }}
               >
                 I ensure your website is of excellent quality by thoroughly
@@ -190,10 +190,10 @@ export default function ThirdHomeSection() {
           <div className="flex -mx-3 text-left">
             <div className="mx-3">
               <motion.div
-                // initial={{ opacity: 0 }}
-                // whileInView={{ opacity: 1 }}
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
                 viewport={{ once: true }}
-                // whileHover={{ scale: 1.02 }}
+                whileHover={{ scale: 1.02 }}
                 className="rounded-lg p-4 w-16 h-16 grid place-items-center bg-eugen-secondary hover:bg-eugen-secondary-hover dark:bg-eugen-secondary-dark dark:hover:bg-eugen-secondary-hover-dark"
               >
                 <svg
@@ -215,16 +215,16 @@ export default function ThirdHomeSection() {
             </div>
             <div className="mx-3">
               <motion.h3
-                // initial={{ opacity: 0 }}
-                // whileInView={{ opacity: 1 }}
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
                 viewport={{ once: true }}
                 className="text-2xl mb-4"
               >
                 Testing, Review, Launch &#38; Maintenance
               </motion.h3>
               <motion.p
-                // initial={{ opacity: 0 }}
-                // whileInView={{ opacity: 1 }}
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
                 viewport={{ once: true }}
               >
                 Your website is always growing. Whether you’re adding new
@@ -236,10 +236,10 @@ export default function ThirdHomeSection() {
         <Link href="/eugenfedoriuc/services">
           <motion.a
             className="btn btn-muted"
-            // whileHover={{ scale: 1.1 }}
-            // whileTap={{ scale: 0.9 }}
-            // initial={{ opacity: 0 }}
-            // whileInView={{ opacity: 1 }}
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.9 }}
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
           >
             Find out more about my services

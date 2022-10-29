@@ -10,8 +10,8 @@ export default function ThirdProjectSection() {
   return (
     <motion.div
       className="grid md:grid-cols-3 gap-6 p-5 rounded-lg my-12 bg-eugen-accent dark:bg-eugen-accent-dark"
-      // initial={{ opacity: 0 }}
-      // whileInView={{ opacity: 1 }}
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
       viewport={{ once: true }}
     >
       <div className="text-center">
@@ -26,9 +26,9 @@ export default function ThirdProjectSection() {
         <p className="font-semibold mb-0">Website</p>
         <p className="mb-0">
           <motion.a
-            // whileHover={{ scale: 1.01 }}
-            // initial={{ opacity: 0 }}
-            // whileInView={{ opacity: 1 }}
+            whileHover={{ scale: 1.01 }}
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
             href="https://codefluegel.vercel.app/"
             target="_blank"

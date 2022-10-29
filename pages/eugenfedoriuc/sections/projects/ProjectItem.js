@@ -6,21 +6,36 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 
 // ===============   ProjectItem Data   ===============
-import { projectItemData } from "../../data/projectItem/projectItem";
 import Image from "next/image";
 
 // ! ###############   Code   ###############
 export default function ProjectItem() {
+  const projectItemData = [
+    {
+      ticker: "React / Next JS",
+      stockPrice: "Eugen Fedoriuc - Portfolio",
+      timeElapsed: "14 Aug 2022",
+      page: "project1",
+      photo: "https://i.ibb.co/28cftbv/project1-1.png",
+    },
+    {
+      ticker: "React",
+      stockPrice: "Codeflügel",
+      timeElapsed: "28 Oct 2022",
+      page: "project2",
+      photo: "https://i.ibb.co/K5T4Xbx/project2.png",
+    },
+  ];
   return (
     <div className="gap-12 md:grid md:grid-cols-2 lg:grid-cols-3">
       {projectItemData.map((data, key) => {
         return (
           <motion.div
             className="mb-12 cursor-pointer"
-            // whileHover={{ scale: 1.03 }}
-            // whileTap={{ scale: 0.97 }}
-            // initial={{ opacity: 0 }}
-            // whileInView={{ opacity: 1 }}
+            whileHover={{ scale: 1.03 }}
+            whileTap={{ scale: 0.97 }}
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
             key={key}
           >
