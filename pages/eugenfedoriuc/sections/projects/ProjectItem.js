@@ -18,13 +18,6 @@ export default function ProjectItem() {
       page: "project1",
       photo: "https://i.ibb.co/28cftbv/project1-1.png",
     },
-    {
-      ticker: "React",
-      stockPrice: "Codeflügel",
-      timeElapsed: "28 Oct 2022",
-      page: "project2",
-      photo: "https://i.ibb.co/K5T4Xbx/project2.png",
-    },
   ];
   return (
     <div className="gap-12 md:grid md:grid-cols-2 lg:grid-cols-3">
