@@ -16,7 +16,7 @@ export default function ProjectItem() {
       stockPrice: "Eugen Fedoriuc - Portfolio",
       timeElapsed: "14 Aug 2022",
       page: "project1",
-      photo: "https://i.ibb.co/28cftbv/project1-1.png",
+      photo: "https://i.ibb.co/Vxchkbb/project1-1.png",
     },
   ];
   return (
